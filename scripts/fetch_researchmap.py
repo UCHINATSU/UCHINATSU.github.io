@@ -86,6 +86,10 @@ NEWS_JA = ROOT / "content" / "ja" / "news"
 NEWS_EN = ROOT / "content" / "en" / "news"
 
 API = "https://api.researchmap.jp/{}"
+# 顔写真の自動同期。False にすると researchmap の写真は使わず、
+# 自分で static/img/profile.jpg に置いた写真がそのまま使われ続ける
+PHOTO_SYNC = False
+
 AVATAR_CANDIDATES = [
     "https://researchmap.jp/{}/avatar.JPG",
     "https://researchmap.jp/{}/avatar.jpg",
@@ -192,15 +196,45 @@ SECTION_MAP = {
     "research_areas": "fields",
 }
 
+# 種別ごとの「名称」フィールド(researchmap API実データで確認済み)
+TYPE_TITLE = {
+    "published_papers": ["paper_title"],
+    "misc": ["paper_title", "misc_title", "title"],
+    "presentations": ["presentation_title"],
+    "awards": ["award_name", "title"],
+    "research_projects": ["research_project_title"],
+    "research_experience": ["affiliation"],
+    "education": ["affiliation", "school_name"],
+    "committee_memberships": ["committee_name"],
+    "association_memberships": ["academic_society_name", "association"],
+    "teaching_experience": ["subject_name", "subject"],
+    "social_contribution": ["title", "event"],
+    "media_coverage": ["title"],
+}
+# 種別ごとの「団体・掲載先」フィールド
+TYPE_VENUE = {
+    "published_papers": ["publication_name", "publisher"],
+    "misc": ["publication_name", "publisher"],
+    "presentations": ["event"],
+    "awards": ["association", "awarder", "society", "organizer"],
+    "research_projects": ["offer_organization"],
+    "research_experience": [],
+    "education": [],
+    "committee_memberships": ["association", "organizer"],
+    "association_memberships": [],
+    "teaching_experience": ["institution_name", "institution"],
+    "social_contribution": ["promoter", "organizer"],
+    "media_coverage": ["publisher", "program_title", "media_name"],
+}
 TITLE_KEYS = [
     "paper_title", "presentation_title", "award_name", "research_project_title",
-    "committee_name", "affiliation", "association", "subject", "title",
-    "event", "keyword", "research_field", "misc_title", "book_title", "work_title",
+    "committee_name", "affiliation", "academic_society_name", "subject_name",
+    "association", "subject", "title", "event", "keyword", "research_field",
 ]
 VENUE_KEYS = [
     "publication_name", "event", "promoter", "organizer", "publisher",
-    "association", "institution", "media_name", "program_title", "school_name",
-    "awarder", "offer_organization", "system_name",
+    "association", "institution_name", "institution", "media_name",
+    "program_title", "school_name", "awarder", "offer_organization",
 ]
 
 # タイトル候補を全フィールドから探すときに除外するキー
@@ -211,6 +245,9 @@ NON_TITLE_KEYS = set(
     "start_date", "end_date", "date", "from_event_date", "to_event_date",
     "authors", "presenters", "winners", "investigators", "identifiers",
     "see_also", "referee", "invited", "languages", "@id", "@type", "rm:id",
+    "rm:user_id", "display", "display_order", "presentation_type",
+    "publication_type", "volume", "number", "starting_page", "ending_page",
+    "grant_number", "national_grant_number", "overall_grant_amount",
     "description", "url", "doi", "country", "region", "job", "section",
     "department", "role", "publisher", "promoter", "organizer",
 }
@@ -244,12 +281,22 @@ def guess_title(item):
 
 def norm_item(rmtype, item, member):
     """API の item を、テンプレートが使う共通形式に落とす。"""
-    raw_title = first_key(item, TITLE_KEYS) or guess_title(item)
+    raw_title = (first_key(item, TYPE_TITLE.get(rmtype, []))
+                 or first_key(item, TITLE_KEYS) or guess_title(item))
     title = ml(raw_title)
-    venue = ml(first_key(item, VENUE_KEYS))
+    venue = ml(first_key(item, TYPE_VENUE.get(rmtype, []))
+               if rmtype in TYPE_VENUE else first_key(item, VENUE_KEYS))
     if venue["ja"] == title["ja"] and venue["en"] == title["en"]:
         venue = {"ja": "", "en": ""}  # タイトルと同じ団体名は重複表示しない
     desc = ml(item.get("description") or item.get("job") or item.get("section") or item.get("department"))
+    # 研究課題: 制度名・課題番号を詳細行に
+    if rmtype == "research_projects":
+        sysname = ml(item.get("system_name"))
+        grant = str(item.get("grant_number") or item.get("national_grant_number") or "")
+        for lang in ("ja", "en"):
+            parts = [p for p in [sysname[lang], grant] if p]
+            if parts:
+                desc[lang] = " ".join(parts)
     authors = names(item.get("authors") or item.get("presenters") or item.get("winners") or item.get("investigators"))
 
     start = (item.get("from_date") or item.get("publication_date")
@@ -274,6 +321,10 @@ def norm_item(rmtype, item, member):
         "year": year_of(start),
         "peer_reviewed": bool(item.get("referee")),
         "invited": bool(item.get("invited")),
+        "volume": ml(item.get("volume"))["en"] or ml(item.get("volume"))["ja"],
+        "number": ml(item.get("number"))["en"] or ml(item.get("number"))["ja"],
+        "page_start": str(item.get("starting_page") or ""),
+        "page_end": str(item.get("ending_page") or ""),
         "doi": str(item.get("identifiers", {}).get("doi", [""])[0] if isinstance(item.get("identifiers", {}).get("doi"), list) else item.get("identifiers", {}).get("doi") or ""),
         "url": str(item.get("see_also", [{}])[0].get("@id", "") if isinstance(item.get("see_also"), list) and item.get("see_also") else ""),
     }
@@ -482,7 +533,12 @@ def main():
         print(f"[info] 新規項目 {new_count} 件をお知らせ記事にしました。")
 
     # ---- 顔写真 ----
-    for url in AVATAR_CANDIDATES:
+    if not PHOTO_SYNC:
+        avatar_candidates = []
+        print("[info] 顔写真の自動同期はオフです(static/img/profile.jpg を手動管理)。")
+    else:
+        avatar_candidates = AVATAR_CANDIDATES
+    for url in avatar_candidates:
         try:
             img = fetch_bytes(url.format(PRIMARY))
             if img and len(img) > 500:

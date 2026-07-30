@@ -1,0 +1,536 @@
+{
+ "published_papers": {
+  "@id": "https://api.researchmap.jp/okada_n/published_papers/52402620",
+  "@type": "published_papers",
+  "@reverse": "https://api.researchmap.jp/okada_n/published_papers",
+  "rm:id": "52402620",
+  "rm:user_id": "R000047492",
+  "display": "disclosed",
+  "major_achievement": false,
+  "rm:creator_id": "R000047492",
+  "rm:creator_type": "myself",
+  "rm:created": "2026-03-04T02:14:32Z",
+  "rm:modifier_id": "R000047492",
+  "rm:modifier_type": "myself",
+  "rm:modified": "2026-03-05T23:05:34Z",
+  "paper_title": {
+   "en": "Exploring hyperspectral imaging and regression-based analysis as an alternative to MLA for mineral composition"
+  },
+  "authors": {
+   "en": [
+    {
+     "name": "Hiromasa Nozaki"
+    },
+    {
+     "name": "Natsuo Okada"
+    },
+    {
+     "name": "Kaito Takizawa"
+    },
+    {
+     "name": "Elsa Pansilvania Andre Manjate"
+    },
+    {
+     "name": "Yoko Ohtomo"
+    },
+    {
+     "name": "Youhei Kawamura"
+    }
+   ]
+  },
+  "publisher": {
+   "en": "Informa UK Limited"
+  },
+  "publication_date": "2026-03-03",
+  "publication_name": {
+   "en": "International Journal of Mining, Reclamation and Environment"
+  },
+  "starting_page": "1",
+  "ending_page": "23",
+  "languages": [
+   "eng"
+  ],
+  "referee": true,
+  "published_paper_type": "scientific_journal",
+  "rm:is_open_access": false,
+  "identifiers": {
+   "doi": [
+    "10.1080/17480930.2026.2632872"
+   ],
+   "issn": [
+    "1748-0930"
+   ],
+   "e_issn": [
+    "1748-0949"
+   ]
+  },
+  "see_also": [
+   {
+    "label": "doi",
+    "@id": "https://doi.org/10.1080/17480930.2026.2632872",
+    "is_downloadable": false
+   },
+   {
+    "@id": "https://www.tandfonline.com/doi/pdf/10.1080/17480930.2026.2632872",
+    "label": "url",
+    "is_downloadable": false
+   }
+  ]
+ },
+ "misc": {
+  "@id": "https://api.researchmap.jp/okada_n/misc/53788715",
+  "@type": "misc",
+  "@reverse": "https://api.researchmap.jp/okada_n/misc",
+  "rm:id": "53788715",
+  "rm:user_id": "R000047492",
+  "display": "disclosed",
+  "major_achievement": false,
+  "rm:creator_id": "R000047492",
+  "rm:creator_type": "myself",
+  "rm:created": "2026-05-29T00:10:50Z",
+  "rm:modifier_id": "R000047492",
+  "rm:modifier_type": "myself",
+  "rm:modified": "2026-07-10T03:23:50Z",
+  "paper_title": {
+   "ja": "DXとAIが導く地下資源開発の革新 ―「Smart Mining＋」による持続可能な資源確保の最前線―",
+   "en": "Innovation in Subsurface Resource Development Driven by DX and AI — The Cutting Edge of Sustainable Resource Securing with “Smart Mining+”"
+  },
+  "authors": {
+   "ja": [
+    {
+     "name": "川村洋平"
+    },
+    {
+     "name": "岡田夏男"
+    }
+   ],
+   "en": [
+    {
+     "name": "Youhei Kawamura"
+    },
+    {
+     "name": "Natsuo Okada"
+    }
+   ]
+  },
+  "publication_date": "2026-07-10",
+  "publication_name": {
+   "ja": "エネルギー・資源",
+   "en": "Energy, Resources"
+  },
+  "volume": "47",
+  "number": "4",
+  "languages": [
+   "jpn"
+  ],
+  "referee": false,
+  "misc_type": "introduction_scientific_journal",
+  "rm:is_open_access": false
+ },
+ "presentations": {
+  "@id": "https://api.researchmap.jp/okada_n/presentations/53782897",
+  "@type": "presentations",
+  "@reverse": "https://api.researchmap.jp/okada_n/presentations",
+  "rm:id": "53782897",
+  "rm:user_id": "R000047492",
+  "display": "disclosed",
+  "major_achievement": false,
+  "rm:creator_id": "R000047492",
+  "rm:creator_type": "myself",
+  "rm:created": "2026-05-28T06:13:20Z",
+  "rm:modifier_id": "R000047492",
+  "rm:modifier_type": "myself",
+  "rm:modified": "2026-07-05T22:44:04Z",
+  "presentation_title": {
+   "en": "Predictive modelling of blast-induced vibrations using machine learning to mitigate environmental impacts in open-pit mines"
+  },
+  "presenters": {
+   "en": [
+    {
+     "name": "Reinaldo Luís Bartolomeu"
+    },
+    {
+     "name": "Maeneja Júnior"
+    },
+    {
+     "name": "Yewuhalashet Fissha"
+    },
+    {
+     "name": "Natsuo Okada"
+    },
+    {
+     "name": "Rodrigues Mário"
+    },
+    {
+     "name": "Belchior Coelho Miguel"
+    },
+    {
+     "name": "Marcos Afonso"
+    },
+    {
+     "name": "Jinja Cussaia"
+    },
+    {
+     "name": "Elsa Pansilvânia André Manjate"
+    }
+   ]
+  },
+  "event": {
+   "en": "Geosciences and Sustainable Development Conference"
+  },
+  "publication_date": "2026-06-30",
+  "from_event_date": "2026-06-30",
+  "to_event_date": "2026-07-04",
+  "invited": false,
+  "languages": [
+   "por"
+  ],
+  "presentation_type": "poster_presentation",
+  "rm:is_open_access": false
+ },
+ "awards": {
+  "@id": "https://api.researchmap.jp/okada_n/awards/53307774",
+  "@type": "awards",
+  "@reverse": "https://api.researchmap.jp/okada_n/awards",
+  "rm:id": "53307774",
+  "rm:user_id": "R000047492",
+  "display": "disclosed",
+  "major_achievement": false,
+  "rm:creator_id": "R000047492",
+  "rm:creator_type": "myself",
+  "rm:created": "2026-04-10T07:21:21Z",
+  "rm:modifier_id": "R000047492",
+  "rm:modifier_type": "myself",
+  "rm:modified": "2026-04-10T07:21:21Z",
+  "award_name": {
+   "en": "Krupiński Award"
+  },
+  "winners": {
+   "en": [
+    {
+     "name": "Natsuo Okada"
+    }
+   ]
+  },
+  "association": {
+   "en": "World Mining Congress"
+  },
+  "award_date": "2026-04"
+ },
+ "research_projects": {
+  "@id": "https://api.researchmap.jp/okada_n/research_projects/52285204",
+  "@type": "research_projects",
+  "@reverse": "https://api.researchmap.jp/okada_n/research_projects",
+  "rm:id": "52285204",
+  "rm:user_id": "R000047492",
+  "display": "disclosed",
+  "major_achievement": false,
+  "rm:creator_id": "R000047492",
+  "rm:creator_type": "myself",
+  "rm:created": "2026-02-28T05:31:30Z",
+  "rm:modifier_id": "R000047492",
+  "rm:modifier_type": "myself",
+  "rm:modified": "2026-05-06T02:15:19Z",
+  "research_project_title": {
+   "ja": "“いつ・どこを・どの頻度で”を自律的に観測指示する尾鉱ダムモニタリング技術の確立",
+   "en": "Establishment of an Autonomous Tailings Dam Monitoring Technology that Determines “When, Where, and How Frequently” to Observe"
+  },
+  "investigators": {
+   "ja": [
+    {
+     "name": "岡田 夏男"
+    }
+   ],
+   "en": [
+    {
+     "name": "Natsuo Okada"
+    }
+   ]
+  },
+  "offer_organization": {
+   "ja": "日本学術振興会",
+   "en": "Japan Society for the Promotion of Science"
+  },
+  "system_name": {
+   "ja": "科学研究費助成事業",
+   "en": "Grants-in-Aid for Scientific Research"
+  },
+  "category": {
+   "ja": "若手研究",
+   "en": "Grant-in-Aid for Early-Career Scientists"
+  },
+  "institution_name": {
+   "ja": "北海道大学",
+   "en": "Hokkaido University"
+  },
+  "from_date": "2026-04",
+  "to_date": "2029-03",
+  "research_project_owner_role": "principal_investigator",
+  "overall_grant_amount": {
+   "total_cost": "4550000",
+   "direct_cost": "3500000",
+   "indirect_cost": "1050000"
+  },
+  "identifiers": {
+   "grant_number": [
+    "26K17497"
+   ],
+   "national_grant_number": [
+    "JP26K17497"
+   ]
+  },
+  "see_also": [
+   {
+    "@id": "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-26K17497",
+    "label": "kaken"
+   }
+  ]
+ },
+ "research_experience": {
+  "@id": "https://api.researchmap.jp/okada_n/research_experience/49868961",
+  "@type": "research_experience",
+  "@reverse": "https://api.researchmap.jp/okada_n/research_experience",
+  "rm:id": "49868961",
+  "rm:user_id": "R000047492",
+  "display": "disclosed",
+  "major_achievement": false,
+  "rm:creator_id": "R000047492",
+  "rm:creator_type": "myself",
+  "rm:created": "2025-04-16T12:39:31Z",
+  "rm:modifier_id": "R000047492",
+  "rm:modifier_type": "myself",
+  "rm:modified": "2025-04-16T12:40:01Z",
+  "from_date": "2025-04",
+  "to_date": "9999",
+  "rm:institution_code": "0100574015",
+  "affiliation": {
+   "ja": "北海道大学",
+   "en": "Hokkaido University"
+  },
+  "section": {
+   "ja": "大学院工学研究院 環境循環システム部門",
+   "en": "Faculty of Engineering Division of Solid Waste, Resources and Geoenvironmental Engineering"
+  },
+  "job": {
+   "ja": "助教",
+   "en": "Assistant Professor"
+  },
+  "address_country": "JPN"
+ },
+ "education": {
+  "@id": "https://api.researchmap.jp/okada_n/education/41283291",
+  "@type": "education",
+  "@reverse": "https://api.researchmap.jp/okada_n/education",
+  "rm:id": "41283291",
+  "rm:user_id": "R000047492",
+  "display": "disclosed",
+  "major_achievement": false,
+  "rm:creator_id": "R000047492",
+  "rm:creator_type": "myself",
+  "rm:created": "2023-01-31T05:46:11Z",
+  "rm:modifier_id": "R000047492",
+  "rm:modifier_type": "myself",
+  "rm:modified": "2025-03-31T22:43:23Z",
+  "from_date": "2022-04",
+  "to_date": "2025-03",
+  "rm:institution_code": "0100572012",
+  "affiliation": {
+   "ja": "北海道大学",
+   "en": "Hokkaido University"
+  },
+  "department": {
+   "ja": "大学院工学院",
+   "en": "Graduate School of Engineering"
+  },
+  "course": {
+   "ja": "環境循環システム専攻 博士後期課程",
+   "en": "Division of Sustainable Resources Engineering, Doctoral Course"
+  },
+  "address_country": "JPN"
+ },
+ "committee_memberships": {
+  "@id": "https://api.researchmap.jp/okada_n/committee_memberships/49868973",
+  "@type": "committee_memberships",
+  "@reverse": "https://api.researchmap.jp/okada_n/committee_memberships",
+  "rm:id": "49868973",
+  "rm:user_id": "R000047492",
+  "display": "disclosed",
+  "major_achievement": false,
+  "rm:creator_id": "R000047492",
+  "rm:creator_type": "myself",
+  "rm:created": "2025-04-16T12:41:44Z",
+  "rm:modifier_id": "R000047492",
+  "rm:modifier_type": "myself",
+  "rm:modified": "2026-01-20T04:52:52Z",
+  "from_date": "2025-04",
+  "to_date": "9999",
+  "committee_name": {
+   "ja": "幹事",
+   "en": "Secretary"
+  },
+  "association": {
+   "ja": "日本バーチャルリアリティ学会 北海道チャプター",
+   "en": "Hokkaido Chapter, The Virtual Reality Society of Japan"
+  },
+  "committee_type": "society"
+ },
+ "association_memberships": {
+  "@id": "https://api.researchmap.jp/okada_n/association_memberships/49869027",
+  "@type": "association_memberships",
+  "@reverse": "https://api.researchmap.jp/okada_n/association_memberships",
+  "rm:id": "49869027",
+  "rm:user_id": "R000047492",
+  "display": "disclosed",
+  "major_achievement": false,
+  "rm:creator_id": "R000047492",
+  "rm:creator_type": "myself",
+  "rm:created": "2025-04-16T12:44:57Z",
+  "rm:modifier_id": "R000047492",
+  "rm:modifier_type": "myself",
+  "rm:modified": "2025-04-16T12:44:57Z",
+  "academic_society_name": {
+   "ja": "日本バーチャルリアリティ学会",
+   "en": "The virtual reality society of Japan"
+  },
+  "from_date": "2025-04",
+  "to_date": "9999"
+ },
+ "teaching_experience": {
+  "@id": "https://api.researchmap.jp/okada_n/teaching_experience/49622711",
+  "@type": "teaching_experience",
+  "@reverse": "https://api.researchmap.jp/okada_n/teaching_experience",
+  "rm:id": "49622711",
+  "rm:user_id": "R000047492",
+  "display": "disclosed",
+  "major_achievement": false,
+  "rm:creator_id": "R000047492",
+  "rm:creator_type": "myself",
+  "rm:created": "2025-03-31T22:41:12Z",
+  "rm:modifier_id": "R000047492",
+  "rm:modifier_type": "myself",
+  "rm:modified": "2025-04-16T12:43:20Z",
+  "subject_name": {
+   "ja": "資源情報学",
+   "en": "Resource Informatics"
+  },
+  "rm:institution_code": "0100000000",
+  "institution_name": {
+   "ja": "北海道大学",
+   "en": "Hokkaido University"
+  },
+  "from_date": "2025-04",
+  "to_date": "2025-05"
+ },
+ "social_contribution": {
+  "@id": "https://api.researchmap.jp/okada_n/social_contribution/54470758",
+  "@type": "social_contribution",
+  "@reverse": "https://api.researchmap.jp/okada_n/social_contribution",
+  "rm:id": "54470758",
+  "rm:user_id": "R000047492",
+  "display": "disclosed",
+  "major_achievement": false,
+  "rm:creator_id": "R000047492",
+  "rm:creator_type": "myself",
+  "rm:created": "2026-07-24T16:56:36Z",
+  "rm:modifier_id": "R000047492",
+  "rm:modifier_type": "myself",
+  "rm:modified": "2026-07-24T16:56:36Z",
+  "social_contribution_title": {
+   "en": "Higher Institute of Science and Technology of Mozambique (Japanese mining industry initiatives)"
+  },
+  "social_contribution_roles": [
+   "lecturer"
+  ],
+  "promoter": {
+   "en": "Higher Institute of Science and Technology of Mozambique"
+  },
+  "from_event_date": "2026-07-24",
+  "to_event_date": "2026-07-24",
+  "social_contribution_type": "lecture"
+ },
+ "media_coverage": {
+  "@id": "https://api.researchmap.jp/okada_n/media_coverage/53323978",
+  "@type": "media_coverage",
+  "@reverse": "https://api.researchmap.jp/okada_n/media_coverage",
+  "rm:id": "53323978",
+  "rm:user_id": "R000047492",
+  "display": "disclosed",
+  "major_achievement": false,
+  "rm:creator_id": "R000047492",
+  "rm:creator_type": "myself",
+  "rm:created": "2026-04-11T23:59:15Z",
+  "rm:modifier_id": "R000047492",
+  "rm:modifier_type": "myself",
+  "rm:modified": "2026-04-12T01:12:33Z",
+  "media_coverage_title": {
+   "ja": "Advancing global collaboration through science: Hokkaido University hosts Sakura Science Exchange Program 2026"
+  },
+  "writer_myself": "other_than_myself",
+  "publisher": {
+   "ja": "北海道大学"
+  },
+  "event": {
+   "ja": "Hokkaido University Magazine cathHUp"
+  },
+  "publication_date": "2026-04-01",
+  "location": {
+   "ja": "https://www.global.hokudai.ac.jp/catchup/25417/"
+  },
+  "media_coverage_type": "internet",
+  "identifiers": {
+   "rm:research_project_id": [
+    "51162102"
+   ]
+  },
+  "see_also": [
+   {
+    "@id": "https://api.researchmap.jp/okada_n/research_projects/51162102",
+    "label": "rm:research_project_id"
+   }
+  ]
+ },
+ "research_interests": {
+  "@id": "https://api.researchmap.jp/okada_n/research_interests/41284731",
+  "@type": "research_interests",
+  "@reverse": "https://api.researchmap.jp/okada_n/research_interests",
+  "rm:id": "41284731",
+  "rm:user_id": "R000047492",
+  "display": "disclosed",
+  "major_achievement": false,
+  "rm:creator_id": "R000047492",
+  "rm:creator_type": "myself",
+  "rm:created": "2023-01-31T06:54:27Z",
+  "rm:modifier_id": "R000047492",
+  "rm:modifier_type": "myself",
+  "rm:modified": "2023-02-02T05:59:54Z",
+  "keyword": {
+   "ja": "鉱山工学",
+   "en": "Mining Engineering"
+  }
+ },
+ "research_areas": {
+  "@id": "https://api.researchmap.jp/okada_n/research_areas/41284739",
+  "@type": "research_areas",
+  "@reverse": "https://api.researchmap.jp/okada_n/research_areas",
+  "rm:id": "41284739",
+  "rm:user_id": "R000047492",
+  "display": "disclosed",
+  "major_achievement": false,
+  "rm:creator_id": "R000047492",
+  "rm:creator_type": "myself",
+  "rm:created": "2023-01-31T06:56:20Z",
+  "rm:modifier_id": "R000047492",
+  "rm:modifier_type": "myself",
+  "rm:modified": "2023-02-02T06:00:02Z",
+  "discipline_number": "A589",
+  "item_number": "A31020",
+  "discipline": {
+   "ja": "エネルギー",
+   "en": "Energy"
+  },
+  "research_field": {
+   "ja": "地球資源工学、エネルギー学",
+   "en": "Earth resource engineering, energy science"
+  }
+ }
+}

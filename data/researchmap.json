@@ -1,48 +1,3915 @@
 {
- "keywords": [
-  {"ja": "鉱山工学", "en": "Mining Engineering"},
-  {"ja": "機械学習", "en": "Machine Learning"},
-  {"ja": "地理情報システム", "en": "Geographic Information Systems"},
-  {"ja": "ハイパースペクトルイメージング", "en": "Hyperspectral Imaging"}
+ "papers": [
+  {
+   "id": "https://api.researchmap.jp/okada_n/published_papers/52402620",
+   "member": "okada_n",
+   "title": {
+    "ja": "Exploring hyperspectral imaging and regression-based analysis as an alternative to MLA for mineral composition",
+    "en": "Exploring hyperspectral imaging and regression-based analysis as an alternative to MLA for mineral composition"
+   },
+   "venue": {
+    "ja": "International Journal of Mining, Reclamation and Environment",
+    "en": "International Journal of Mining, Reclamation and Environment"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "Hiromasa Nozaki, Natsuo Okada, Kaito Takizawa, Elsa Pansilvania Andre Manjate, Yoko Ohtomo, Youhei Kawamura",
+    "en": "Hiromasa Nozaki, Natsuo Okada, Kaito Takizawa, Elsa Pansilvania Andre Manjate, Yoko Ohtomo, Youhei Kawamura"
+   },
+   "start": "2026-03-03",
+   "end": "",
+   "year": 2026,
+   "peer_reviewed": true,
+   "invited": false,
+   "doi": "10.1080/17480930.2026.2632872",
+   "url": "https://doi.org/10.1080/17480930.2026.2632872"
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/published_papers/52564854",
+   "member": "okada_n",
+   "title": {
+    "ja": "Iron Ore Grade Estimation Using Visible–Near-Infrared Hyperspectral Imaging and Convolutional Neural Network",
+    "en": "Iron Ore Grade Estimation Using Visible–Near-Infrared Hyperspectral Imaging and Convolutional Neural Network"
+   },
+   "venue": {
+    "ja": "IEEE Transactions on Geoscience and Remote Sensing",
+    "en": "IEEE Transactions on Geoscience and Remote Sensing"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "Narihiro Owada, Brian Bino Sinaice, Kazuki Tatsuta, Hiroya Takeuchi, Hisatoshi Toriya, Natsuo Okada, Atsushi Shibayama, Tsuyoshi Adachi",
+    "en": "Narihiro Owada, Brian Bino Sinaice, Kazuki Tatsuta, Hiroya Takeuchi, Hisatoshi Toriya, Natsuo Okada, Atsushi Shibayama, Tsuyoshi Adachi"
+   },
+   "start": "2026-01-28",
+   "end": "",
+   "year": 2026,
+   "peer_reviewed": true,
+   "invited": false,
+   "doi": "10.1109/tgrs.2026.3659086",
+   "url": "https://doi.org/10.1109/tgrs.2026.3659086"
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/published_papers/51837007",
+   "member": "okada_n",
+   "title": {
+    "ja": "Monitoring tailings storage facilities with multi-temporal DInSAR: A systematic review",
+    "en": "Monitoring tailings storage facilities with multi-temporal DInSAR: A systematic review"
+   },
+   "venue": {
+    "ja": "Science of The Total Environment",
+    "en": "Science of The Total Environment"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "Vanessa Sánchez, Francisco Cabrera-Torres, Susana Arciniegas, Natsuo Okada, Yoko Ohtomo, Fidelis Suorineni, Youhei Kawamura",
+    "en": "Vanessa Sánchez, Francisco Cabrera-Torres, Susana Arciniegas, Natsuo Okada, Yoko Ohtomo, Fidelis Suorineni, Youhei Kawamura"
+   },
+   "start": "2026-01",
+   "end": "",
+   "year": 2026,
+   "peer_reviewed": true,
+   "invited": false,
+   "doi": "10.1016/j.scitotenv.2025.181161",
+   "url": "https://doi.org/10.1016/j.scitotenv.2025.181161"
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/published_papers/51359574",
+   "member": "okada_n",
+   "title": {
+    "ja": "Artificial Intelligence-Based Hyperspectral Classification of Rare Earth Element-Related Heavy Mineral Sand",
+    "en": "Artificial Intelligence-Based Hyperspectral Classification of Rare Earth Element-Related Heavy Mineral Sand"
+   },
+   "venue": {
+    "ja": "Minerals",
+    "en": "Minerals"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "Okhala Muacanhia, Natsuo Okada, Yoko Ohtomo, Youhei Kawamura",
+    "en": "Okhala Muacanhia, Natsuo Okada, Yoko Ohtomo, Youhei Kawamura"
+   },
+   "start": "2025-09-25",
+   "end": "",
+   "year": 2025,
+   "peer_reviewed": true,
+   "invited": false,
+   "doi": "10.3390/min15101015",
+   "url": "https://doi.org/10.3390/min15101015"
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/published_papers/51398351",
+   "member": "okada_n",
+   "title": {
+    "ja": "Advancing arsenic contamination detection in boring cores using hyperspectral imaging and convolutional neural networks",
+    "en": "Advancing arsenic contamination detection in boring cores using hyperspectral imaging and convolutional neural networks"
+   },
+   "venue": {
+    "ja": "Green and Smart Mining Engineering",
+    "en": "Green and Smart Mining Engineering"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "Kaito Takizawa, Natsuo Okada, Narihiro Owada, Angesom Gebretsadik, Kuroki Hirotada, Yoko Ohtomo, Youhei Kawamura",
+    "en": "Kaito Takizawa, Natsuo Okada, Narihiro Owada, Angesom Gebretsadik, Kuroki Hirotada, Yoko Ohtomo, Youhei Kawamura"
+   },
+   "start": "2025-09",
+   "end": "",
+   "year": 2025,
+   "peer_reviewed": true,
+   "invited": false,
+   "doi": "10.1016/j.gsme.2025.09.004",
+   "url": "https://doi.org/10.1016/j.gsme.2025.09.004"
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/published_papers/48770761",
+   "member": "okada_n",
+   "title": {
+    "ja": "Improving Hokkai shrimp tracking accuracy using YOLOv8 with reflection and parallax correction",
+    "en": "Improving Hokkai shrimp tracking accuracy using YOLOv8 with reflection and parallax correction"
+   },
+   "venue": {
+    "ja": "Scientific Reports",
+    "en": "Scientific Reports"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "Natsuo Okada, Serina Kubo, Yanhui Zhu, Kaito Takizawa, Shion Wakae, Amane Nakamura, Sakura Igawa, Yoko Ohtomo, Kenji Minami, Kazushi Miyashita, Youhei Kawamura",
+    "en": "Natsuo Okada, Serina Kubo, Yanhui Zhu, Kaito Takizawa, Shion Wakae, Amane Nakamura, Sakura Igawa, Yoko Ohtomo, Kenji Minami, Kazushi Miyashita, Youhei Kawamura"
+   },
+   "start": "2025-08-12",
+   "end": "",
+   "year": 2025,
+   "peer_reviewed": true,
+   "invited": false,
+   "doi": "10.1038/s41598-025-01138-4",
+   "url": "https://doi.org/10.1038/s41598-025-01138-4"
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/published_papers/48770748",
+   "member": "okada_n",
+   "title": {
+    "ja": "Strata monitoring for stability analysis and disaster prevention in blast hole open stoping for underground copper mine",
+    "en": "Strata monitoring for stability analysis and disaster prevention in blast hole open stoping for underground copper mine"
+   },
+   "venue": {
+    "ja": "Safety in Extreme Environments",
+    "en": "Safety in Extreme Environments"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "Gopinath Samanta, Angesom Gebretsadik, Fisseha Gebreegziabher, Mujigela Maniteja, Natsuo Okada, Yoko Ohtomo",
+    "en": "Gopinath Samanta, Angesom Gebretsadik, Fisseha Gebreegziabher, Mujigela Maniteja, Natsuo Okada, Yoko Ohtomo"
+   },
+   "start": "2025-07-12",
+   "end": "",
+   "year": 2025,
+   "peer_reviewed": true,
+   "invited": false,
+   "doi": "10.1007/s42797-025-00125-2",
+   "url": "https://doi.org/10.1007/s42797-025-00125-2"
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/published_papers/48770766",
+   "member": "okada_n",
+   "title": {
+    "ja": "Improvement of generalization performance of diagnostic system for drill bit abnormality in rotary percussion drilling with grad-CAM",
+    "en": "Improvement of generalization performance of diagnostic system for drill bit abnormality in rotary percussion drilling with grad-CAM"
+   },
+   "venue": {
+    "ja": "Discover Applied Sciences",
+    "en": "Discover Applied Sciences"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "Yuna Nakazawa, Natsuo Okada, Jo Sasaki, Lesego Senjoba, Yoko Ohtomo, Youhei Kawamura",
+    "en": "Yuna Nakazawa, Natsuo Okada, Jo Sasaki, Lesego Senjoba, Yoko Ohtomo, Youhei Kawamura"
+   },
+   "start": "2025-04-12",
+   "end": "",
+   "year": 2025,
+   "peer_reviewed": true,
+   "invited": false,
+   "doi": "10.1007/s42452-025-06796-7",
+   "url": "https://doi.org/10.1007/s42452-025-06796-7"
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/published_papers/49034678",
+   "member": "okada_n",
+   "title": {
+    "ja": "Advancing Iron Ore Grade Estimation: A Comparative Study of Machine Learning and Ordinary Kriging",
+    "en": "Advancing Iron Ore Grade Estimation: A Comparative Study of Machine Learning and Ordinary Kriging"
+   },
+   "venue": {
+    "ja": "Minerals",
+    "en": "Minerals"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "Mujigela Maniteja, Gopinath Samanta, Angesom Gebretsadik, Ntshiri Batlile Tsae, Sheo Shankar Rai, Yewuhalashet Fissha, Natsuo Okada, Youhei Kawamura",
+    "en": "Mujigela Maniteja, Gopinath Samanta, Angesom Gebretsadik, Ntshiri Batlile Tsae, Sheo Shankar Rai, Yewuhalashet Fissha, Natsuo Okada, Youhei Kawamura"
+   },
+   "start": "2025-01-29",
+   "end": "",
+   "year": 2025,
+   "peer_reviewed": true,
+   "invited": false,
+   "doi": "10.3390/min15020131",
+   "url": "https://doi.org/10.3390/min15020131"
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/published_papers/48111083",
+   "member": "okada_n",
+   "title": {
+    "ja": "Integrated spectral image registration protocol for enhanced land pollution assessment and management: bridging satellite and drone data for high-resolution mapping",
+    "en": "Integrated spectral image registration protocol for enhanced land pollution assessment and management: bridging satellite and drone data for high-resolution mapping"
+   },
+   "venue": {
+    "ja": "Journal of Material Cycles and Waste Management",
+    "en": "Journal of Material Cycles and Waste Management"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "Natsuo Okada, Hisatoshi Toriya, Angesom Gebretsadik, Takahiko Arima, Yoko Ohtomo, Youhei Kawamura",
+    "en": "Natsuo Okada, Hisatoshi Toriya, Angesom Gebretsadik, Takahiko Arima, Yoko Ohtomo, Youhei Kawamura"
+   },
+   "start": "2024-10-04",
+   "end": "",
+   "year": 2024,
+   "peer_reviewed": true,
+   "invited": false,
+   "doi": "10.1007/s10163-024-02080-9",
+   "url": "https://doi.org/10.1007/s10163-024-02080-9"
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/published_papers/48095719",
+   "member": "okada_n",
+   "title": {
+    "ja": "APiS (AI powered intelligence spectrum analyser): hyperspectral imaging machine learning analyser app for mineral processing",
+    "en": "APiS (AI powered intelligence spectrum analyser): hyperspectral imaging machine learning analyser app for mineral processing"
+   },
+   "venue": {
+    "ja": "International Journal of Mining, Reclamation and Environment",
+    "en": "International Journal of Mining, Reclamation and Environment"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "Natsuo Okada, Narihiro Owada, Kaito Takizawa, Brian Bino Sinaice, Okhala Muacanhia, Angesom Gebretsadik, Shunki Tanaka, Kosei Aikawa, Ilhwan Park, Mayumi Ito, Yoko Ohtomo, Youhei Kawamura",
+    "en": "Natsuo Okada, Narihiro Owada, Kaito Takizawa, Brian Bino Sinaice, Okhala Muacanhia, Angesom Gebretsadik, Shunki Tanaka, Kosei Aikawa, Ilhwan Park, Mayumi Ito, Yoko Ohtomo, Youhei Kawamura"
+   },
+   "start": "2024-10-02",
+   "end": "",
+   "year": 2024,
+   "peer_reviewed": true,
+   "invited": false,
+   "doi": "10.1080/17480930.2024.2410041",
+   "url": "https://doi.org/10.1080/17480930.2024.2410041"
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/published_papers/48085788",
+   "member": "okada_n",
+   "title": {
+    "ja": "An AI-Based Approach for Developing a Recommendation System for Underground Mining Methods Pre-Selection",
+    "en": "An AI-Based Approach for Developing a Recommendation System for Underground Mining Methods Pre-Selection"
+   },
+   "venue": {
+    "ja": "Mining",
+    "en": "Mining"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "Elsa Pansilvania Andre Manjate, Natsuo Okada, Yoko Ohtomo, Tsuyoshi Adachi, Bernardo Miguel Bene, Takahiko Arima, Youhei Kawamura",
+    "en": "Elsa Pansilvania Andre Manjate, Natsuo Okada, Yoko Ohtomo, Tsuyoshi Adachi, Bernardo Miguel Bene, Takahiko Arima, Youhei Kawamura"
+   },
+   "start": "2024-10-02",
+   "end": "",
+   "year": 2024,
+   "peer_reviewed": true,
+   "invited": false,
+   "doi": "10.3390/mining4040042",
+   "url": "https://doi.org/10.3390/mining4040042"
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/published_papers/46726207",
+   "member": "okada_n",
+   "title": {
+    "ja": "Advanced mineralogical classification and concentration estimation in mining with MATLAB-powered hyper-spectral imaging and machine learning",
+    "en": "Advanced mineralogical classification and concentration estimation in mining with MATLAB-powered hyper-spectral imaging and machine learning"
+   },
+   "venue": {
+    "ja": "International Journal of Mining, Reclamation and Environment",
+    "en": "International Journal of Mining, Reclamation and Environment"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "Natsuo Okada, Brian Bino Sinaice, Jaewon Kim, Hiromasa Nozaki, Kaito Takizawa, Narihiro Owada, Yoko Ohtomo, Youhei Kawamura",
+    "en": "Natsuo Okada, Brian Bino Sinaice, Jaewon Kim, Hiromasa Nozaki, Kaito Takizawa, Narihiro Owada, Yoko Ohtomo, Youhei Kawamura"
+   },
+   "start": "2024-06-06",
+   "end": "",
+   "year": 2024,
+   "peer_reviewed": true,
+   "invited": false,
+   "doi": "10.1080/17480930.2024.2360743",
+   "url": "https://doi.org/10.1080/17480930.2024.2360743"
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/published_papers/46567193",
+   "member": "okada_n",
+   "title": {
+    "ja": "Optimizing multi-spectral ore sorting incorporating wavelength selection utilizing neighborhood component analysis for effective arsenic mineral detection",
+    "en": "Optimizing multi-spectral ore sorting incorporating wavelength selection utilizing neighborhood component analysis for effective arsenic mineral detection"
+   },
+   "venue": {
+    "ja": "Scientific Reports",
+    "en": "Scientific Reports"
+   },
+   "desc": {
+    "ja": "Abstract\nArsenic contamination not only complicates mineral processing but also poses environmental and health risks. To address these challenges, this research investigates the feasibility of utilizing Hyperspectral imaging combined with machine learning techniques for the identification of arsenic-containing minerals in copper ore samples, with a focus on practical application in sorting and processing operations. Through experimentation with various copper sulfide ores, Neighborhood Component Analysis (NCA) was employed to select essential wavelength bands from Hyperspectral data, subsequently used as inputs for machine learning algorithms to identify arsenic concentrations. Results demonstrate that by selecting a subset of informative bands using NCA, accurate mineral identification can be achieved with a significantly reduced the size of dataset, enabling efficient processing and analysis. Comparison with other wavelength selection methods highlights the superiority of NCA in optimizing classification accuracy. Specifically, the identification accuracy showed 91.9% or more when utilizing 8 or more bands selected by NCA and was comparable to hyperspectral data analysis with 204 bands. The findings suggest potential for cost-effective implementation of multispectral cameras in mineral processing operations. Future research directions include refining machine learning algorithms, exploring broader applications across diverse ore types, and integrating hyperspectral imaging with emerging sensor technologies for enhanced mineral processing capabilities.",
+    "en": "Abstract\nArsenic contamination not only complicates mineral processing but also poses environmental and health risks. To address these challenges, this research investigates the feasibility of utilizing Hyperspectral imaging combined with machine learning techniques for the identification of arsenic-containing minerals in copper ore samples, with a focus on practical application in sorting and processing operations. Through experimentation with various copper sulfide ores, Neighborhood Component Analysis (NCA) was employed to select essential wavelength bands from Hyperspectral data, subsequently used as inputs for machine learning algorithms to identify arsenic concentrations. Results demonstrate that by selecting a subset of informative bands using NCA, accurate mineral identification can be achieved with a significantly reduced the size of dataset, enabling efficient processing and analysis. Comparison with other wavelength selection methods highlights the superiority of NCA in optimizing classification accuracy. Specifically, the identification accuracy showed 91.9% or more when utilizing 8 or more bands selected by NCA and was comparable to hyperspectral data analysis with 204 bands. The findings suggest potential for cost-effective implementation of multispectral cameras in mineral processing operations. Future research directions include refining machine learning algorithms, exploring broader applications across diverse ore types, and integrating hyperspectral imaging with emerging sensor technologies for enhanced mineral processing capabilities."
+   },
+   "authors": {
+    "ja": "Natsuo Okada, Hiromasa Nozaki, Shinichiro Nakamura, Elsa Pansilvania Andre Manjate, Angesom Gebretsadik, Yoko Ohtomo, Takahiko Arima, Youhei Kawamura",
+    "en": "Natsuo Okada, Hiromasa Nozaki, Shinichiro Nakamura, Elsa Pansilvania Andre Manjate, Angesom Gebretsadik, Yoko Ohtomo, Takahiko Arima, Youhei Kawamura"
+   },
+   "start": "2024-05-21",
+   "end": "",
+   "year": 2024,
+   "peer_reviewed": true,
+   "invited": false,
+   "doi": "10.1038/s41598-024-62166-0",
+   "url": "https://doi.org/10.1038/s41598-024-62166-0"
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/published_papers/46299540",
+   "member": "okada_n",
+   "title": {
+    "ja": "Enhancing rock fragmentation assessment in mine blasting through machine learning algorithms: a practical approach",
+    "en": "Enhancing rock fragmentation assessment in mine blasting through machine learning algorithms: a practical approach"
+   },
+   "venue": {
+    "ja": "Discover Applied Sciences",
+    "en": "Discover Applied Sciences"
+   },
+   "desc": {
+    "ja": "Abstract\nThe optimization of blasting operations greatly benefits from the prediction of rock fragmentation. The main factors that affect fragmentation are rock mass characteristics, blast geometry, and explosive properties. This paper is a step towards the implementation of machine learning and deep learning algorithms for predicting the extent of fragmentation (in percentage) in open pit mining. While various parameters can affect rock fragmentation, this study considers ten among them (i.e., spacing, drill hole diameter, burden, average bench height, powder factor, number of holes, charge per delay, uniaxial compressive strength, specific drilling, and stemming) to train and test the models. However, due to a weak correlation with rock fragmentation, drill diameter, average bench height, compressive strength, stemming, and charge per delay are eliminated to reduce model complexity. A total of 219 data sets having five input features including the number of holes, spacing, burden, specific drilling, and powder factor are used to develop the models. Machine learning models (random forest regression, support vector regression, and XG boost), as well as a deep learning model (neural network regression), are applied to develop a practical way that can optimize the prediction of fragmentation. This study employs performance measures such as R-squared, RMSE, MSE, MAPE, and MAE. The optimization of the model revealed promising results, indicating that the architecture 5-64-32-16-1 exhibits strong performance. Specifically, the model achieved mean squared error (MSE) values of 41.32 and 28.59 on the training and test datasets, respectively. The R2 value for both training and test is 0.83. RFR is also performing well compared to SVR and XG boost with MSE values of 12.37 and 9.89 on training and testing data, respectively.in both sets, the R2 value is 94%. Based on permutation importance and shapely plot values, it is observed that the powder factor has the highest impact, while the burden has the lowest impact on fragmentation.",
+    "en": "Abstract\nThe optimization of blasting operations greatly benefits from the prediction of rock fragmentation. The main factors that affect fragmentation are rock mass characteristics, blast geometry, and explosive properties. This paper is a step towards the implementation of machine learning and deep learning algorithms for predicting the extent of fragmentation (in percentage) in open pit mining. While various parameters can affect rock fragmentation, this study considers ten among them (i.e., spacing, drill hole diameter, burden, average bench height, powder factor, number of holes, charge per delay, uniaxial compressive strength, specific drilling, and stemming) to train and test the models. However, due to a weak correlation with rock fragmentation, drill diameter, average bench height, compressive strength, stemming, and charge per delay are eliminated to reduce model complexity. A total of 219 data sets having five input features including the number of holes, spacing, burden, specific drilling, and powder factor are used to develop the models. Machine learning models (random forest regression, support vector regression, and XG boost), as well as a deep learning model (neural network regression), are applied to develop a practical way that can optimize the prediction of fragmentation. This study employs performance measures such as R-squared, RMSE, MSE, MAPE, and MAE. The optimization of the model revealed promising results, indicating that the architecture 5-64-32-16-1 exhibits strong performance. Specifically, the model achieved mean squared error (MSE) values of 41.32 and 28.59 on the training and test datasets, respectively. The R2 value for both training and test is 0.83. RFR is also performing well compared to SVR and XG boost with MSE values of 12.37 and 9.89 on training and testing data, respectively.in both sets, the R2 value is 94%. Based on permutation importance and shapely plot values, it is observed that the powder factor has the highest impact, while the burden has the lowest impact on fragmentation."
+   },
+   "authors": {
+    "ja": "Angesom Gebretsadik, Rahul Kumar, Yewuhalashet Fissha, Yemane Kide, Natsuo Okada, Hajime Ikeda, Arvind Kumar Mishra, Danial Jahed Armaghani, Yoko Ohtomo, Youhei Kawamura",
+    "en": "Angesom Gebretsadik, Rahul Kumar, Yewuhalashet Fissha, Yemane Kide, Natsuo Okada, Hajime Ikeda, Arvind Kumar Mishra, Danial Jahed Armaghani, Yoko Ohtomo, Youhei Kawamura"
+   },
+   "start": "2024-04-25",
+   "end": "",
+   "year": 2024,
+   "peer_reviewed": true,
+   "invited": false,
+   "doi": "10.1007/s42452-024-05888-0",
+   "url": "https://doi.org/10.1007/s42452-024-05888-0"
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/published_papers/41282651",
+   "member": "okada_n",
+   "title": {
+    "ja": "A system of the granite weathering degree assessment using hyperspectral image and CNN",
+    "en": "A system of the granite weathering degree assessment using hyperspectral image and CNN"
+   },
+   "venue": {
+    "ja": "International Journal of Mining, Reclamation and Environment",
+    "en": "International Journal of Mining, Reclamation and Environment"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "Jaewon Kim, Youhei Kawamura, Osamu Nishikawa, Brian Bino Sinaice, Natsuo Okada, Shinji Utsuki",
+    "en": "Jaewon Kim, Youhei Kawamura, Osamu Nishikawa, Brian Bino Sinaice, Natsuo Okada, Shinji Utsuki"
+   },
+   "start": "2022-03-23",
+   "end": "",
+   "year": 2022,
+   "peer_reviewed": true,
+   "invited": false,
+   "doi": "10.1080/17480930.2022.2051135",
+   "url": "https://doi.org/10.1080/17480930.2022.2051135"
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/published_papers/41282628",
+   "member": "okada_n",
+   "title": {
+    "ja": "選鉱プロセスにおけるハイパースペクトルイメージングと深層学習を用いたヒ素含有鉱石の分類",
+    "en": "Classification of Arsenic Bearing Minerals Using Hyperspectral Imaging and Deep Learning for Mineral Processing"
+   },
+   "venue": {
+    "ja": "資源と素材",
+    "en": "Journal of MMIJ"
+   },
+   "desc": {
+    "ja": "Currently, there have been issues concerning the depletion and scarcity of mineral resources. This is mostly due to the excavation of high grade minerals having already occurred years and years ago, hence forcing the mining industry to opt for the production and optimization of lower grade minerals. This however brings about a plethora of problems, many of which economic, stemming from the purification of those low grade minerals in various stages required for mineral processing. In order to reduce costs and aid in the optimization of the mining stream, this study, introduces an automatic mineral identification system which combines the predictive abilities of deep learning with the excellent resolution of hyperspectral imaging, for pre-stage of mineral processing. These technologies were used to identify and classify high grade arsenic (As) bearing minerals from their low grade mineral counterparts non-destructively. Most of this ability to perform such tasks comes from the highly versatile machine learning model which employs deep learning as a means to classify minerals for mineral processing. Experimental results supported this statement as the model was able to achieve an over 90% accuracy in the prediction of As-bearing minerals, hence, one could conclude that this system has the potential to be employed in the mining industry as it achieves modern day system requirements such as high accuracy, speed, economic, userfriendly and automatic mineral identification.",
+    "en": "Currently, there have been issues concerning the depletion and scarcity of mineral resources. This is mostly due to the excavation of high grade minerals having already occurred years and years ago, hence forcing the mining industry to opt for the production and optimization of lower grade minerals. This however brings about a plethora of problems, many of which economic, stemming from the purification of those low grade minerals in various stages required for mineral processing. In order to reduce costs and aid in the optimization of the mining stream, this study, introduces an automatic mineral identification system which combines the predictive abilities of deep learning with the excellent resolution of hyperspectral imaging, for pre-stage of mineral processing. These technologies were used to identify and classify high grade arsenic (As) bearing minerals from their low grade mineral counterparts non-destructively. Most of this ability to perform such tasks comes from the highly versatile machine learning model which employs deep learning as a means to classify minerals for mineral processing. Experimental results supported this statement as the model was able to achieve an over 90% accuracy in the prediction of As-bearing minerals, hence, one could conclude that this system has the potential to be employed in the mining industry as it achieves modern day system requirements such as high accuracy, speed, economic, userfriendly and automatic mineral identification."
+   },
+   "authors": {
+    "ja": "岡田夏男, 前川陽平, 大和田済熙, 芳賀一寿, 柴山敦, 川村洋平",
+    "en": "Natsuo Okada, Yohei Maekawai, Narihiro Owada, Kazutoshi Haga, Atsushi Shibayama, Youhei Kawamura"
+   },
+   "start": "2021-01-31",
+   "end": "",
+   "year": 2021,
+   "peer_reviewed": true,
+   "invited": false,
+   "doi": "10.2473/journalofmmij.137.1",
+   "url": "https://doi.org/10.2473/journalofmmij.137.1"
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/published_papers/41282643",
+   "member": "okada_n",
+   "title": {
+    "ja": "Automated Identification of Mineral Types and Grain Size Using Hyperspectral Imaging and Deep Learning for Mineral Processing",
+    "en": "Automated Identification of Mineral Types and Grain Size Using Hyperspectral Imaging and Deep Learning for Mineral Processing"
+   },
+   "venue": {
+    "ja": "Minerals",
+    "en": "Minerals"
+   },
+   "desc": {
+    "ja": "In mining operations, an ore is separated into its constituents through mineral processing methods, such as flotation. Identifying the type of minerals contained in the ore in advance aids greatly in performing faster and more efficient mineral processing. The human eye can recognize visual information in three wavelength regions: red, green, and blue. With hyperspectral imaging, high resolution spectral data that contains information from the visible light wavelength region to the near infrared region can be obtained. Using deep learning, the features of the hyperspectral data can be extracted and learned, and the spectral pattern that is unique to each mineral can be identified and analyzed. In this paper, we propose an automatic mineral identification system that can identify mineral types before the mineral processing stage by combining hyperspectral imaging and deep learning. By using this technique, it is possible to quickly identify the types of minerals contained in rocks using a non-destructive method. As a result of experimentation, the identification accuracy of the minerals that underwent deep learning on the red, green, and blue (RGB) image of the mineral was approximately 30%, while the result of the hyperspectral data analysis using deep learning identified the mineral species with a high accuracy of over 90%.",
+    "en": "In mining operations, an ore is separated into its constituents through mineral processing methods, such as flotation. Identifying the type of minerals contained in the ore in advance aids greatly in performing faster and more efficient mineral processing. The human eye can recognize visual information in three wavelength regions: red, green, and blue. With hyperspectral imaging, high resolution spectral data that contains information from the visible light wavelength region to the near infrared region can be obtained. Using deep learning, the features of the hyperspectral data can be extracted and learned, and the spectral pattern that is unique to each mineral can be identified and analyzed. In this paper, we propose an automatic mineral identification system that can identify mineral types before the mineral processing stage by combining hyperspectral imaging and deep learning. By using this technique, it is possible to quickly identify the types of minerals contained in rocks using a non-destructive method. As a result of experimentation, the identification accuracy of the minerals that underwent deep learning on the red, green, and blue (RGB) image of the mineral was approximately 30%, while the result of the hyperspectral data analysis using deep learning identified the mineral species with a high accuracy of over 90%."
+   },
+   "authors": {
+    "ja": "Natsuo Okada, Yohei Maekawa, Narihiro Owada, Kazutoshi Haga, Atsushi Shibayama, Youhei Kawamura",
+    "en": "Natsuo Okada, Yohei Maekawa, Narihiro Owada, Kazutoshi Haga, Atsushi Shibayama, Youhei Kawamura"
+   },
+   "start": "2020-09-13",
+   "end": "",
+   "year": 2020,
+   "peer_reviewed": true,
+   "invited": false,
+   "doi": "10.3390/min10090809",
+   "url": "https://doi.org/10.3390/min10090809"
+  }
  ],
- "fields": [
-  {"ja": "エネルギー / 地球資源工学、エネルギー学", "en": "Energy / Earth resource engineering, Energy sciences"},
-  {"ja": "社会基盤(土木・建築・防災) / 防災工学", "en": "Social infrastructure / Disaster prevention engineering"}
+ "misc": [
+  {
+   "id": "https://api.researchmap.jp/okada_n/misc/53788715",
+   "member": "okada_n",
+   "title": {
+    "ja": "DXとAIが導く地下資源開発の革新 ―「Smart Mining＋」による持続可能な資源確保の最前線―",
+    "en": "Innovation in Subsurface Resource Development Driven by DX and AI — The Cutting Edge of Sustainable Resource Securing with “Smart Mining+”"
+   },
+   "venue": {
+    "ja": "エネルギー・資源",
+    "en": "Energy, Resources"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "川村洋平, 岡田夏男",
+    "en": "Youhei Kawamura, Natsuo Okada"
+   },
+   "start": "2026-07-10",
+   "end": "",
+   "year": 2026,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/misc/54332617",
+   "member": "okada_n",
+   "title": {
+    "ja": "Smart Glass-Based Next-Generation Mining Visualization System Assisted by RTK GNSS for Real-Time Ore Grade Control in Open-Pit Mining",
+    "en": "Smart Glass-Based Next-Generation Mining Visualization System Assisted by RTK GNSS for Real-Time Ore Grade Control in Open-Pit Mining"
+   },
+   "venue": {
+    "ja": "World Mining Congress",
+    "en": "World Mining Congress"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "Angesom Gebretsadik, Yudai Watanabe, Hyongdoo Jang, Tony Barnard, Christian Taylor, Natsuo Okada, Yoko Ohtomo, Itaru Kitahara, Youhei Kawamura",
+    "en": "Angesom Gebretsadik, Yudai Watanabe, Hyongdoo Jang, Tony Barnard, Christian Taylor, Natsuo Okada, Yoko Ohtomo, Itaru Kitahara, Youhei Kawamura"
+   },
+   "start": "2026-06-24",
+   "end": "",
+   "year": 2026,
+   "peer_reviewed": true,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/misc/54332614",
+   "member": "okada_n",
+   "title": {
+    "ja": "Predictive machine learning model for strategic heap leach pad planning in open pit mines",
+    "en": "Predictive machine learning model for strategic heap leach pad planning in open pit mines"
+   },
+   "venue": {
+    "ja": "World Mining Congress",
+    "en": "World Mining Congress"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "Angelo Paravecino, Natsuo Okada, Yoko Ohtomo, Youhei Kawamura",
+    "en": "Angelo Paravecino, Natsuo Okada, Yoko Ohtomo, Youhei Kawamura"
+   },
+   "start": "2026-06-24",
+   "end": "",
+   "year": 2026,
+   "peer_reviewed": true,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/misc/54332612",
+   "member": "okada_n",
+   "title": {
+    "ja": "An AI-Driven System Integrating Hyperspectral Data for Lithological Classification and RQD Assessment",
+    "en": "An AI-Driven System Integrating Hyperspectral Data for Lithological Classification and RQD Assessment"
+   },
+   "venue": {
+    "ja": "World Mining Congress",
+    "en": "World Mining Congress"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "Natsuo Okada, Kaito Takizawa, Seishin Nakagawa, Shinji Utsuki, Yoko Ohtomo, Youhei Kawamura",
+    "en": "Natsuo Okada, Kaito Takizawa, Seishin Nakagawa, Shinji Utsuki, Yoko Ohtomo, Youhei Kawamura"
+   },
+   "start": "2026-06-24",
+   "end": "",
+   "year": 2026,
+   "peer_reviewed": true,
+   "invited": false,
+   "doi": "",
+   "url": "https://api.researchmap.jp/okada_n/research_projects/50839342"
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/misc/54332609",
+   "member": "okada_n",
+   "title": {
+    "ja": "Integrated Assessment of Quarry-Derived Dust Dispersion Based on Atmospheric and Oceanic Transport",
+    "en": "Integrated Assessment of Quarry-Derived Dust Dispersion Based on Atmospheric and Oceanic Transport"
+   },
+   "venue": {
+    "ja": "World Mining Congress",
+    "en": "World Mining Congress"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "Ryo Itano, Natsuo Okada, Yoko Ohtomo, Vanessa Sanchez, Hiroshi Kuroda, Susana Arciniegas, Youhei Kawamura",
+    "en": "Ryo Itano, Natsuo Okada, Yoko Ohtomo, Vanessa Sanchez, Hiroshi Kuroda, Susana Arciniegas, Youhei Kawamura"
+   },
+   "start": "2026-06-24",
+   "end": "",
+   "year": 2026,
+   "peer_reviewed": true,
+   "invited": false,
+   "doi": "",
+   "url": "https://api.researchmap.jp/okada_n/research_projects/50584209"
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/misc/54332608",
+   "member": "okada_n",
+   "title": {
+    "ja": "Multi-Source Machine Learning of Tailings Dam Deformation Dynamics: Sentinel-1 MT-DInSAR, Meteorological Forcing, and LightGBM Short-Horizon Forecasts",
+    "en": "Multi-Source Machine Learning of Tailings Dam Deformation Dynamics: Sentinel-1 MT-DInSAR, Meteorological Forcing, and LightGBM Short-Horizon Forecasts"
+   },
+   "venue": {
+    "ja": "World Mining Congress",
+    "en": "World Mining Congress"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "Vanessa Sanchez, Natsuo Okada, Yoko Ohtomo, Youhei Kawamura",
+    "en": "Vanessa Sanchez, Natsuo Okada, Yoko Ohtomo, Youhei Kawamura"
+   },
+   "start": "2026-06-24",
+   "end": "",
+   "year": 2026,
+   "peer_reviewed": true,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/misc/51594853",
+   "member": "okada_n",
+   "title": {
+    "ja": "Performance Evaluation of Classical and Deep Learning Models in Hyperspectral Imaging: A Dataset-Centric Approach",
+    "en": "Performance Evaluation of Classical and Deep Learning Models in Hyperspectral Imaging: A Dataset-Centric Approach"
+   },
+   "venue": {
+    "ja": "Springer Proceedings in Earth and Environmental Sciences",
+    "en": "Springer Proceedings in Earth and Environmental Sciences"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "Natsuo Okada, Kaito Takizawa, Shion Wakae, Narihiro Owada, Brian Bino Sinaice, George Mathews, Yoko Ohtomo, Youhei Kawamura",
+    "en": "Natsuo Okada, Kaito Takizawa, Shion Wakae, Narihiro Owada, Brian Bino Sinaice, George Mathews, Yoko Ohtomo, Youhei Kawamura"
+   },
+   "start": "2025-11-01",
+   "end": "",
+   "year": 2025,
+   "peer_reviewed": true,
+   "invited": false,
+   "doi": "10.1007/978-3-032-09929-7_28",
+   "url": "https://doi.org/10.1007/978-3-032-09929-7_28"
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/misc/49089745",
+   "member": "okada_n",
+   "title": {
+    "ja": "Mineralogical classification and concentration estimation in mining with app using hyper-spectral imaging and machine learning",
+    "en": "Mineralogical classification and concentration estimation in mining with app using hyper-spectral imaging and machine learning"
+   },
+   "venue": {
+    "ja": "Proceedings of International Symposium on Earth Resources Management and Environment",
+    "en": "Proceedings of International Symposium on Earth Resources Management and Environment"
+   },
+   "desc": {
+    "ja": "This study presents an innovative method for identifying minerals by combining the capabilities of hyperspectral imaging with machine learning. Although hyperspectral images are challenging to process due to their extensive dimensions and substantial size, our solution effectively tackles this complexity by providing a user-friendly machine learning tool specifically tailored for hyperspectral data. This self-developed tool simplifies the process of constructing datasets and enhances machine learning processes for identifying mineral species and estimating their concentrations. The interface is designed to be easy to use, allowing non-experts to effectively identify minerals without needing professional expertise. This is further enhanced by the integration of machine learning capabilities. Our instrument is positioned as an innovative solution that greatly enhances geological surveys in mining regions, leading to useful outcomes for mineral-related research and industrial applications.",
+    "en": "This study presents an innovative method for identifying minerals by combining the capabilities of hyperspectral imaging with machine learning. Although hyperspectral images are challenging to process due to their extensive dimensions and substantial size, our solution effectively tackles this complexity by providing a user-friendly machine learning tool specifically tailored for hyperspectral data. This self-developed tool simplifies the process of constructing datasets and enhances machine learning processes for identifying mineral species and estimating their concentrations. The interface is designed to be easy to use, allowing non-experts to effectively identify minerals without needing professional expertise. This is further enhanced by the integration of machine learning capabilities. Our instrument is positioned as an innovative solution that greatly enhances geological surveys in mining regions, leading to useful outcomes for mineral-related research and industrial applications."
+   },
+   "authors": {
+    "ja": "Natsuo Okada, Kaito Takizawa, Shion Wakae, Yoko Ohtomo, Youhei Kawamura",
+    "en": "Natsuo Okada, Kaito Takizawa, Shion Wakae, Yoko Ohtomo, Youhei Kawamura"
+   },
+   "start": "2024",
+   "end": "",
+   "year": 2024,
+   "peer_reviewed": true,
+   "invited": false,
+   "doi": "10.31705/iserme.2024.3",
+   "url": "https://doi.org/10.31705/iserme.2024.3"
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/misc/47315011",
+   "member": "okada_n",
+   "title": {
+    "ja": "Development of Wide-Area Mineral Identification System Using Multispectral Camera Mounted on Drone for Beach Placer Deposits",
+    "en": "Development of Wide-Area Mineral Identification System Using Multispectral Camera Mounted on Drone for Beach Placer Deposits"
+   },
+   "venue": {
+    "ja": "Advances in Engineering Research",
+    "en": "Advances in Engineering Research"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "Hiromasa Nozaki, Natsuo Okada, Brian Bino Sinaice, Yoko Otomo, Youhei Kawamura",
+    "en": "Hiromasa Nozaki, Natsuo Okada, Brian Bino Sinaice, Yoko Otomo, Youhei Kawamura"
+   },
+   "start": "2023-12-29",
+   "end": "",
+   "year": 2023,
+   "peer_reviewed": true,
+   "invited": false,
+   "doi": "10.2991/978-94-6463-318-4_17",
+   "url": "https://doi.org/10.2991/978-94-6463-318-4_17"
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/misc/47315010",
+   "member": "okada_n",
+   "title": {
+    "ja": "Application of Deep Learning Approaches in Igneous Rock Hyperspectral Imaging",
+    "en": "Application of Deep Learning Approaches in Igneous Rock Hyperspectral Imaging"
+   },
+   "venue": {
+    "ja": "Springer Series in Geomechanics and Geoengineering",
+    "en": "Springer Series in Geomechanics and Geoengineering"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "Brian Bino Sinaice, Youhei Kawamura, Jaewon Kim, Natsuo Okada, Itaru Kitahara, Hyongdoo Jang",
+    "en": "Brian Bino Sinaice, Youhei Kawamura, Jaewon Kim, Natsuo Okada, Itaru Kitahara, Hyongdoo Jang"
+   },
+   "start": "2019-11-30",
+   "end": "",
+   "year": 2019,
+   "peer_reviewed": true,
+   "invited": false,
+   "doi": "10.1007/978-3-030-33954-8_29",
+   "url": "https://doi.org/10.1007/978-3-030-33954-8_29"
+  }
  ],
- "career": [
-  {"id": "seed:career:1", "member": "okada_n", "title": {"ja": "北海道大学 大学院工学研究院 環境循環システム部門 助教", "en": "Assistant Professor, Division of Sustainable Resources Engineering, Faculty of Engineering, Hokkaido University"}, "venue": {"ja": "", "en": ""}, "desc": {"ja": "", "en": ""}, "authors": {"ja": "", "en": ""}, "start": "2025-04", "end": "", "year": 2025, "peer_reviewed": false, "invited": false, "doi": "", "url": ""},
-  {"id": "seed:career:2", "member": "okada_n", "title": {"ja": "日本学術振興会 特別研究員(DC2)", "en": "JSPS Research Fellow (DC2)"}, "venue": {"ja": "", "en": ""}, "desc": {"ja": "", "en": ""}, "authors": {"ja": "", "en": ""}, "start": "2023-04", "end": "2025-03", "year": 2023, "peer_reviewed": false, "invited": false, "doi": "", "url": ""},
-  {"id": "seed:career:3", "member": "okada_n", "title": {"ja": "旭川工業高等専門学校 電気情報工学科 非常勤講師", "en": "Part-time Lecturer, Department of Electrical and Computer Engineering, NIT Asahikawa College"}, "venue": {"ja": "", "en": ""}, "desc": {"ja": "", "en": ""}, "authors": {"ja": "", "en": ""}, "start": "2022-10", "end": "2025-03", "year": 2022, "peer_reviewed": false, "invited": false, "doi": "", "url": ""}
- ],
- "education": [
-  {"id": "seed:edu:1", "member": "okada_n", "title": {"ja": "北海道大学 大学院工学院 環境循環システム専攻 博士課程", "en": "Doctoral Program, Division of Sustainable Resources Engineering, Graduate School of Engineering, Hokkaido University"}, "venue": {"ja": "", "en": ""}, "desc": {"ja": "", "en": ""}, "authors": {"ja": "", "en": ""}, "start": "2022-04", "end": "2025-03", "year": 2022, "peer_reviewed": false, "invited": false, "doi": "", "url": ""},
-  {"id": "seed:edu:2", "member": "okada_n", "title": {"ja": "チリ大学 理学数学部門 鉱業修士課程", "en": "Master's Program in Mining, Faculty of Physical and Mathematical Sciences, University of Chile"}, "venue": {"ja": "", "en": ""}, "desc": {"ja": "", "en": ""}, "authors": {"ja": "", "en": ""}, "start": "2021-04", "end": "2022-03", "year": 2021, "peer_reviewed": false, "invited": false, "doi": "", "url": ""},
-  {"id": "seed:edu:3", "member": "okada_n", "title": {"ja": "秋田大学 大学院国際資源学研究科 資源開発環境学専攻", "en": "Graduate School of International Resource Sciences, Akita University"}, "venue": {"ja": "", "en": ""}, "desc": {"ja": "", "en": ""}, "authors": {"ja": "", "en": ""}, "start": "2020-04", "end": "2021-03", "year": 2020, "peer_reviewed": false, "invited": false, "doi": "", "url": ""},
-  {"id": "seed:edu:4", "member": "okada_n", "title": {"ja": "秋田大学 国際資源学部", "en": "Faculty of International Resource Sciences, Akita University"}, "venue": {"ja": "", "en": ""}, "desc": {"ja": "", "en": ""}, "authors": {"ja": "", "en": ""}, "start": "2016-04", "end": "2020-03", "year": 2016, "peer_reviewed": false, "invited": false, "doi": "", "url": ""}
- ],
- "committees": [
-  {"id": "seed:com:1", "member": "okada_n", "title": {"ja": "日本バーチャルリアリティ学会 北海道チャプター 幹事", "en": "Secretary, Hokkaido Chapter, Virtual Reality Society of Japan"}, "venue": {"ja": "", "en": ""}, "desc": {"ja": "", "en": ""}, "authors": {"ja": "", "en": ""}, "start": "2025-04", "end": "", "year": 2025, "peer_reviewed": false, "invited": false, "doi": "", "url": ""}
+ "presentations": [
+  {
+   "id": "https://api.researchmap.jp/okada_n/presentations/53782897",
+   "member": "okada_n",
+   "title": {
+    "ja": "Predictive modelling of blast-induced vibrations using machine learning to mitigate environmental impacts in open-pit mines",
+    "en": "Predictive modelling of blast-induced vibrations using machine learning to mitigate environmental impacts in open-pit mines"
+   },
+   "venue": {
+    "ja": "Geosciences and Sustainable Development Conference",
+    "en": "Geosciences and Sustainable Development Conference"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "Reinaldo Luís Bartolomeu, Maeneja Júnior, Yewuhalashet Fissha, Natsuo Okada, Rodrigues Mário, Belchior Coelho Miguel, Marcos Afonso, Jinja Cussaia, Elsa Pansilvânia André Manjate",
+    "en": "Reinaldo Luís Bartolomeu, Maeneja Júnior, Yewuhalashet Fissha, Natsuo Okada, Rodrigues Mário, Belchior Coelho Miguel, Marcos Afonso, Jinja Cussaia, Elsa Pansilvânia André Manjate"
+   },
+   "start": "2026-06-30",
+   "end": "2026-07-04",
+   "year": 2026,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/presentations/53139027",
+   "member": "okada_n",
+   "title": {
+    "ja": "Multi-Source Machine Learning of Tailings Dam Deformation Dynamics: Sentinel-1 MT-DInSAR, Meteorological Forcing, and LightGBM Short-Horizon Forecasts",
+    "en": "Multi-Source Machine Learning of Tailings Dam Deformation Dynamics: Sentinel-1 MT-DInSAR, Meteorological Forcing, and LightGBM Short-Horizon Forecasts"
+   },
+   "venue": {
+    "ja": "World Mining Congress 2026",
+    "en": "World Mining Congress 2026"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "Vanessa Sanchez, Natsuo Okada, Yoko Ohtomo, Youhei Kawamura",
+    "en": "Vanessa Sanchez, Natsuo Okada, Yoko Ohtomo, Youhei Kawamura"
+   },
+   "start": "2026-06-26",
+   "end": "2026-06-26",
+   "year": 2026,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/presentations/53136864",
+   "member": "okada_n",
+   "title": {
+    "ja": "Integrated Assessment of Quarry-Derived Dust Dispersion Based on Atmospheric and Oceanic Transport",
+    "en": "Integrated Assessment of Quarry-Derived Dust Dispersion Based on Atmospheric and Oceanic Transport"
+   },
+   "venue": {
+    "ja": "World Mining Congress 2026",
+    "en": "World Mining Congress 2026"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "Ryo Itano, Natsuo Okada, Yoko Ohtomo, Vanessa Sanchez, Hiroshi Kuroda, Susana Arciniegas, Youhei Kawamura",
+    "en": "Ryo Itano, Natsuo Okada, Yoko Ohtomo, Vanessa Sanchez, Hiroshi Kuroda, Susana Arciniegas, Youhei Kawamura"
+   },
+   "start": "2026-06-26",
+   "end": "2026-06-26",
+   "year": 2026,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": "https://api.researchmap.jp/okada_n/research_projects/50584209"
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/presentations/53126271",
+   "member": "okada_n",
+   "title": {
+    "ja": "An AI-Driven System Integrating Hyperspectral Data for Lithological Classification and RQD Assessment",
+    "en": "An AI-Driven System Integrating Hyperspectral Data for Lithological Classification and RQD Assessment"
+   },
+   "venue": {
+    "ja": "World Mining Congress 2026",
+    "en": "World Mining Congress 2026"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "Natsuo Okada, Kaito Takizawa, Seishin Nakagawa, Shinji Utsuki, Yoko Ohtomo, Youhei Kawamura",
+    "en": "Natsuo Okada, Kaito Takizawa, Seishin Nakagawa, Shinji Utsuki, Yoko Ohtomo, Youhei Kawamura"
+   },
+   "start": "2026-06-26",
+   "end": "2026-06-26",
+   "year": 2026,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": "https://api.researchmap.jp/okada_n/research_projects/50839342"
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/presentations/53136878",
+   "member": "okada_n",
+   "title": {
+    "ja": "Predictive machine learning model for strategic heap leach pad planning in open pit mines",
+    "en": "Predictive machine learning model for strategic heap leach pad planning in open pit mines"
+   },
+   "venue": {
+    "ja": "World Mining Congress 2026",
+    "en": "World Mining Congress 2026"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "Angelo Paravecino, Natsuo Okada, Yoko Ohtomo, Youhei Kawamura",
+    "en": "Angelo Paravecino, Natsuo Okada, Yoko Ohtomo, Youhei Kawamura"
+   },
+   "start": "2026-06-25",
+   "end": "2026-06-26",
+   "year": 2026,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/presentations/53136825",
+   "member": "okada_n",
+   "title": {
+    "ja": "Smart Glass-Based Next-Generation Mining Visualization System Assisted by RTK GNSS for Real-Time Ore Grade Control in Open-Pit Mining",
+    "en": "Smart Glass-Based Next-Generation Mining Visualization System Assisted by RTK GNSS for Real-Time Ore Grade Control in Open-Pit Mining"
+   },
+   "venue": {
+    "ja": "World Mining Congress 2026",
+    "en": "World Mining Congress 2026"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "Angesom Gebretsadik, Yudai Watanabe, Hyongdoo Jang, Tony Barnard, Christian Taylor, Natsuo Okada, Yoko Ohtomo, Itaru Kitahara, Youhei Kawamura",
+    "en": "Angesom Gebretsadik, Yudai Watanabe, Hyongdoo Jang, Tony Barnard, Christian Taylor, Natsuo Okada, Yoko Ohtomo, Itaru Kitahara, Youhei Kawamura"
+   },
+   "start": "2026-06-25",
+   "end": "2026-06-26",
+   "year": 2026,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/presentations/53424183",
+   "member": "okada_n",
+   "title": {
+    "ja": "デジタルスキャナーを用いた深層学習モデルによる堆積相の高解像度解析法の開発",
+    "en": "Development of a High-Resolution Sedimentary Facies Analysis Method Using Deep Learning Models with Digital Scanners"
+   },
+   "venue": {
+    "ja": "資源地質学会第75回年会講演会",
+    "en": "75th Annual Meeting of the Society of Resource Geology"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "竹山晃弘, 別府祐哉, 大竹翼, 岡田夏男, 川村洋平, 大友陽子",
+    "en": "Akihiro Takeyama, Yuya Beppu, Tsubasa Otake, Natsuo Okada, Youhei Kawamura, Yoko Otomo"
+   },
+   "start": "2026-06-24",
+   "end": "2026-06-26",
+   "year": 2026,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/presentations/53617431",
+   "member": "okada_n",
+   "title": {
+    "ja": "弧状推進工法における推進力及び地盤のS波速度の予測",
+    "en": "Prediction of Thrust Force and Ground S-Wave Velocity in Horizontal Directional Drilling"
+   },
+   "venue": {
+    "ja": "2026年度資源・素材学会北海道支部総会および春季講演会",
+    "en": "2026 Annual Meeting and Spring Conference of the Hokkaido Branch, The Mining and Materials Processing Institute of Japan"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "村越音弥, 児玉淳一, 川村洋平, 岡田夏男, 松尾敬太, 平林史成",
+    "en": "Otoya Murakoshi, Junichi Kodama, Youhei Kawamura, Natsuo Okada, Keita Matsuo, Hirabayashi"
+   },
+   "start": "2026-05-30",
+   "end": "2026-05-30",
+   "year": 2026,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/presentations/53174051",
+   "member": "okada_n",
+   "title": {
+    "ja": "Digital Twin for Closed Mine Site Management toward Nature Positive",
+    "en": "Digital Twin for Closed Mine Site Management toward Nature Positive"
+   },
+   "venue": {
+    "ja": "JpGU-AGU Joint Meeting 2026",
+    "en": "JpGU-AGU Joint Meeting 2026"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "Reiko Hamaguchi, Tetsuo Yasutaka,Saburo Yamagata, Shota Kuroshima, Kei Shingai, Natsuo Okada, Yoko Ohtomo, Youhei Kawamura",
+    "en": "Reiko Hamaguchi, Tetsuo Yasutaka,Saburo Yamagata, Shota Kuroshima, Kei Shingai, Natsuo Okada, Yoko Ohtomo, Youhei Kawamura"
+   },
+   "start": "2026-05-24",
+   "end": "2026-05-29",
+   "year": 2026,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/presentations/53142782",
+   "member": "okada_n",
+   "title": {
+    "ja": "Hyperspectral Sorting of Limestone and Band Optimization for Application to Ore Production Lines",
+    "en": "Hyperspectral Sorting of Limestone and Band Optimization for Application to Ore Production Lines"
+   },
+   "venue": {
+    "ja": "JpGU-AGU Joint Meeting 2026",
+    "en": "JpGU-AGU Joint Meeting 2026"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "Kohei Yokomachi, Yohei Maekawa, Kaito Takizawa, Shion Wakae, Shinichi Tokunaga, Natsuo Okada, Yoko Ohtomo, Youhei Kawamura",
+    "en": "Kohei Yokomachi, Yohei Maekawa, Kaito Takizawa, Shion Wakae, Shinichi Tokunaga, Natsuo Okada, Yoko Ohtomo, Youhei Kawamura"
+   },
+   "start": "2026-05-24",
+   "end": "2026-05-26",
+   "year": 2026,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/presentations/52142186",
+   "member": "okada_n",
+   "title": {
+    "ja": "アマモ場に生息するホッカイエビに対する音響テレメトリー手法の適用性評価",
+    "en": "Evaluation of the Applicability of Acoustic Telemetry Methods to Hokkai Shrimp Inhabiting Seagrass Beds"
+   },
+   "venue": {
+    "ja": "2026年度海洋音響学会研究発表会",
+    "en": "2026 Annual Meeting of Marine Acoustics Society of Japan"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "朱妍卉, 久保世里菜, 伊藤慶造, 岡田夏男, 川村洋平, 松本裕幸, 千葉晋, 宮城亜紀, 南憲吏, 宮下和士",
+    "en": "Yanhui Zhu, Serina Kubo, Keizo Ito, Natsuo Okada, Youhei Kawamura, Hiroyuki Matsumoto, Susumu Chiba, Aki Miyagi, Kenji Minami, Kazushi Miyashita"
+   },
+   "start": "2026-05-18",
+   "end": "2026-05-19",
+   "year": 2026,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/presentations/52083532",
+   "member": "okada_n",
+   "title": {
+    "ja": "定期航空便によるマルチスペクトル観測を想定した赤潮（Karenia mikimotoi）推定モデルの構築",
+    "en": "定期航空便によるマルチスペクトル観測を想定した赤潮（Karenia mikimotoi）推定モデルの構築"
+   },
+   "venue": {
+    "ja": "日本水産学会 春季大会",
+    "en": "日本水産学会 春季大会"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "澤登笙, 菅原昌大, 田中優斗, 笠井亮秀, 松野孝平, 川村洋平, 岡田夏男, 小嶋雅之, 糸田 拓馬, 髙木力",
+    "en": "澤登笙, 菅原昌大, 田中優斗, 笠井亮秀, 松野孝平, 川村洋平, 岡田夏男, 小嶋雅之, 糸田 拓馬, 髙木力"
+   },
+   "start": "2026-03-26",
+   "end": "2026-03-29",
+   "year": 2026,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/presentations/53041804",
+   "member": "okada_n",
+   "title": {
+    "ja": "マルチスペクトルイメージングによる内視鏡診断システムの開発",
+    "en": "Development of an Endoscopic Diagnostic System Using Multispectral Imaging"
+   },
+   "venue": {
+    "ja": "企業に求める産学連携ニーズ発表会",
+    "en": "Industry–Academia Collaboration Needs Presentation Meeting"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "岡田夏男, 大野正芳",
+    "en": "Natsuo Okada, Masayoshi Ono"
+   },
+   "start": "2026-03-24",
+   "end": "2026-03-24",
+   "year": 2026,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": "https://api.researchmap.jp/okada_n/research_projects/50768703"
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/presentations/52030309",
+   "member": "okada_n",
+   "title": {
+    "ja": "スマートマイニング＋による環境破壊を引き起こさない持続可能な環境調和的鉱山開発システムの構築",
+    "en": "Building a sustainable, environmentally harmonious mine development system that does not cause environmental destruction through Smart Mining Plus"
+   },
+   "venue": {
+    "ja": "鉱害防止事業における先進的モデルケース事例の紹介",
+    "en": "Initiatives by young researchers and practitioners involved in green remediation of closed and abandoned mines"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "川村洋平, 岡田夏男",
+    "en": "Youhei Kawamura, Natsuo Okada"
+   },
+   "start": "2026-03-16",
+   "end": "2026-03-16",
+   "year": 2026,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/presentations/52030296",
+   "member": "okada_n",
+   "title": {
+    "ja": "スマートマイニング＋による環境破壊を引き起こさない持続可能な環境調和的鉱山開発システムの構築",
+    "en": "Building a sustainable, environmentally harmonious mine development system that does not cause environmental destruction through Smart Mining Plus"
+   },
+   "venue": {
+    "ja": "グリーンレメディエーション研究会第11回北海道ワーキング",
+    "en": "グリーンレメディエーション研究会第11回北海道ワーキング"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "川村洋平, 岡田夏男",
+    "en": "Youhei Kawamura, Natsuo Okada"
+   },
+   "start": "2026-03-05",
+   "end": "2026-03-05",
+   "year": 2026,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/presentations/50207449",
+   "member": "okada_n",
+   "title": {
+    "ja": "Performance Evaluation of Classical and Deep Learning Models in Hyperspectral Imaging: A Dataset-Centric Approach",
+    "en": "Performance Evaluation of Classical and Deep Learning Models in Hyperspectral Imaging: A Dataset-Centric Approach"
+   },
+   "venue": {
+    "ja": "11th Asian Mining Congress",
+    "en": "11th Asian Mining Congress"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "Natsuo Okada, Kaito Takizawa, Shion Wakae, Narihiro Owada, Brian Bino Sinaice, George Mathews, Yoko Ohtomo, Youhei Kawamura",
+    "en": "Natsuo Okada, Kaito Takizawa, Shion Wakae, Narihiro Owada, Brian Bino Sinaice, George Mathews, Yoko Ohtomo, Youhei Kawamura"
+   },
+   "start": "2025-10-31",
+   "end": "2025-10-31",
+   "year": 2025,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": "https://api.researchmap.jp/okada_n/research_projects/50798464"
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/presentations/51398467",
+   "member": "okada_n",
+   "title": {
+    "ja": "海流モデル・うしお丸観測データを用いた噴火湾水圏環境の再現",
+    "en": "Reproduction of the Aquatic Environment of Funka Bay Using an Ocean Current Model and Observation Data from the Ushio-maru"
+   },
+   "venue": {
+    "ja": "第11回北海道大学部局横断シンポジウム",
+    "en": "The 11th Hokkaido University Cross-Departmental Symposium"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "岡田夏男, 五味伸太郎, 黒田寛, 川村洋平, 福田覚, 高木力, 浦和寛",
+    "en": "Natsuo Okada, Shintaro Gomi, Hiroshi Kuroda, Youhei Kawamura, Satoru Fukuda, Tsutomu Takagi, Kazuhiro Ura"
+   },
+   "start": "2025-10-02",
+   "end": "2025-10-02",
+   "year": 2025,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/presentations/51398449",
+   "member": "okada_n",
+   "title": {
+    "ja": "ハイパースペクトルイメージングカメラと機械深層学習を用いた新規内視鏡画像診断システムの開発",
+    "en": "Development of a Novel Endoscopic Image Diagnostic System Using a Hyperspectral Imaging Camera and Machine/Deep Learning"
+   },
+   "venue": {
+    "ja": "第11回北海道大学部局横断シンポジウム",
+    "en": "The 11th Hokkaido University Cross-Departmental Symposium"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "岡田夏男, 大野正芳",
+    "en": "Natsuo Okada, Masayoshi Ono"
+   },
+   "start": "2025-10-02",
+   "end": "2025-10-02",
+   "year": 2025,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/presentations/50940486",
+   "member": "okada_n",
+   "title": {
+    "ja": "ネイチャーポジティブに向けた休廃止鉱山管理のためのデジタルツイン技術の検討",
+    "en": "Investigation of Digital Twin Technology for Closed and Abandoned Mine Management toward Nature-Positive Outcomes"
+   },
+   "venue": {
+    "ja": "資源・素材2025（札幌）",
+    "en": "MMIJ Annual Meeting 2025 (Sapporo)"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "浜口 怜子, 大塚 尚広, 保高 徹生, 山縣 三郎, 黒嶋 章太, 新開 啓, 岡田 夏男, 大友 陽子, 川村 洋平",
+    "en": "Reiko Hamaguchi, Naohiro Otsuka, Tetsuo Yasutaka, Saburo Yamagata, Shota Kuroshima, Kei Shinkai, Natsuo Okada, Yoko Otomo, Youhei Kawamura"
+   },
+   "start": "2025-09-04",
+   "end": "2025-09-04",
+   "year": 2025,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/presentations/50940477",
+   "member": "okada_n",
+   "title": {
+    "ja": "スペクトルカメラ搭載ドローンを用いた休廃止鉱山の三次元モデル構築および植生指標の検討",
+    "en": "Construction of a Three-Dimensional Model and Examination of Vegetation Indices for Closed and Abandoned Mines Using a Drone Equipped with a Spectral Camera"
+   },
+   "venue": {
+    "ja": "資源・素材2025（札幌）",
+    "en": "資源・素材2025（札幌）"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "板野 亮, 松尾 昂太郎, 岡田 夏男, 有馬 孝彦, 濱井 昂弥, 古谷 尚稔, 富山 眞吾, 川村 洋平",
+    "en": "Ryo Itano, Kotaro Matsuo, Natsuo Okada, Takahiko Arima, Takaya Hamai, Hisatoshi Furuya, Shingo Tomiyama, Youhei Kawamura"
+   },
+   "start": "2025-09-03",
+   "end": "2025-09-04",
+   "year": 2025,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/presentations/50940463",
+   "member": "okada_n",
+   "title": {
+    "ja": "ドローン空撮および衛星データを活用したモンゴル・ゴビ砂漠のリチウム鉱石探査",
+    "en": "ドローン空撮および衛星データを活用したモンゴル・ゴビ砂漠のリチウム鉱石探査"
+   },
+   "venue": {
+    "ja": "資源・素材2025（札幌）",
+    "en": "資源・素材2025（札幌）"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "若江 史生, 滝澤 海斗, 石渡 翔丸, George Paul Mathews, 岡田 夏男, 菊池 亮佑, Gurbadam Erdene-Ochir, 大友 陽子, 川村 洋平, Jargalan Sereenen",
+    "en": "若江 史生, 滝澤 海斗, 石渡 翔丸, George Paul Mathews, 岡田 夏男, 菊池 亮佑, Gurbadam Erdene-Ochir, 大友 陽子, 川村 洋平, Jargalan Sereenen"
+   },
+   "start": "2025-09-03",
+   "end": "2025-09-04",
+   "year": 2025,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/presentations/50940453",
+   "member": "okada_n",
+   "title": {
+    "ja": "岩石薄片のデジタルスキャナー画像と機械学習を用いた鉱物判定システムによる堆積環境復元",
+    "en": "岩石薄片のデジタルスキャナー画像と機械学習を用いた鉱物判定システムによる堆積環境復元"
+   },
+   "venue": {
+    "ja": "資源・素材2025（札幌）",
+    "en": "資源・素材2025（札幌）"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "竹山 晃弘, 別府 祐哉, 戸谷田 光希, 大竹 翼, 岡田 夏男, 川村 洋平, 大友 陽子",
+    "en": "竹山 晃弘, 別府 祐哉, 戸谷田 光希, 大竹 翼, 岡田 夏男, 川村 洋平, 大友 陽子"
+   },
+   "start": "2025-09-03",
+   "end": "2025-09-04",
+   "year": 2025,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/presentations/50940445",
+   "member": "okada_n",
+   "title": {
+    "ja": "ハイパースペクトルデータと機械学習を用いた石灰石と夾雑岩の判定",
+    "en": "ハイパースペクトルデータと機械学習を用いた石灰石と夾雑岩の判定"
+   },
+   "venue": {
+    "ja": "資源・素材2025（札幌）",
+    "en": "資源・素材2025（札幌）"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "横町 貢平, 前川 陽平, 滝澤 海斗, 若江 史生, 徳永 慎一, Mathews George, 岡田 夏男, 大友 陽子, 川村 洋平",
+    "en": "横町 貢平, 前川 陽平, 滝澤 海斗, 若江 史生, 徳永 慎一, Mathews George, 岡田 夏男, 大友 陽子, 川村 洋平"
+   },
+   "start": "2025-09-03",
+   "end": "2025-09-04",
+   "year": 2025,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/presentations/50940428",
+   "member": "okada_n",
+   "title": {
+    "ja": "実学分野におけるメタバースを活用した教育システムの構築および遠隔モニタリングシステムへの応用",
+    "en": "Development of an Educational System Using the Metaverse in Practical Engineering Fields and Its Application to Remote Monitoring Systems"
+   },
+   "venue": {
+    "ja": "資源・素材2025（札幌）",
+    "en": "MMIJ Annual Meeting 2025 (Sapporo)"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "茂見 隆博, 松尾 昴太郎, ジャムシェッド ラフマトフ, 岡田 夏男, 大友 陽子, 川村 洋平",
+    "en": "Takahiro Shigemi, Kotaro Matsuo, Jamshed Rakhmatov, Natsuo Okada, Yoko Otomo, Youhei Kawamura"
+   },
+   "start": "2025-09-03",
+   "end": "2025-09-04",
+   "year": 2025,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/presentations/50940418",
+   "member": "okada_n",
+   "title": {
+    "ja": "ハイパースペクトル画像と深層学習を用いた岩石試料中のヒ素濃度判別とCNNモデルの解釈性評価",
+    "en": "ハイパースペクトル画像と深層学習を用いた岩石試料中のヒ素濃度判別とCNNモデルの解釈性評価"
+   },
+   "venue": {
+    "ja": "資源・素材2025（札幌）",
+    "en": "資源・素材2025（札幌）"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "滝澤 海斗, 岡田 夏男, 黒木 宏忠, 後藤 佳子, George Mathews, 大友 陽子, 川村 洋平",
+    "en": "滝澤 海斗, 岡田 夏男, 黒木 宏忠, 後藤 佳子, George Mathews, 大友 陽子, 川村 洋平"
+   },
+   "start": "2025-09-03",
+   "end": "2025-09-04",
+   "year": 2025,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/presentations/50940404",
+   "member": "okada_n",
+   "title": {
+    "ja": "ブルー水素製造のための石炭地下ガス化燃焼制御を目的としたANNモデルによる温度推定と放射基底関数を用いた３次元可視化手法",
+    "en": "Temperature Estimation Using an ANN Model and Three-Dimensional Visualization Using Radial Basis Functions for Combustion Control in Underground Coal Gasification for Blue Hydrogen Production"
+   },
+   "venue": {
+    "ja": "資源・素材2025（札幌）",
+    "en": "MMIJ Annual Meeting 2025 (Sapporo)"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "竹内 優太, 板倉 賢一, 出口 剛太, 濱中 晃弘, 岡田 夏男, 大友 陽子, 川村 洋平",
+    "en": "Yuta Takeuchi, Ken-ichi Itakura, Gota Deguchi, Akihiro Hamanaka, Natsuo Okada, Yoko Ohtomo, Youhei Kawamura"
+   },
+   "start": "2025-09-03",
+   "end": "2025-09-04",
+   "year": 2025,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/presentations/50937657",
+   "member": "okada_n",
+   "title": {
+    "ja": "地中熱ヒートポンプ導入支援のための遠隔モニタリング・人材育成システムの開発",
+    "en": "Development of a Remote Monitoring and Human Resource Development System to Support the Introduction of Ground Source Heat Pumps"
+   },
+   "venue": {
+    "ja": "資源・素材2025（札幌）",
+    "en": "MMIJ Annual Meeting 2025 (Sapporo)"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "松尾 昂太郎, 茂見 隆博, ジャムシェド ラフマトフ, スオリネニ フィデリス, 岡田 夏男, 大友 洋子, 川村 洋平",
+    "en": "Kotaro Matsuo, Takahiro Shigemi, Jamshed Rakhmatov, Fidelis Suorineni, Natsuo Okada, Yoko Ohtomo, Youhei Kawamura"
+   },
+   "start": "2025-09-03",
+   "end": "2025-09-04",
+   "year": 2025,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/presentations/50937651",
+   "member": "okada_n",
+   "title": {
+    "ja": "トンネル発破における余掘り予測AIの精度向上に向けた割れ目角度抽出手法の確立",
+    "en": "トンネル発破における余掘り予測AIの精度向上に向けた割れ目角度抽出手法の確立"
+   },
+   "venue": {
+    "ja": "資源・素材2025（札幌）",
+    "en": "資源・素材2025（札幌）"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "中根 光太郎, 中澤 雄奈, キョ ユリン, 後藤 佳子, 黒木 宏忠, 川村 洋平, 大友 陽子, 岡田 夏男",
+    "en": "中根 光太郎, 中澤 雄奈, キョ ユリン, 後藤 佳子, 黒木 宏忠, 川村 洋平, 大友 陽子, 岡田 夏男"
+   },
+   "start": "2025-09-03",
+   "end": "2025-09-04",
+   "year": 2025,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/presentations/50937648",
+   "member": "okada_n",
+   "title": {
+    "ja": "トンネル発破における余掘り量及び発生箇所推定のためのドリルエネルギー解析による切羽背面の情報の可視化",
+    "en": "Visualization of Information Behind the Tunnel Face by Drill Energy Analysis for Estimating Overbreak Volume and Locations in Tunnel Blasting"
+   },
+   "venue": {
+    "ja": "資源・素材2025（札幌）",
+    "en": "MMIJ Annual Meeting 2025 (Sapporo)"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "中澤 雄奈, Xu Yulin, 中根 光太郎, 翟 思敏, 岡田 夏男, 大友 陽子, 川村 洋平",
+    "en": "Yuna Nakazawa, Yulin Xu, Kotaro Nakane, Simin Zhai, Natsuo Okada, Yoko Ohtomo, Youhei Kawamura"
+   },
+   "start": "2025-09-03",
+   "end": "2025-09-04",
+   "year": 2025,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/presentations/50941391",
+   "member": "okada_n",
+   "title": {
+    "ja": "Geology-Constrained Data Generation for Tunnel Construction Using Tabular GANs",
+    "en": "Geology-Constrained Data Generation for Tunnel Construction Using Tabular GANs"
+   },
+   "venue": {
+    "ja": "資源・素材2025（札幌）",
+    "en": "資源・素材2025（札幌）"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "Yulin Xu, Yuna Nakazawa, Natsuo Okada, Yoko Ohtomo, Youhei Kawamura",
+    "en": "Yulin Xu, Yuna Nakazawa, Natsuo Okada, Yoko Ohtomo, Youhei Kawamura"
+   },
+   "start": "2025-09-02",
+   "end": "2025-09-04",
+   "year": 2025,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/presentations/50941382",
+   "member": "okada_n",
+   "title": {
+    "ja": "Rare Earth Element-related heavy mineral sand identification using AI",
+    "en": "Rare Earth Element-related heavy mineral sand identification using AI"
+   },
+   "venue": {
+    "ja": "資源・素材2025（札幌）",
+    "en": "資源・素材2025（札幌）"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "Okhala Muacanhia, Natsuo Okada, Yoko Ohtomo, Youhei Kawamura",
+    "en": "Okhala Muacanhia, Natsuo Okada, Yoko Ohtomo, Youhei Kawamura"
+   },
+   "start": "2025-09-02",
+   "end": "2025-09-04",
+   "year": 2025,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/presentations/50940539",
+   "member": "okada_n",
+   "title": {
+    "ja": "Mineralogical Composition and Trace Element Distribution in Coal Minerals for Environmental Pollution Assessment",
+    "en": "Mineralogical Composition and Trace Element Distribution in Coal Minerals for Environmental Pollution Assessment"
+   },
+   "venue": {
+    "ja": "資源・素材2025（札幌）",
+    "en": "資源・素材2025（札幌）"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "Jackson Ezekiel Birore, Yuna Nakazawa, Natsuo Okada, Angesom Gebretsadik, Yoko Ohtomo, Yohuei Kawamura",
+    "en": "Jackson Ezekiel Birore, Yuna Nakazawa, Natsuo Okada, Angesom Gebretsadik, Yoko Ohtomo, Yohuei Kawamura"
+   },
+   "start": "2025-09-02",
+   "end": "2025-09-04",
+   "year": 2025,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/presentations/50940524",
+   "member": "okada_n",
+   "title": {
+    "ja": "Hybrid AI–Geostatistical Modeling for 3D Ash Prediction and Zoning in Sparse Drillhole Environments: A Case Study Integrating 3D Block Model and Machine Learning",
+    "en": "Hybrid AI–Geostatistical Modeling for 3D Ash Prediction and Zoning in Sparse Drillhole Environments: A Case Study Integrating 3D Block Model and Machine Learning"
+   },
+   "venue": {
+    "ja": "資源・素材2025（札幌）",
+    "en": "資源・素材2025（札幌）"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "Angesom Gebretsadik Abraha, Natsuo Okada, Ryo Itano, Yoko Ohtomo, George Mathews, Youhei Kawamura",
+    "en": "Angesom Gebretsadik Abraha, Natsuo Okada, Ryo Itano, Yoko Ohtomo, George Mathews, Youhei Kawamura"
+   },
+   "start": "2025-09-02",
+   "end": "2025-09-04",
+   "year": 2025,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/presentations/50262677",
+   "member": "okada_n",
+   "title": {
+    "ja": "南薩型金鉱床におけるハイパースペクトル画像と AIを用いた酸性変質帯の判別",
+    "en": "南薩型金鉱床におけるハイパースペクトル画像と AIを用いた酸性変質帯の判別"
+   },
+   "venue": {
+    "ja": "資源地質学会",
+    "en": "資源地質学会"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "奈須野恵介, 佐藤颯哉, 斎藤玄, 大竹翼, 岡田夏男, 川村洋平, 菊池亮佑, 佐藤努",
+    "en": "奈須野恵介, 佐藤颯哉, 斎藤玄, 大竹翼, 岡田夏男, 川村洋平, 菊池亮佑, 佐藤努"
+   },
+   "start": "2025-06-25",
+   "end": "2025-06-27",
+   "year": 2025,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/presentations/50210626",
+   "member": "okada_n",
+   "title": {
+    "ja": "ハイパースペクトル画像と深層学習によるNiラテライト鉱床の風化層の判別",
+    "en": "ハイパースペクトル画像と深層学習によるNiラテライト鉱床の風化層の判別"
+   },
+   "venue": {
+    "ja": "資源地質学会",
+    "en": "資源地質学会"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "古川皓一, 岡田夏男, 菊池亮佑, 大友陽子, 川村洋平, 大竹翼",
+    "en": "古川皓一, 岡田夏男, 菊池亮佑, 大友陽子, 川村洋平, 大竹翼"
+   },
+   "start": "2025-06-25",
+   "end": "2025-06-27",
+   "year": 2025,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/presentations/49899521",
+   "member": "okada_n",
+   "title": {
+    "ja": "分光ドローンを用いたモンゴル・ゴビ砂漠に分布するリチウム鉱石の判別",
+    "en": "Identification of Lithium Ore Distributed in the Gobi Desert of Mongolia Using Multispectral Drone"
+   },
+   "venue": {
+    "ja": "資源地質学会第74回年会講演会",
+    "en": "資源地質学会第74回年会講演会"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "若江史生, 滝澤海斗, 岡田夏男, 石渡翔丸, 菊池亮佑, Gurbadam, Jargalan Sereenen, 大友陽子, 川村洋平",
+    "en": "若江史生, 滝澤海斗, 岡田夏男, 石渡翔丸, 菊池亮佑, Gurbadam, Jargalan Sereenen, 大友陽子, 川村洋平"
+   },
+   "start": "2025-06-25",
+   "end": "2025-06-27",
+   "year": 2025,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/presentations/49089698",
+   "member": "okada_n",
+   "title": {
+    "ja": "Hyperspectral imagery machine learning analyser app for mineral identification: APiS ( powered intelligence spectrum analyser)",
+    "en": "Hyperspectral imagery machine learning analyser app for mineral identification: APiS ( powered intelligence spectrum analyser)"
+   },
+   "venue": {
+    "ja": "Japan Geoscience Union Meeting 2025",
+    "en": "Japan Geoscience Union Meeting 2025"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "Natsuo Okada, Kaito Takizawa, Okhala Muacanhia, Shion Wakae, Yoko Ohtomo, Youhei Kawamura",
+    "en": "Natsuo Okada, Kaito Takizawa, Okhala Muacanhia, Shion Wakae, Yoko Ohtomo, Youhei Kawamura"
+   },
+   "start": "2025-05-30",
+   "end": "2025-05-30",
+   "year": 2025,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/presentations/49165784",
+   "member": "okada_n",
+   "title": {
+    "ja": "Identification of Lithium Ore Distributed in the Gobi Desert of Mongolia Using Multispectral Drone",
+    "en": "Identification of Lithium Ore Distributed in the Gobi Desert of Mongolia Using Multispectral Drone"
+   },
+   "venue": {
+    "ja": "Japan Geoscience Union Meeting 2025",
+    "en": "Japan Geoscience Union Meeting 2025"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "Shion Wakae, Kaito Takizawa, Natsuo Okada, Tobimaru Ishiwata, Ryosuke Kikuchi, Yoko Ohtomo, Youhei Kawamura",
+    "en": "Shion Wakae, Kaito Takizawa, Natsuo Okada, Tobimaru Ishiwata, Ryosuke Kikuchi, Yoko Ohtomo, Youhei Kawamura"
+   },
+   "start": "2025-05-25",
+   "end": "",
+   "year": 2025,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/presentations/50205910",
+   "member": "okada_n",
+   "title": {
+    "ja": "Mineralogical Classification with APiS (AI powered intelligence spectrum analyser) Using Hyper-Spectral Imaging and Machine Learning",
+    "en": "Mineralogical Classification with APiS (AI powered intelligence spectrum analyser) Using Hyper-Spectral Imaging and Machine Learning"
+   },
+   "venue": {
+    "ja": "International Symposium on Non-equibrium Science",
+    "en": "International Symposium on Non-equibrium Science"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "Natsuo Okada, Kaito Takizawa, Shion Wakae, Yoko Ohtomo, Youhei Kawamura",
+    "en": "Natsuo Okada, Kaito Takizawa, Shion Wakae, Yoko Ohtomo, Youhei Kawamura"
+   },
+   "start": "2025-05-08",
+   "end": "2025-05-08",
+   "year": 2025,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/presentations/48582138",
+   "member": "okada_n",
+   "title": {
+    "ja": "高硫化型浅熱水性金鉱床におけるハイパースペクトル画像と機械学習を用いた酸性変質帯の識別",
+    "en": "Identification of acidic alteration zones in high sulfidation-type epithermal gold deposits using machine learning and hyperspectral imaging"
+   },
+   "venue": {
+    "ja": "資源・素材学会2025年度春季大会",
+    "en": "資源・素材学会2025年度春季大会"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "奈須野恵介, 佐藤颯哉, 大竹翼, 岡田夏男, 川村洋平, 菊池亮祐, 佐藤努",
+    "en": "Keisuke Nasuno, Ryuya Sato, Tsubasa Otake, Natsuo Okada, Youhei Kawamura, Ryosuke Kikuchi, Tsutomu Sato"
+   },
+   "start": "2025-03-12",
+   "end": "2025-03-14",
+   "year": 2025,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/presentations/48272657",
+   "member": "okada_n",
+   "title": {
+    "ja": "NOVEL SCREENING METHOD FOR ARSENIC-BEARING EXCAVATED ROCK UTILIZING HYPERSPECTRAL IMAGING AND DEEP LEARNING",
+    "en": "NOVEL SCREENING METHOD FOR ARSENIC-BEARING EXCAVATED ROCK UTILIZING HYPERSPECTRAL IMAGING AND DEEP LEARNING"
+   },
+   "venue": {
+    "ja": "International conference on Water: From pollution to purification (ICW-2024)",
+    "en": "International conference on Water: From pollution to purification (ICW-2024)"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "Takahiko Arima, Sounosuke Chiba, Natsuo Okada, Ayaka Hashimoto, Keita Nakajima, Toshifumi Igarashi",
+    "en": "Takahiko Arima, Sounosuke Chiba, Natsuo Okada, Ayaka Hashimoto, Keita Nakajima, Toshifumi Igarashi"
+   },
+   "start": "2024-12-13",
+   "end": "2024-12-15",
+   "year": 2024,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/presentations/48419015",
+   "member": "okada_n",
+   "title": {
+    "ja": "スペクトルイメージ及びAIを用いた岩盤性状の判別事例",
+    "en": "スペクトルイメージ及びAIを用いた岩盤性状の判別事例"
+   },
+   "venue": {
+    "ja": "地盤工学会四国支部技術研究発表会",
+    "en": "地盤工学会四国支部技術研究発表会"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "福岡航治, 中井康生, 岡田夏男",
+    "en": "福岡航治, 中井康生, 岡田夏男"
+   },
+   "start": "2024-12-05",
+   "end": "2024-12-06",
+   "year": 2024,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/presentations/48580318",
+   "member": "okada_n",
+   "title": {
+    "ja": "Development of smart solutions for evaluating and monitoring environmental impacts caused by blasting: a case study of an open pit coal mine",
+    "en": "Development of smart solutions for evaluating and monitoring environmental impacts caused by blasting: a case study of an open pit coal mine"
+   },
+   "venue": {
+    "ja": "International Symposium on Earth Science and Technology 2024",
+    "en": "International Symposium on Earth Science and Technology 2024"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "Elsa Pansilvania Andre Manjate, Natsuo Okada, Marcos Afonso Ginja Cussaia, Lina Alfeu Nessela, Nelvia Costa Forquilha, Reinaldo Bartolomeu Maeneja Junior",
+    "en": "Elsa Pansilvania Andre Manjate, Natsuo Okada, Marcos Afonso Ginja Cussaia, Lina Alfeu Nessela, Nelvia Costa Forquilha, Reinaldo Bartolomeu Maeneja Junior"
+   },
+   "start": "2024-11-28",
+   "end": "2024-11-29",
+   "year": 2024,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/presentations/47315033",
+   "member": "okada_n",
+   "title": {
+    "ja": "Deep Learning and Hyperspectral Image Optimised Lithology Classification from Tunnel Boring Machine",
+    "en": "Deep Learning and Hyperspectral Image Optimised Lithology Classification from Tunnel Boring Machine"
+   },
+   "venue": {
+    "ja": "資源・素材2024（秋田）",
+    "en": "MMIJ Fall Meeting 2024, Akita"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "Brian Bino Sinaice, Kursat Kilic, Narihiro Owada, Jun Abe, Natsuo Okada, Hajime Ikeda, Hisatoshi Toriya, Tsuyoshi Adachi, Youhei Kawamura",
+    "en": "Brian Bino Sinaice, Kursat Kilic, Narihiro Owada, Jun Abe, Natsuo Okada, Hajime Ikeda, Hisatoshi Toriya, Tsuyoshi Adachi, Youhei Kawamura"
+   },
+   "start": "2024-09-12",
+   "end": "2024-09-12",
+   "year": 2024,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/presentations/46666223",
+   "member": "okada_n",
+   "title": {
+    "ja": "高空間分解能マルチスペクトル画像を用いた資源探査方法の開発",
+    "en": "Development of resource exploration method using high spatial resolution multispectral images"
+   },
+   "venue": {
+    "ja": "資源・素材2024（秋田）",
+    "en": "MMIJ Fall Meeting 2024, Akita"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "岡田夏男, 有馬孝彦, 鳥屋剛毅, 大友陽子, 北原格, 川村洋平",
+    "en": "岡田夏男, 有馬孝彦, 鳥屋剛毅, 大友陽子, 北原格, 川村洋平"
+   },
+   "start": "2024-09-12",
+   "end": "2024-09-12",
+   "year": 2024,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": "https://api.researchmap.jp/okada_n/research_projects/41283556"
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/presentations/47315031",
+   "member": "okada_n",
+   "title": {
+    "ja": "Utilizing Machine Learning for Enhanced Rock Fragmentation Prediction in Open Pit Mines",
+    "en": "Utilizing Machine Learning for Enhanced Rock Fragmentation Prediction in Open Pit Mines"
+   },
+   "venue": {
+    "ja": "資源・素材2024（秋田）",
+    "en": "MMIJ Fall Meeting 2024, Akita"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "Angesom Gebretsadik, Natsuo Okada, Yoko Ohtomo, Youhei Kawamura",
+    "en": "Angesom Gebretsadik, Natsuo Okada, Yoko Ohtomo, Youhei Kawamura"
+   },
+   "start": "2024-09-11",
+   "end": "2024-09-12",
+   "year": 2024,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/presentations/46912512",
+   "member": "okada_n",
+   "title": {
+    "ja": "自然由来重金属等を含有する掘削土の評価・対策への新たなアプローチ",
+    "en": "New approach to evaluation and countermeasures for excavated rock containing naturally occurring potentially toxic elements"
+   },
+   "venue": {
+    "ja": "資源・素材2024（秋田）",
+    "en": "資源・素材2024（秋田）"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "有馬 孝彦, 室井 桂介, 千葉 奏之介, 岡田 夏男, 橋本 綾佳, 石神 大輔, 中嶋 啓太, 五十嵐 敏文",
+    "en": "Takahiko Arima, Keisuke Muroi, Sonosuke Chiba, Natsuo Okada, Ayaka Hashimoto, Daisuke Ishigami, Keita Nakajima, Toshifumi Igarashi"
+   },
+   "start": "2024-09-10",
+   "end": "2024-09-12",
+   "year": 2024,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/presentations/46260539",
+   "member": "okada_n",
+   "title": {
+    "ja": "Mineralogical Classification and Concentration Estimation in Mining with App Using Hyper-Spectral Imaging and Machine Learning",
+    "en": "Mineralogical Classification and Concentration Estimation in Mining with App Using Hyper-Spectral Imaging and Machine Learning"
+   },
+   "venue": {
+    "ja": "International Symposium on Earth Resources Management & Environment",
+    "en": "International Symposium on Earth Resources Management & Environment"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "Natsuo Okada, Kaito Takizawa, Shion Wakae, Yoko Ohtomo, Youhei Kawamura",
+    "en": "Natsuo Okada, Kaito Takizawa, Shion Wakae, Yoko Ohtomo, Youhei Kawamura"
+   },
+   "start": "2024-09-02",
+   "end": "",
+   "year": 2024,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/presentations/48229122",
+   "member": "okada_n",
+   "title": {
+    "ja": "ハイパースペクトルイメージングと深層学習による Ni ラテライト鉱石の判別",
+    "en": "ハイパースペクトルイメージングと深層学習による Ni ラテライト鉱石の判別"
+   },
+   "venue": {
+    "ja": "第73回資源地質学会年会講演会",
+    "en": "第73回資源地質学会年会講演会"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "古川皓一, 岡田夏男, 菊池亮佑, 大友陽子, 大竹 翼, 川村洋平",
+    "en": "古川皓一, 岡田夏男, 菊池亮佑, 大友陽子, 大竹 翼, 川村洋平"
+   },
+   "start": "2024-06-28",
+   "end": "",
+   "year": 2024,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/presentations/46538438",
+   "member": "okada_n",
+   "title": {
+    "ja": "Wide-area ore deposits exploration system using a drone equipped with a multispectral camera",
+    "en": "Wide-area ore deposits exploration system using a drone equipped with a multispectral camera"
+   },
+   "venue": {
+    "ja": "Japan Geoscience Union Meeting 2024",
+    "en": "Japan Geoscience Union Meeting 2024"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "大友陽子, 野崎紘正, 岡田夏男, 川村洋平",
+    "en": "Yoko Ohtomo, Hiromasa Nozaki, Natsuo Okada, Youhei Kawamura"
+   },
+   "start": "2024-05-30",
+   "end": "2024-05-31",
+   "year": 2024,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/presentations/45678021",
+   "member": "okada_n",
+   "title": {
+    "ja": "衛星スペクトルデータの高空間分解能化及び鉱物解析のためのアプリケーションの開発",
+    "en": "Development of Applications for High Spatial Resolution of Satellite Spectral Data and Mineral Analysis"
+   },
+   "venue": {
+    "ja": "Japan Geoscience Union Meeting 2024",
+    "en": "Japan Geoscience Union Meeting 2024"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "岡田夏男, 有馬孝彦, 鳥屋剛毅, 富山眞吾, 大友陽子, 川村洋平",
+    "en": "Natsuo Okada, Takahiko Arima, Hisatoshi Toriya, Shingo Tomiyama, Yoko Ohtomo, Youhei Kawamura"
+   },
+   "start": "2024-05-30",
+   "end": "2024-05-31",
+   "year": 2024,
+   "peer_reviewed": false,
+   "invited": true,
+   "doi": "",
+   "url": "https://api.researchmap.jp/okada_n/research_projects/43455691"
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/presentations/46538466",
+   "member": "okada_n",
+   "title": {
+    "ja": "Estimation of Arsenic Contaminated Area in Mudstone and Tuff in Boring Cores Using Hyperspectral Imaging",
+    "en": "Estimation of Arsenic Contaminated Area in Mudstone and Tuff in Boring Cores Using Hyperspectral Imaging"
+   },
+   "venue": {
+    "ja": "Japan Geoscience Union Meeting 2024",
+    "en": "Japan Geoscience Union Meeting 2024"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "滝澤海斗, 大友陽子, 岡田夏男, 中村真一郎, 黒木宏忠, 川村洋平",
+    "en": "Kaito Takizawa, Yoko Ohtomo, Natsuo Okada, Shinichiro Nakamura, Tadahiro Kuroki, Youhei Kawamura"
+   },
+   "start": "2024-05-26",
+   "end": "2024-05-31",
+   "year": 2024,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/presentations/45677926",
+   "member": "okada_n",
+   "title": {
+    "ja": "Proposal of Environmentally Sustainable Mining Development System Utilizing “Smart Mining +\"",
+    "en": "Proposal of Environmentally Sustainable Mining Development System Utilizing “Smart Mining +\""
+   },
+   "venue": {
+    "ja": "The 3R International Scientific Conference on Material Cycles and Waste Management",
+    "en": "The 3R International Scientific Conference on Material Cycles and Waste Management"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "川村洋平, 岡田夏男",
+    "en": "Youhei Kawamura, Natsuo Okada"
+   },
+   "start": "2024-03-17",
+   "end": "2024-03-17",
+   "year": 2024,
+   "peer_reviewed": false,
+   "invited": true,
+   "doi": "",
+   "url": ""
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/presentations/43339725",
+   "member": "okada_n",
+   "title": {
+    "ja": "異高度スペクトル画像レジストレーションプロトコル開発の検討",
+    "en": "Study of the Development of Different Altitude Spectral Image Registration Protocols"
+   },
+   "venue": {
+    "ja": "資源・素材2023（松山）",
+    "en": "MMIJ Fall Meeting 2023, Matsuyama"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "岡田夏男, 有馬孝彦, 佐々木太一, 鳥屋剛毅, 富山眞吾, 川村洋平",
+    "en": "Natsuo Okada, Takahiko Arima, Taichi Sasaki, Hisatoshi Toriya, Shingo Tomiyama, Youhei Kawamura"
+   },
+   "start": "2023-09-14",
+   "end": "2023-09-14",
+   "year": 2023,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": "https://api.researchmap.jp/okada_n/research_projects/42490879"
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/presentations/43339707",
+   "member": "okada_n",
+   "title": {
+    "ja": "マルチスペクトル画像に対する深層学習を適用した画像解析処理による鉱物同定システムの検証",
+    "en": "Validation of Mineral Identification System Using Deep Learning-Based Image Analysis Processing on Multispectral Images"
+   },
+   "venue": {
+    "ja": "資源・素材2023（松山）",
+    "en": "MMIJ Fall Meeting 2023, Matsuyama"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "野崎紘正, 岡田夏男, 大友陽子, 川村洋平",
+    "en": "Hiromasa Nozaki, Natsuo Okada, Yoko Ohtomo, Youhei Kawamura"
+   },
+   "start": "2023-09-13",
+   "end": "2023-09-14",
+   "year": 2023,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/presentations/43339695",
+   "member": "okada_n",
+   "title": {
+    "ja": "AIと画像データを用いた切羽面岩盤評価システムの実践的アプローチ",
+    "en": "A Practical Approach to Tunnel Faces Rock Mass Evaluation System Using AI and Image Data"
+   },
+   "venue": {
+    "ja": "資源・素材2023（松山）",
+    "en": "MMIJ Fall Meeting 2023, Matsuyama"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "中村真一郎, 岡田夏男, 大和田済熙, 大森禎敏, 濯思敏, 大友陽子, 川村洋平",
+    "en": "Shinichiro Nakamura, Natsuo Okada, Narihiro Owada, Sadatoshi Ohmori, Simin Zhai, Yoko Ohtomo, Youhei Kawamura"
+   },
+   "start": "2023-09-13",
+   "end": "2023-09-14",
+   "year": 2023,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/presentations/43221332",
+   "member": "okada_n",
+   "title": {
+    "ja": "Development of a Different Altitude Spectral Image Registration Protocol Utilizing Digital Twin",
+    "en": "Development of a Different Altitude Spectral Image Registration Protocol Utilizing Digital Twin"
+   },
+   "venue": {
+    "ja": "Water-Rock Interaction WRI-17",
+    "en": "Water-Rock Interaction WRI-17"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "Natsuo Okada, Hisatoshi Toriya, Takahiko Arima, Yoko Ohtomo, Takahiro Shigemi, Armandine Rasoanindriana, Hiromasa Nozaki, Shinichiro Nakamura, Youhei Kawamura",
+    "en": "Natsuo Okada, Hisatoshi Toriya, Takahiko Arima, Yoko Ohtomo, Takahiro Shigemi, Armandine Rasoanindriana, Hiromasa Nozaki, Shinichiro Nakamura, Youhei Kawamura"
+   },
+   "start": "2023-08-18",
+   "end": "2023-08-21",
+   "year": 2023,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/presentations/42922118",
+   "member": "okada_n",
+   "title": {
+    "ja": "南薩型金鉱床珪化岩のハイパースペクトル画像とAIによる珪化度の自動判定",
+    "en": "南薩型金鉱床珪化岩のハイパースペクトル画像とAIによる珪化度の自動判定"
+   },
+   "venue": {
+    "ja": "資源地質2023",
+    "en": "資源地質2023"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "奈須野恵介, 佐藤颯哉, 大竹翼, 岡田夏男, 川村洋平, 菊池亮祐, 大友陽子, 佐藤努",
+    "en": "奈須野恵介, 佐藤颯哉, 大竹翼, 岡田夏男, 川村洋平, 菊池亮祐, 大友陽子, 佐藤努"
+   },
+   "start": "2023-06-29",
+   "end": "",
+   "year": 2023,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/presentations/42899144",
+   "member": "okada_n",
+   "title": {
+    "ja": "Development of a Wide-Area Mineral Identification System Using a Multispectral Camera Mounted on a Drone for Beach Placer Deposits",
+    "en": "Development of a Wide-Area Mineral Identification System Using a Multispectral Camera Mounted on a Drone for Beach Placer Deposits"
+   },
+   "venue": {
+    "ja": "SOMP 2023 The 12th Regional Meeting of Society of Mining Professors",
+    "en": "SOMP 2023 The 12th Regional Meeting of Society of Mining Professors"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "Hiromasa Nozaki, Brian Bino Sinaice, Natsuo Okada, Youhei Kawamura",
+    "en": "Hiromasa Nozaki, Brian Bino Sinaice, Natsuo Okada, Youhei Kawamura"
+   },
+   "start": "2023-06-22",
+   "end": "2023-06-22",
+   "year": 2023,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/presentations/42493249",
+   "member": "okada_n",
+   "title": {
+    "ja": "Proposal of Wide-Area Exploration Method Using Deep Learning and Multispectral Imaging for Iron Sand Deposits in the Kunisaki Peninsula",
+    "en": "Proposal of Wide-Area Exploration Method Using Deep Learning and Multispectral Imaging for Iron Sand Deposits in the Kunisaki Peninsula"
+   },
+   "venue": {
+    "ja": "CIM Convention MTL23",
+    "en": "CIM Convention MTL23"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "Hiromasa Nozaki, Natsuo Okada, Yoko Ohtomo, Youhei Kawamura",
+    "en": "Hiromasa Nozaki, Natsuo Okada, Yoko Ohtomo, Youhei Kawamura"
+   },
+   "start": "2023-05-02",
+   "end": "",
+   "year": 2023,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/presentations/41285353",
+   "member": "okada_n",
+   "title": {
+    "ja": "ザンビア共和国Kabwe鉱山におけるマルチスペクトル画像と深層学習を組み合わせた土壌重金属汚染モニタリング手法の提案",
+    "en": "Proposal for a Soil Heavy Metal Contamination Monitoring Method Combining Multispectral Imagery and Deep Learning at Kabwe Mine, Republic of Zambia"
+   },
+   "venue": {
+    "ja": "令和４年度秋田大学大学院国際資源学研究科大学院生研究交流発表会",
+    "en": "令和４年度秋田大学大学院国際資源学研究科大学院生研究交流発表会"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "岡田夏男",
+    "en": "岡田夏男"
+   },
+   "start": "2022-10-19",
+   "end": "2022-10-19",
+   "year": 2022,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/presentations/41283449",
+   "member": "okada_n",
+   "title": {
+    "ja": "Feature selection of hyperspectral data by neighbourhood component analysis and convolutional neural network for as-bearing minerals classification",
+    "en": "Feature selection of hyperspectral data by neighbourhood component analysis and convolutional neural network for as-bearing minerals classification"
+   },
+   "venue": {
+    "ja": "The 7th International Conference on Geology and Mine Planning, Geomin-Mineplanning 2021",
+    "en": "The 7th International Conference on Geology and Mine Planning, Geomin-Mineplanning 2021"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "Natsuo Okada, Youhei Kawamura, Kazutoshi Haga, Atsushi Shibayama, Brian Sinaice, Luis Orellana",
+    "en": "Natsuo Okada, Youhei Kawamura, Kazutoshi Haga, Atsushi Shibayama, Brian Sinaice, Luis Orellana"
+   },
+   "start": "2021-06-09",
+   "end": "2021-06-11",
+   "year": 2021,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/presentations/41283405",
+   "member": "okada_n",
+   "title": {
+    "ja": "選鉱プロセスにおけるハイパースペクトルカメラと深層学習を用いた鉱物同定の検討",
+    "en": "Mineral Identification Using Hyperspectral Imaging and Deep Learning for Mineral Processing"
+   },
+   "venue": {
+    "ja": "資源・素材2019（京都）",
+    "en": "MMIJ Annual Meeting 2019"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "岡田 夏男, 川村 洋平, 前川 陽平, 芳賀 一寿, 柴山 敦",
+    "en": "Natsuo OKADA, Yohei Kawamura, Yohei Maekawa, Kazutoshi Haga, Atsushi Shibayama"
+   },
+   "start": "2019-09-26",
+   "end": "2019-09-26",
+   "year": 2019,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/presentations/41290066",
+   "member": "okada_n",
+   "title": {
+    "ja": "VNIRとCNNを用いた花崗岩風化度評価システムの開発",
+    "en": "Evaluation System of Granite Weathering Degree Using VNIR and CNN"
+   },
+   "venue": {
+    "ja": "資源・素材2019（京都）",
+    "en": "MMIJ Annual Meeting 2019"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "金 在元, 川村 洋平, 西川 治, ブライアン シナイシ ビノ, 岡田 夏男",
+    "en": "Jaewon Kim, Youhei Kawamura, Osamu Nishikawa, Sinaice Bino Brian, Natsuo Okada"
+   },
+   "start": "2019-09-25",
+   "end": "2019-09-26",
+   "year": 2019,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/presentations/44387786",
+   "member": "okada_n",
+   "title": {
+    "ja": "ディープラーニングを用いた岩石の風化度合い判断システムの構築",
+    "en": "Integration of hyperspectral imaging and deep learning system for the evaluation of the degree of weathering of rocks"
+   },
+   "venue": {
+    "ja": "資源・素材2019（千葉）",
+    "en": "MMIJ Annual Meeting 2019 (Chiba)"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "金 在元, 川村 洋平, ブライアン シナイ ビノ, 岡田 夏男",
+    "en": "Jaewon Kim, Youhei Kawamura, Sinaice Bino Brian, Natsuo Okada"
+   },
+   "start": "2019-03-07",
+   "end": "2019-03-08",
+   "year": 2019,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  }
  ],
  "awards": [
-  {"id": "seed:award:1", "member": "okada_n", "title": {"ja": "Krupiński Award", "en": "Krupiński Award"}, "venue": {"ja": "World Mining Congress", "en": "World Mining Congress"}, "desc": {"ja": "", "en": ""}, "authors": {"ja": "", "en": ""}, "start": "2026-04", "end": "", "year": 2026, "peer_reviewed": false, "invited": false, "doi": "", "url": ""},
-  {"id": "seed:award:2", "member": "okada_n", "title": {"ja": "特別研究員採用最終年次における研究奨励金特別手当", "en": "JSPS Special Research Incentive Allowance (final fellowship year)"}, "venue": {"ja": "日本学術振興会", "en": "Japan Society for the Promotion of Science"}, "desc": {"ja": "", "en": ""}, "authors": {"ja": "", "en": ""}, "start": "2024-09", "end": "", "year": 2024, "peer_reviewed": false, "invited": false, "doi": "", "url": ""},
-  {"id": "seed:award:3", "member": "okada_n", "title": {"ja": "エディテージ・グラント2024 次点", "en": "Editage Grant 2024, Runner-up"}, "venue": {"ja": "", "en": ""}, "desc": {"ja": "", "en": ""}, "authors": {"ja": "", "en": ""}, "start": "2024-07", "end": "", "year": 2024, "peer_reviewed": false, "invited": false, "doi": "", "url": ""},
-  {"id": "seed:award:4", "member": "okada_n", "title": {"ja": "北光会賞", "en": "Hokkokai Award"}, "venue": {"ja": "秋田大学", "en": "Akita University"}, "desc": {"ja": "", "en": ""}, "authors": {"ja": "", "en": ""}, "start": "2020-02", "end": "", "year": 2020, "peer_reviewed": false, "invited": false, "doi": "", "url": ""},
-  {"id": "seed:award:5", "member": "okada_n", "title": {"ja": "秋田大学学生表彰(学業奨励金)", "en": "Akita University Student Commendation (academic scholarship)"}, "venue": {"ja": "秋田大学", "en": "Akita University"}, "desc": {"ja": "", "en": ""}, "authors": {"ja": "", "en": ""}, "start": "2017-07", "end": "", "year": 2017, "peer_reviewed": false, "invited": false, "doi": "", "url": ""}
+  {
+   "id": "https://api.researchmap.jp/okada_n/awards/53307774",
+   "member": "okada_n",
+   "title": {
+    "ja": "Krupiński Award",
+    "en": "Krupiński Award"
+   },
+   "venue": {
+    "ja": "World Mining Congress",
+    "en": "World Mining Congress"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "Natsuo Okada",
+    "en": "Natsuo Okada"
+   },
+   "start": "2026-04",
+   "end": "",
+   "year": 2026,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/awards/50798454",
+   "member": "okada_n",
+   "title": {
+    "ja": "学術振興会特別研究員採用最終年次における研究奨励金特別手当",
+    "en": "Special Research Incentive Allowance for JSPS Fellows"
+   },
+   "venue": {
+    "ja": "日本学術振興会",
+    "en": "Japan Society for the Promotion of Science"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "岡田夏男",
+    "en": "Natsuo Okada"
+   },
+   "start": "2024-09",
+   "end": "",
+   "year": 2024,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/awards/47400524",
+   "member": "okada_n",
+   "title": {
+    "ja": "エディテージ・グラント2024 次点",
+    "en": "Editage Grant 2024 Second Place"
+   },
+   "venue": {
+    "ja": "エディテージ",
+    "en": "Editage"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "Natsuo Okada",
+    "en": "Natsuo Okada"
+   },
+   "start": "2024-07",
+   "end": "",
+   "year": 2024,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/awards/41283600",
+   "member": "okada_n",
+   "title": {
+    "ja": "北光会賞",
+    "en": "Hokko kai Award"
+   },
+   "venue": {
+    "ja": "秋田大学",
+    "en": "Akita University"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "岡田夏男",
+    "en": "岡田夏男"
+   },
+   "start": "2020-02",
+   "end": "",
+   "year": 2020,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/awards/41283593",
+   "member": "okada_n",
+   "title": {
+    "ja": "秋田大学学生表彰（学業奨励金）",
+    "en": "Academic Scholarship Award"
+   },
+   "venue": {
+    "ja": "秋田大学",
+    "en": "Akita University"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "岡田夏男",
+    "en": "岡田夏男"
+   },
+   "start": "2017-07",
+   "end": "",
+   "year": 2017,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  }
+ ],
+ "projects": [
+  {
+   "id": "https://api.researchmap.jp/okada_n/research_projects/53752586",
+   "member": "okada_n",
+   "title": {
+    "ja": "スモールスマートマイニングによる低コスト・自律型鉱山開発技術の開発～日本とアンデス諸国（チリ・エクアドル・ペルー）の協業～",
+    "en": "Development of Low-Cost Autonomous Mining Technologies through Small Smart Mining — Collaboration between Japan and the Andean Countries (Chile, Ecuador, and Peru) —"
+   },
+   "venue": {
+    "ja": "国立研究開発法人科学技術振興機構（JST）",
+    "en": "Japan Science and Technology Agency (JST)"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "岡田夏男",
+    "en": "Natsuo Okada"
+   },
+   "start": "2026-06",
+   "end": "2027-03",
+   "year": 2026,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/research_projects/54501363",
+   "member": "okada_n",
+   "title": {
+    "ja": "（共同研究）原子力発電環境整備機構",
+    "en": "(Joint Research) Nuclear Waste Management Organization of Japan"
+   },
+   "venue": {
+    "ja": "原子力発電環境整備機構",
+    "en": "Nuclear Waste Management Organization of Japan"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "岡田夏男, 有馬孝彦, 川村洋平",
+    "en": "Natsuo Okada, Takahiko Arima, Youhei Kawamura"
+   },
+   "start": "2026-05",
+   "end": "2027-03",
+   "year": 2026,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/research_projects/52285204",
+   "member": "okada_n",
+   "title": {
+    "ja": "“いつ・どこを・どの頻度で”を自律的に観測指示する尾鉱ダムモニタリング技術の確立",
+    "en": "Establishment of an Autonomous Tailings Dam Monitoring Technology that Determines “When, Where, and How Frequently” to Observe"
+   },
+   "venue": {
+    "ja": "日本学術振興会",
+    "en": "Japan Society for the Promotion of Science"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "岡田 夏男",
+    "en": "Natsuo Okada"
+   },
+   "start": "2026-04",
+   "end": "2029-03",
+   "year": 2026,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-26K17497"
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/research_projects/52888533",
+   "member": "okada_n",
+   "title": {
+    "ja": "個人飲酒歴・遺伝的素因を反映したリアルタイムHSI-AI内視鏡スクリーニング",
+    "en": "Real-Time HSI-AI Endoscopic Screening Reflecting Individual Drinking History and Genetic Predisposition"
+   },
+   "venue": {
+    "ja": "公益財団法人 お酒の科学財団",
+    "en": "Osake-no-Kagaku Foundation"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "岡田夏男, 大野正芳",
+    "en": "Natsuo Okada, Masayoshi Ono"
+   },
+   "start": "2026-04",
+   "end": "2028-03",
+   "year": 2026,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/research_projects/53567774",
+   "member": "okada_n",
+   "title": {
+    "ja": "（共同研究）日鉄鉱業株式会社",
+    "en": "(Joint Research) Nittetsu Mining Co."
+   },
+   "venue": {
+    "ja": "日鉄鉱業株式会社",
+    "en": "Nittetsu Mining Co."
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "大友陽子, 岡田夏男",
+    "en": "Yoko Ohtomo, Natsuo Okada"
+   },
+   "start": "2026-04",
+   "end": "2027-03",
+   "year": 2026,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/research_projects/50584209",
+   "member": "okada_n",
+   "title": {
+    "ja": "陸海一体の現象を正確に捉えるためのデジタルツインの構築",
+    "en": "Construction of a Digital Twin for Accurate Understanding of Integrated Land–Sea Phenomena"
+   },
+   "venue": {
+    "ja": "公益財団法人クリタ水・環境科学振興財団",
+    "en": "Kurita Water and Environment Foundation"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "岡田夏男",
+    "en": "Natsuo Okada"
+   },
+   "start": "2025-10",
+   "end": "2026-09",
+   "year": 2025,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": "https://api.researchmap.jp/okada_n/misc/54332609"
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/research_projects/51162102",
+   "member": "okada_n",
+   "title": {
+    "ja": "責任ある鉱物調達の実現に向けたEthical Mining（倫理的鉱業）技術の開発 ～ブロックチェーンがもたらす未来の鉱山開発～",
+    "en": "Developing Ethical Mining Technologies for Responsible Mineral Procurement: Blockchain-Enabled Future Mining Development"
+   },
+   "venue": {
+    "ja": "国立研究開発法人科学技術振興機構（JST）",
+    "en": "Japan Science and Technology Agency (JST)"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "岡田 夏男",
+    "en": "Natsuo Okada"
+   },
+   "start": "2025-09",
+   "end": "2026-03",
+   "year": 2025,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": "https://api.researchmap.jp/okada_n/media_coverage/53323978"
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/research_projects/50798464",
+   "member": "okada_n",
+   "title": {
+    "ja": "インドのスマートマイニング技術に関する動向調査",
+    "en": "Survey of Trends in Smart Mining Technologies in India"
+   },
+   "venue": {
+    "ja": "一般財団法人日本鉱業振興会",
+    "en": "The Japan Mining Promotive Foundation"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "岡田 夏男",
+    "en": "Natsuo Okada"
+   },
+   "start": "2025-08",
+   "end": "2026-03",
+   "year": 2025,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": "https://api.researchmap.jp/okada_n/presentations/50207449"
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/research_projects/50768722",
+   "member": "okada_n",
+   "title": {
+    "ja": "北海道のブルーカーボン生態系における炭素貯蔵量の推定",
+    "en": "Estimation of Carbon Storage in Blue Carbon Ecosystems in Hokkaido"
+   },
+   "venue": {
+    "ja": "北海道大学グリーントランスフォーメーション（GX）先導研究センター（HU-GXC）",
+    "en": "Hokkaido University Center for Green Transformation (HU-GXC)"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "岡田夏男",
+    "en": "Natsuo Okada"
+   },
+   "start": "2025-08",
+   "end": "2026-03",
+   "year": 2025,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/research_projects/50768703",
+   "member": "okada_n",
+   "title": {
+    "ja": "マルチスペクトルイメージングによる内視鏡診断システムの開発",
+    "en": "Development of an Endoscopic Diagnostic System Using Multispectral Imaging"
+   },
+   "venue": {
+    "ja": "ノーステック財団",
+    "en": "Hokkaido Scientific and Technological Center (NOASTEC Foundation)"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "岡田夏男",
+    "en": "Natsuo Okada"
+   },
+   "start": "2025-08",
+   "end": "2026-03",
+   "year": 2025,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": "https://api.researchmap.jp/okada_n/presentations/53041804"
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/research_projects/50839342",
+   "member": "okada_n",
+   "title": {
+    "ja": "落盤事故を予防する複数のセンサを融合した超効率的な岩盤安定評価手法の開発",
+    "en": "Development of an Ultra-Efficient Rock Mass Stability Assessment Method Integrating Multiple Sensors for the Prevention of Rockfall Accidents"
+   },
+   "venue": {
+    "ja": "日本学術振興会",
+    "en": "Japan Science and Technology Agency (JST)"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "岡田 夏男",
+    "en": "Natsuo Okada"
+   },
+   "start": "2025-07",
+   "end": "2027-03",
+   "year": 2025,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-25K23467"
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/research_projects/53567792",
+   "member": "okada_n",
+   "title": {
+    "ja": "（共同研究）エクシオグループ株式会社",
+    "en": "(Joint Research) EXEO Group, Inc."
+   },
+   "venue": {
+    "ja": "エクシオグループ株式会社",
+    "en": "EXEO Group, Inc."
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "",
+    "en": ""
+   },
+   "start": "2025-05",
+   "end": "",
+   "year": 2025,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/research_projects/49869031",
+   "member": "okada_n",
+   "title": {
+    "ja": "（共同研究）日鉄鉱業株式会社",
+    "en": "(Joint Research) Nittetsu Mining Co."
+   },
+   "venue": {
+    "ja": "日鉄鉱業株式会社",
+    "en": "Nittetsu Mining Co."
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "大友陽子, 岡田夏男",
+    "en": "大友陽子, 岡田夏男"
+   },
+   "start": "2025-04",
+   "end": "2026-03",
+   "year": 2025,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/research_projects/50798440",
+   "member": "okada_n",
+   "title": {
+    "ja": "エディテージ・グラント2024 若手研究者向け助成・支援プログラム",
+    "en": "エディテージ・グラント2024 若手研究者向け助成・支援プログラム"
+   },
+   "venue": {
+    "ja": "カクタスコミュニケーションズ",
+    "en": "カクタスコミュニケーションズ"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "岡田夏男",
+    "en": "岡田夏男"
+   },
+   "start": "2024-08",
+   "end": "2025-03",
+   "year": 2024,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/research_projects/45921701",
+   "member": "okada_n",
+   "title": {
+    "ja": "ドローンの姿勢制御パラメータを活用した三次元風向風速計測装置の開発",
+    "en": "Development of 3D Wind Direction and Velocity Measurement System Utilizing Control Parameters by Drone"
+   },
+   "venue": {
+    "ja": "一般財団法人 大成学術財団",
+    "en": "The Taisei Foundation"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "川村洋平, 岡田夏男",
+    "en": "Youhei Kawamura, Natsuo Okada"
+   },
+   "start": "2024-04",
+   "end": "2025-03",
+   "year": 2024,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/research_projects/42490879",
+   "member": "okada_n",
+   "title": {
+    "ja": "秋田県横手市吉乃鉱山内の3次元プラットフォームモデル撮影のための現地調査",
+    "en": "Field survey for 3D platform model shooting in Yoshino Mine, Yokote City, Akita Prefecture, Japan"
+   },
+   "venue": {
+    "ja": "公益財団法人深田地質研究所",
+    "en": "The Fukada Geological Institute"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "岡田夏男, 佐々木太一, 有馬孝彦",
+    "en": "Natsuo Okada, Taichi Sasaki, Takahiko Arima"
+   },
+   "start": "2023-05",
+   "end": "2023-05",
+   "year": 2023,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": "https://api.researchmap.jp/okada_n/presentations/45678021"
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/research_projects/43455691",
+   "member": "okada_n",
+   "title": {
+    "ja": "情報化鉱山「Mining 4．0」における岩盤・土壌評価システムの開発",
+    "en": "Development of a Rock and Soil Assessment System for Informatized Mining (“Mining 4.0”)"
+   },
+   "venue": {
+    "ja": "日本学術振興会",
+    "en": "Japan Society for the Promotion of Science"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "岡田 夏男",
+    "en": "Natsuo Okada"
+   },
+   "start": "2023-04",
+   "end": "2025-03",
+   "year": 2023,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-23KJ0029"
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/research_projects/41284716",
+   "member": "okada_n",
+   "title": {
+    "ja": "共用機器購入",
+    "en": "Purchase of shared equipment"
+   },
+   "venue": {
+    "ja": "国立研究開発法人科学技術振興機構（JST）",
+    "en": "Japan Science and Technology Agency (JST)"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "岡田夏男, ソウ ダー ウン",
+    "en": "Natsuo Okada, Thaw Dar Wunn"
+   },
+   "start": "2023-01",
+   "end": "2023-03",
+   "year": 2023,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/research_projects/41284706",
+   "member": "okada_n",
+   "title": {
+    "ja": "VRを活用した双方向型地質情報基盤技術の開発",
+    "en": "Development of interactive geological information infrastructure technology using VR"
+   },
+   "venue": {
+    "ja": "国立研究開発法人科学技術振興機構（JST）",
+    "en": "Japan Science and Technology Agency (JST)"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "岡田夏男",
+    "en": "Natsuo Okada"
+   },
+   "start": "2022-12",
+   "end": "2023-03",
+   "year": 2022,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/research_projects/41284692",
+   "member": "okada_n",
+   "title": {
+    "ja": "基本研究費",
+    "en": "Basic Research Funds"
+   },
+   "venue": {
+    "ja": "国立研究開発法人科学技術振興機構（JST）",
+    "en": "Japan Science and Technology Agency (JST)"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "岡田夏男",
+    "en": "Natsuo Okada"
+   },
+   "start": "2022-04",
+   "end": "2023-03",
+   "year": 2022,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  }
+ ],
+ "career": [
+  {
+   "id": "https://api.researchmap.jp/okada_n/research_experience/49868961",
+   "member": "okada_n",
+   "title": {
+    "ja": "北海道大学 大学院工学研究院 環境循環システム部門 助教",
+    "en": "Hokkaido University Faculty of Engineering Division of Solid Waste, Resources and Geoenvironmental Engineering Assistant Professor"
+   },
+   "venue": {
+    "ja": "",
+    "en": ""
+   },
+   "desc": {
+    "ja": "助教",
+    "en": "Assistant Professor"
+   },
+   "authors": {
+    "ja": "",
+    "en": ""
+   },
+   "start": "2025-04",
+   "end": "",
+   "year": 2025,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/research_experience/41905491",
+   "member": "okada_n",
+   "title": {
+    "ja": "日本学術振興会 特別研究員(DC2)",
+    "en": "Research Fellow of Japan Society for the Promotion of Science (DC2)"
+   },
+   "venue": {
+    "ja": "",
+    "en": ""
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "",
+    "en": ""
+   },
+   "start": "2023-04",
+   "end": "2025-03",
+   "year": 2023,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/research_experience/41282674",
+   "member": "okada_n",
+   "title": {
+    "ja": "旭川工業高等専門学校 電気情報工学科 非常勤講師",
+    "en": "National Institute of Technology, Asahikawa College Department of Electrical and Computer Engineering Part-time lecturer"
+   },
+   "venue": {
+    "ja": "",
+    "en": ""
+   },
+   "desc": {
+    "ja": "非常勤講師",
+    "en": "Part-time lecturer"
+   },
+   "authors": {
+    "ja": "",
+    "en": ""
+   },
+   "start": "2022-10",
+   "end": "2025-03",
+   "year": 2022,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  }
+ ],
+ "education": [
+  {
+   "id": "https://api.researchmap.jp/okada_n/education/41283291",
+   "member": "okada_n",
+   "title": {
+    "ja": "北海道大学 大学院工学院",
+    "en": "Hokkaido University Graduate School of Engineering"
+   },
+   "venue": {
+    "ja": "",
+    "en": ""
+   },
+   "desc": {
+    "ja": "大学院工学院",
+    "en": "Graduate School of Engineering"
+   },
+   "authors": {
+    "ja": "",
+    "en": ""
+   },
+   "start": "2022-04",
+   "end": "2025-03",
+   "year": 2022,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/education/41283268",
+   "member": "okada_n",
+   "title": {
+    "ja": "University of Chile Faculty of Physical Sciences and Mathematics",
+    "en": "University of Chile Faculty of Physical Sciences and Mathematics"
+   },
+   "venue": {
+    "ja": "",
+    "en": ""
+   },
+   "desc": {
+    "ja": "Faculty of Physical Sciences and Mathematics",
+    "en": "Faculty of Physical Sciences and Mathematics"
+   },
+   "authors": {
+    "ja": "",
+    "en": ""
+   },
+   "start": "2021-04",
+   "end": "2022-03",
+   "year": 2021,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/education/41283210",
+   "member": "okada_n",
+   "title": {
+    "ja": "秋田大学 大学院国際資源学研究科",
+    "en": "Akita University Graduate School of International Resource Sciences"
+   },
+   "venue": {
+    "ja": "",
+    "en": ""
+   },
+   "desc": {
+    "ja": "大学院国際資源学研究科",
+    "en": "Graduate School of International Resource Sciences"
+   },
+   "authors": {
+    "ja": "",
+    "en": ""
+   },
+   "start": "2020-04",
+   "end": "2021-03",
+   "year": 2020,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/education/41282689",
+   "member": "okada_n",
+   "title": {
+    "ja": "秋田大学 国際資源学部",
+    "en": "Akita University Faculty of International Resource Sciences"
+   },
+   "venue": {
+    "ja": "",
+    "en": ""
+   },
+   "desc": {
+    "ja": "国際資源学部",
+    "en": "Faculty of International Resource Sciences"
+   },
+   "authors": {
+    "ja": "",
+    "en": ""
+   },
+   "start": "2016-04",
+   "end": "2020-03",
+   "year": 2016,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  }
+ ],
+ "committees": [
+  {
+   "id": "https://api.researchmap.jp/okada_n/committee_memberships/49868973",
+   "member": "okada_n",
+   "title": {
+    "ja": "幹事",
+    "en": "Secretary"
+   },
+   "venue": {
+    "ja": "日本バーチャルリアリティ学会 北海道チャプター",
+    "en": "Hokkaido Chapter, The Virtual Reality Society of Japan"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "",
+    "en": ""
+   },
+   "start": "2025-04",
+   "end": "",
+   "year": 2025,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  }
  ],
  "memberships": [
-  {"id": "seed:mem:1", "member": "okada_n", "title": {"ja": "日本バーチャルリアリティ学会", "en": "Virtual Reality Society of Japan"}, "venue": {"ja": "", "en": ""}, "desc": {"ja": "", "en": ""}, "authors": {"ja": "", "en": ""}, "start": "2025-04", "end": "", "year": 2025, "peer_reviewed": false, "invited": false, "doi": "", "url": ""},
-  {"id": "seed:mem:2", "member": "okada_n", "title": {"ja": "日本地球惑星科学連合", "en": "Japan Geoscience Union"}, "venue": {"ja": "", "en": ""}, "desc": {"ja": "", "en": ""}, "authors": {"ja": "", "en": ""}, "start": "2024-02", "end": "", "year": 2024, "peer_reviewed": false, "invited": false, "doi": "", "url": ""},
-  {"id": "seed:mem:3", "member": "okada_n", "title": {"ja": "資源・素材学会", "en": "The Mining and Materials Processing Institute of Japan (MMIJ)"}, "venue": {"ja": "", "en": ""}, "desc": {"ja": "", "en": ""}, "authors": {"ja": "", "en": ""}, "start": "2019-05", "end": "", "year": 2019, "peer_reviewed": false, "invited": false, "doi": "", "url": ""}
+  {
+   "id": "https://api.researchmap.jp/okada_n/association_memberships/49869027",
+   "member": "okada_n",
+   "title": {
+    "ja": "R000047492",
+    "en": "R000047492"
+   },
+   "venue": {
+    "ja": "",
+    "en": ""
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "",
+    "en": ""
+   },
+   "start": "2025-04",
+   "end": "",
+   "year": 2025,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/association_memberships/45601368",
+   "member": "okada_n",
+   "title": {
+    "ja": "R000047492",
+    "en": "R000047492"
+   },
+   "venue": {
+    "ja": "",
+    "en": ""
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "",
+    "en": ""
+   },
+   "start": "2024-02",
+   "end": "",
+   "year": 2024,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/association_memberships/41283490",
+   "member": "okada_n",
+   "title": {
+    "ja": "R000047492",
+    "en": "R000047492"
+   },
+   "venue": {
+    "ja": "",
+    "en": ""
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "",
+    "en": ""
+   },
+   "start": "2019-05",
+   "end": "",
+   "year": 2019,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  }
  ],
  "teaching": [
-  {"id": "seed:teach:1", "member": "okada_n", "title": {"ja": "資源情報学(北海道大学)", "en": "Resource Informatics (Hokkaido University)"}, "venue": {"ja": "", "en": ""}, "desc": {"ja": "", "en": ""}, "authors": {"ja": "", "en": ""}, "start": "2025-04", "end": "2025-05", "year": 2025, "peer_reviewed": false, "invited": false, "doi": "", "url": ""},
-  {"id": "seed:teach:2", "member": "okada_n", "title": {"ja": "知識工学(旭川工業高等専門学校)", "en": "Knowledge Engineering (NIT Asahikawa College)"}, "venue": {"ja": "", "en": ""}, "desc": {"ja": "", "en": ""}, "authors": {"ja": "", "en": ""}, "start": "2022-04", "end": "2025-03", "year": 2022, "peer_reviewed": false, "invited": false, "doi": "", "url": ""}
+  {
+   "id": "https://api.researchmap.jp/okada_n/teaching_experience/49622711",
+   "member": "okada_n",
+   "title": {
+    "ja": "R000047492",
+    "en": "R000047492"
+   },
+   "venue": {
+    "ja": "",
+    "en": ""
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "",
+    "en": ""
+   },
+   "start": "2025-04",
+   "end": "2025-05",
+   "year": 2025,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/teaching_experience/41283463",
+   "member": "okada_n",
+   "title": {
+    "ja": "R000047492",
+    "en": "R000047492"
+   },
+   "venue": {
+    "ja": "",
+    "en": ""
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "",
+    "en": ""
+   },
+   "start": "2022-04",
+   "end": "2025-03",
+   "year": 2022,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  }
  ],
- "papers": [],
- "misc": [],
- "presentations": [],
- "projects": [],
- "social": [],
- "media": []
+ "social": [
+  {
+   "id": "https://api.researchmap.jp/okada_n/social_contribution/54470758",
+   "member": "okada_n",
+   "title": {
+    "ja": "R000047492",
+    "en": "R000047492"
+   },
+   "venue": {
+    "ja": "Higher Institute of Science and Technology of Mozambique",
+    "en": "Higher Institute of Science and Technology of Mozambique"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "",
+    "en": ""
+   },
+   "start": "2026-07-24",
+   "end": "2026-07-24",
+   "year": 2026,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/social_contribution/54470756",
+   "member": "okada_n",
+   "title": {
+    "ja": "R000047492",
+    "en": "R000047492"
+   },
+   "venue": {
+    "ja": "Eduardo Mondlane University",
+    "en": "Eduardo Mondlane University"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "",
+    "en": ""
+   },
+   "start": "2026-07-24",
+   "end": "2026-07-24",
+   "year": 2026,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/social_contribution/54441501",
+   "member": "okada_n",
+   "title": {
+    "ja": "Instituto Superior Politécnico de Tete",
+    "en": "Instituto Superior Politécnico de Tete"
+   },
+   "venue": {
+    "ja": "",
+    "en": ""
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "",
+    "en": ""
+   },
+   "start": "2026-07-21",
+   "end": "2026-07-21",
+   "year": 2026,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/social_contribution/53794645",
+   "member": "okada_n",
+   "title": {
+    "ja": "季刊資源と素材",
+    "en": "MMIJ Quartelry"
+   },
+   "venue": {
+    "ja": "",
+    "en": ""
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "",
+    "en": ""
+   },
+   "start": "2026-04-22",
+   "end": "",
+   "year": 2026,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": "https://api.researchmap.jp/okada_n/research_projects/50798464"
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/social_contribution/53704997",
+   "member": "okada_n",
+   "title": {
+    "ja": "R000047492",
+    "en": "R000047492"
+   },
+   "venue": {
+    "ja": "インド工科大学Kharagpur校",
+    "en": "Indian Institute of Technology Kharagpur"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "",
+    "en": ""
+   },
+   "start": "2025-11-29",
+   "end": "2025-11-29",
+   "year": 2025,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": "https://api.researchmap.jp/okada_n/research_projects/50798464"
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/social_contribution/53794779",
+   "member": "okada_n",
+   "title": {
+    "ja": "季刊資源と素材",
+    "en": "MMIJ Quartelry"
+   },
+   "venue": {
+    "ja": "",
+    "en": ""
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "",
+    "en": ""
+   },
+   "start": "2025-07-01",
+   "end": "",
+   "year": 2025,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  }
+ ],
+ "media": [
+  {
+   "id": "https://api.researchmap.jp/okada_n/media_coverage/53323978",
+   "member": "okada_n",
+   "title": {
+    "ja": "Hokkaido University Magazine cathHUp",
+    "en": "Hokkaido University Magazine cathHUp"
+   },
+   "venue": {
+    "ja": "",
+    "en": ""
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "",
+    "en": ""
+   },
+   "start": "2026-04-01",
+   "end": "",
+   "year": 2026,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": "https://api.researchmap.jp/okada_n/research_projects/51162102"
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/media_coverage/52255241",
+   "member": "okada_n",
+   "title": {
+    "ja": "日本経済新聞",
+    "en": "Nikkei"
+   },
+   "venue": {
+    "ja": "",
+    "en": ""
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "",
+    "en": ""
+   },
+   "start": "2026-02-14",
+   "end": "",
+   "year": 2026,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/media_coverage/52285316",
+   "member": "okada_n",
+   "title": {
+    "ja": "R000047492",
+    "en": "R000047492"
+   },
+   "venue": {
+    "ja": "一般財団法人カーボンフロンティア機構",
+    "en": "一般財団法人カーボンフロンティア機構"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "",
+    "en": ""
+   },
+   "start": "2026-02-12",
+   "end": "",
+   "year": 2026,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": "https://api.researchmap.jp/okada_n/research_projects/51162102"
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/media_coverage/52285302",
+   "member": "okada_n",
+   "title": {
+    "ja": "R000047492",
+    "en": "R000047492"
+   },
+   "venue": {
+    "ja": "北海道大学",
+    "en": "北海道大学"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "",
+    "en": ""
+   },
+   "start": "2026-02-09",
+   "end": "",
+   "year": 2026,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": "https://api.researchmap.jp/okada_n/research_projects/51162102"
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/media_coverage/50148623",
+   "member": "okada_n",
+   "title": {
+    "ja": "R000047492",
+    "en": "R000047492"
+   },
+   "venue": {
+    "ja": "Editage",
+    "en": "Editage"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "",
+    "en": ""
+   },
+   "start": "2025-05-14",
+   "end": "",
+   "year": 2025,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/media_coverage/47343943",
+   "member": "okada_n",
+   "title": {
+    "ja": "Spectroscopy",
+    "en": "Spectroscopy"
+   },
+   "venue": {
+    "ja": "",
+    "en": ""
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "",
+    "en": ""
+   },
+   "start": "2024-07-12",
+   "end": "",
+   "year": 2024,
+   "peer_reviewed": false,
+   "invited": false,
+   "doi": "",
+   "url": ""
+  }
+ ],
+ "keywords": [
+  {
+   "ja": "鉱山工学",
+   "en": "Mining Engineering"
+  },
+  {
+   "ja": "機械学習",
+   "en": "machine learning"
+  },
+  {
+   "ja": "地理情報システム",
+   "en": "geological information system"
+  },
+  {
+   "ja": "ハイパースペクトルイメージング",
+   "en": "hyperspectral imaging"
+  }
+ ],
+ "fields": [
+  {
+   "ja": "地球資源工学、エネルギー学",
+   "en": "Earth resource engineering, energy science"
+  },
+  {
+   "ja": "防災工学",
+   "en": "Disaster prevention engineering"
+  }
+ ]
 }

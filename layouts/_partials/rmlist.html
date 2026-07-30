@@ -21,11 +21,16 @@
     <h3 class="year">{{ $y }}</h3>
     {{- range $items }}{{ if eq .year $y }}
       <div class="pub">
+        {{- /* IEEE形式: Authors, "Title," Venue, vol. X, no. Y, pp. A–B, YYYY. */ -}}
         {{- $authors := partial "ml.html" (dict "v" .authors "lang" $lang) }}
-        {{- with $authors }}<span class="authors">{{ . }}</span> {{ end }}
-        <span class="ptitle">{{ partial "ml.html" (dict "v" .title "lang" $lang) }}</span>
+        {{- with $authors }}<span class="authors">{{ . }}</span>, {{ end -}}
+        &ldquo;<span class="ptitle">{{ partial "ml.html" (dict "v" .title "lang" $lang) }}</span>,&rdquo;
         {{- $venue := partial "ml.html" (dict "v" .venue "lang" $lang) }}
-        {{- with $venue }} <span class="venue">{{ . }}</span>{{ end }}
+        {{- with $venue }} <span class="venue">{{ . }}</span>,{{ end }}
+        {{- with .volume }} vol. {{ . }},{{ end }}
+        {{- with .number }} no. {{ . }},{{ end }}
+        {{- if .page_start }} pp. {{ .page_start }}{{ with .page_end }}&ndash;{{ . }}{{ end }},{{ end }}
+        {{ .year }}.
         {{- if .peer_reviewed }}<span class="badge">{{ i18n "peer_reviewed" }}</span>{{ end }}
         {{- if .invited }}<span class="badge">{{ i18n "invited" }}</span>{{ end }}
         {{- with .doi }} <a href="https://doi.org/{{ . }}" target="_blank" rel="noopener">DOI</a>{{ end }}

@@ -64,23 +64,15 @@
     <span class="more"><a href="{{ relLangURL "/activities/" }}">{{ i18n "all_link" }}</a></span>
     {{ i18n "activities" }}
   </h2>
-  {{- $acts := where (where site.RegularPages "Section" "activities") "Draft" false }}
-  {{- with first 3 $acts.ByDate.Reverse }}
-  <div class="field-grid">
-    {{- range . }}
-    <figure class="f-card">
-      <div class="f-photo">
-        {{- with .Params.photo }}<img src="{{ . | relURL }}" alt="{{ $.Title }}" loading="lazy">{{ else }}<span>Photo</span>{{ end }}
-      </div>
-      <figcaption>
-        {{ .Title }}
-        <time>{{ .Date.Format "2006-01" }}{{ with .Params.location }} / {{ . }}{{ end }}</time>
-      </figcaption>
-    </figure>
-    {{- end }}
+  {{- $x := site.Data.profile.links.x }}
+  {{- if $x }}
+  {{- $handle := index (last 1 (split (strings.TrimSuffix "/" $x) "/")) 0 }}
+  <div style="max-width:700px;">
+    <a class="twitter-timeline" data-lang="{{ cond (eq $lang "ja") "ja" "en" }}"
+       data-height="620" data-tweet-limit="2" data-dnt="true"
+       href="https://twitter.com/{{ $handle }}?ref_src=twsrc%5Etfw">@{{ $handle }} {{ if eq $lang "ja" }}のポスト{{ else }}on X{{ end }}</a>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
   </div>
-  {{- else }}
-    <p class="empty-note">{{ if eq $lang "ja" }}活動記録はまだありません。{{ else }}No activities yet.{{ end }}</p>
   {{- end }}
 </section>
 {{ end }}

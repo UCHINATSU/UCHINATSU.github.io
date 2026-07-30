@@ -1,1 +1,60 @@
-x
+name: Sync researchmap & Deploy
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    # 毎週火曜 6:00 JST (月曜 21:00 UTC)。毎日にしたい場合: "0 21 * * *"
+    - cron: "0 21 * * 1"
+  workflow_dispatch: {}   # Actionsタブから手動実行も可能
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: site
+  cancel-in-progress: false
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # ---- researchmap 同期(定期実行・手動実行のときだけ) ----
+      - name: Sync from researchmap
+        if: github.event_name != 'push'
+        run: python3 scripts/fetch_researchmap.py
+
+      - name: Commit changes
+        if: github.event_name != 'push'
+        run: |
+          git config user.name  "researchmap-sync[bot]"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || git commit -m "sync: researchmap $(date -u +%Y-%m-%d)"
+          git push
+
+      # ---- Hugo ビルド ----
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: "0.147.9"
+          extended: true
+
+      - name: Build
+        run: hugo --minify
+
+      # ---- GitHub Pages へ公開 ----
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./public
+
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4

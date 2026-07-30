@@ -1,0 +1,27 @@
+{
+ "permalink": "okada_n",
+ "name": {
+  "ja": "岡田 夏男",
+  "en": "Natsuo Okada"
+ },
+ "kana": "おかだ なつお",
+ "degree": "博士(工学)",
+ "affiliation": {
+  "ja": "北海道大学 大学院工学研究院 環境循環システム部門",
+  "en": "Division of Sustainable Resources Engineering, Faculty of Engineering, Hokkaido University"
+ },
+ "job_title": {
+  "ja": "助教",
+  "en": "Assistant Professor"
+ },
+ "bio": {
+  "ja": "資源開発、特にレアメタルや石炭などを対象とした鉱山開発の高度情報化・環境保護に関する研究に取り組んでいます。専門は資源情報学で、衛星観測データ、地質情報、操業データを統合し、デジタルツインやAIをはじめとする情報技術・数理手法を用いて、鉱山開発の効率化・安全性向上・環境負荷低減を目指しています。また、資源分野で培ったセンシング・データ解析の技術を、土木分野におけるトンネル施工管理や防災、海洋資源・海洋環境解析、さらには医用画像解析へと展開し、分野を越えた応用研究を進めています。",
+  "en": "My research addresses the advanced digitization and environmental protection of resource development, with a focus on mining operations for rare metals and coal. Specializing in resource informatics, I integrate satellite observation, geological, and operational data, applying digital twins, AI, and mathematical methods to make mining more efficient, safer, and less environmentally burdensome. I also extend these sensing and data-analysis techniques to tunnel construction management and disaster prevention in civil engineering, marine resource and environmental analysis, and medical image analysis."
+ },
+ "links": {
+  "researchmap": "https://researchmap.jp/okada_n",
+  "orcid": "https://orcid.org/0000-0002-9412-2687",
+  "x": "https://x.com/NOkadamining",
+  "linkedin": "https://www.linkedin.com/in/natsuo-okada-04247535a/"
+ }
+}

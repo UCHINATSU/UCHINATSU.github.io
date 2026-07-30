@@ -1,0 +1,22 @@
+{{- /* 引数: dict "d" "2025-04(-01)" "lang" "ja" → "2025年4月" / "Apr 2025" */ -}}
+{{- $d := .d | default "" -}}
+{{- $lang := .lang -}}
+{{- $out := "" -}}
+{{- if $d -}}
+  {{- $parts := split $d "-" -}}
+  {{- $y := index $parts 0 -}}
+  {{- $m := "" -}}
+  {{- if gt (len $parts) 1 -}}{{- $m = index $parts 1 -}}{{- end -}}
+  {{- if $m -}}
+    {{- $mi := int (strings.TrimLeft "0" $m | default "1") -}}
+    {{- if eq $lang "ja" -}}
+      {{- $out = printf "%s年%d月" $y $mi -}}
+    {{- else -}}
+      {{- $mn := index (slice "Jan" "Feb" "Mar" "Apr" "May" "Jun" "Jul" "Aug" "Sep" "Oct" "Nov" "Dec") (sub $mi 1) -}}
+      {{- $out = printf "%s %s" $mn $y -}}
+    {{- end -}}
+  {{- else -}}
+    {{- $out = $y -}}
+  {{- end -}}
+{{- end -}}
+{{- return $out -}}

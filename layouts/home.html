@@ -1,0 +1,86 @@
+{{ define "main" }}
+{{- $lang := .Language.Lang -}}
+{{- $p := site.Data.profile -}}
+
+<div class="hero">
+  <div class="photo">
+    {{- $img := "" -}}
+    {{- if fileExists "static/img/profile.jpg" }}{{ $img = "/img/profile.jpg" }}{{ end }}
+    {{- with $img }}<img src="{{ . | relURL }}" alt="{{ index $p.name $lang }}">{{ end }}
+  </div>
+  <div>
+    <h1>{{ index $p.name $lang }}</h1>
+    <div class="name-sub">
+      {{- if eq $lang "ja" -}}
+        {{ index $p.name "en" }}{{ with $p.degree }} / {{ . }}{{ end }}
+      {{- else -}}
+        {{ with $p.kana }}{{ . }}{{ end }}{{ with $p.degree }} / {{ . }}{{ end }}
+      {{- end -}}
+    </div>
+    <div class="position">{{ index $p.affiliation $lang }} {{ index $p.job_title $lang }}</div>
+    <div class="intro">
+      {{- range split (index $p.bio $lang) "\n" }}
+        {{- with trim . " " }}<p>{{ . }}</p>{{ end }}
+      {{- end }}
+    </div>
+
+    {{- with site.Data.researchmap.keywords }}
+    <div class="meta-row chips">
+      <span class="meta-label">{{ i18n "keywords_label" }}</span>
+      {{- range . }}<span class="chip">{{ partial "ml.html" (dict "v" . "lang" $lang) }}</span>{{ end }}
+    </div>
+    {{- end }}
+    {{- with site.Data.researchmap.fields }}
+    <div class="meta-row chips">
+      <span class="meta-label">{{ i18n "fields_label" }}</span>
+      {{- range . }}<span class="chip">{{ partial "ml.html" (dict "v" . "lang" $lang) }}</span>{{ end }}
+    </div>
+    {{- end }}
+
+    <div class="links">
+      {{- with $p.links.researchmap }}<a href="{{ . }}" target="_blank" rel="noopener">researchmap</a>{{ end }}
+      {{- with $p.links.orcid }}<a href="{{ . }}" target="_blank" rel="noopener">ORCID</a>{{ end }}
+      {{- with $p.links.x }}<a href="{{ . }}" target="_blank" rel="noopener">X</a>{{ end }}
+      {{- with $p.links.linkedin }}<a href="{{ . }}" target="_blank" rel="noopener">LinkedIn</a>{{ end }}
+    </div>
+  </div>
+</div>
+
+<section>
+  <h2 class="sec">
+    <span class="more"><a href="{{ relLangURL "/news/" }}">{{ i18n "all_link" }}</a></span>
+    {{ i18n "news" }}
+  </h2>
+  {{- $news := where (where site.RegularPages "Section" "news") "Draft" false }}
+  {{- range first 5 $news.ByDate.Reverse }}
+    {{ partial "newsitem.html" . }}
+  {{- else }}
+    <p class="empty-note">{{ if eq $lang "ja" }}お知らせはまだありません。{{ else }}No news yet.{{ end }}</p>
+  {{- end }}
+</section>
+
+<section>
+  <h2 class="sec">
+    <span class="more"><a href="{{ relLangURL "/activities/" }}">{{ i18n "all_link" }}</a></span>
+    {{ i18n "activities" }}
+  </h2>
+  {{- $acts := where (where site.RegularPages "Section" "activities") "Draft" false }}
+  {{- with first 3 $acts.ByDate.Reverse }}
+  <div class="field-grid">
+    {{- range . }}
+    <figure class="f-card">
+      <div class="f-photo">
+        {{- with .Params.photo }}<img src="{{ . | relURL }}" alt="{{ $.Title }}" loading="lazy">{{ else }}<span>Photo</span>{{ end }}
+      </div>
+      <figcaption>
+        {{ .Title }}
+        <time>{{ .Date.Format "2006-01" }}{{ with .Params.location }} / {{ . }}{{ end }}</time>
+      </figcaption>
+    </figure>
+    {{- end }}
+  </div>
+  {{- else }}
+    <p class="empty-note">{{ if eq $lang "ja" }}活動記録はまだありません。{{ else }}No activities yet.{{ end }}</p>
+  {{- end }}
+</section>
+{{ end }}

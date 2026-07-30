@@ -1,0 +1,56 @@
+[home]
+other = "Home"
+[research]
+other = "Research"
+[news]
+other = "News"
+[activities]
+other = "Activities"
+[career]
+other = "Career"
+[education]
+other = "Education"
+[committees]
+other = "Committees"
+[awards]
+other = "Awards"
+[papers]
+other = "Papers"
+[misc]
+other = "MISC"
+[presentations]
+other = "Presentations"
+[teaching]
+other = "Teaching Experience"
+[teaching_short]
+other = "Teaching"
+[memberships]
+other = "Memberships"
+[projects]
+other = "Research Projects"
+[projects_short]
+other = "Projects"
+[social]
+other = "Social Contribution"
+[media]
+other = "Media"
+[keywords_label]
+other = "Keywords"
+[fields_label]
+other = "Fields"
+[contact]
+other = "Contact"
+[all_link]
+other = "All →"
+[more_link]
+other = "More →"
+[present]
+other = "Present"
+[peer_reviewed]
+other = "Peer-reviewed"
+[invited]
+other = "Invited"
+[members]
+other = "Members"
+[join]
+other = "Join Us"

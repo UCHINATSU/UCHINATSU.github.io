@@ -1,0 +1,44 @@
+{{ define "main" }}
+{{- $lang := .Language.Lang -}}
+<h2 class="page-title">{{ .Title }}</h2>
+
+{{- if eq .Section "news" }}
+  <section style="margin-top:20px;">
+    {{- range .RegularPages.ByDate.Reverse }}
+      {{ partial "newsitem.html" . }}
+    {{- else }}
+      <p class="empty-note">{{ if eq $lang "ja" }}お知らせはまだありません。{{ else }}No news yet.{{ end }}</p>
+    {{- end }}
+  </section>
+
+{{- else if eq .Section "activities" }}
+  <section style="margin-top:20px;">
+    {{ .Content }}
+    {{- with .RegularPages.ByDate.Reverse }}
+    <div class="field-grid">
+      {{- range . }}
+      <figure class="f-card">
+        <div class="f-photo">
+          {{- with .Params.photo }}<img src="{{ . | relURL }}" alt="{{ $.Title }}" loading="lazy">{{ else }}<span>Photo</span>{{ end }}
+        </div>
+        <figcaption>
+          {{ .Title }}
+          <time>{{ .Date.Format "2006-01" }}{{ with .Params.location }} / {{ . }}{{ end }}</time>
+        </figcaption>
+      </figure>
+      {{- end }}
+    </div>
+    {{- else }}
+      <p class="empty-note">{{ if eq $lang "ja" }}活動記録はまだありません。{{ else }}No activities yet.{{ end }}</p>
+    {{- end }}
+  </section>
+
+{{- else }}
+  <section style="margin-top:20px;">
+    {{ .Content }}
+    {{- range .RegularPages.ByDate.Reverse }}
+      <div class="news-item"><time>{{ .Date.Format "2006-01" }}</time><div><a href="{{ .RelPermalink }}">{{ .Title }}</a></div></div>
+    {{- end }}
+  </section>
+{{- end }}
+{{ end }}

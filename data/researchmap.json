@@ -1,0 +1,48 @@
+{
+ "keywords": [
+  {"ja": "鉱山工学", "en": "Mining Engineering"},
+  {"ja": "機械学習", "en": "Machine Learning"},
+  {"ja": "地理情報システム", "en": "Geographic Information Systems"},
+  {"ja": "ハイパースペクトルイメージング", "en": "Hyperspectral Imaging"}
+ ],
+ "fields": [
+  {"ja": "エネルギー / 地球資源工学、エネルギー学", "en": "Energy / Earth resource engineering, Energy sciences"},
+  {"ja": "社会基盤(土木・建築・防災) / 防災工学", "en": "Social infrastructure / Disaster prevention engineering"}
+ ],
+ "career": [
+  {"id": "seed:career:1", "member": "okada_n", "title": {"ja": "北海道大学 大学院工学研究院 環境循環システム部門 助教", "en": "Assistant Professor, Division of Sustainable Resources Engineering, Faculty of Engineering, Hokkaido University"}, "venue": {"ja": "", "en": ""}, "desc": {"ja": "", "en": ""}, "authors": {"ja": "", "en": ""}, "start": "2025-04", "end": "", "year": 2025, "peer_reviewed": false, "invited": false, "doi": "", "url": ""},
+  {"id": "seed:career:2", "member": "okada_n", "title": {"ja": "日本学術振興会 特別研究員(DC2)", "en": "JSPS Research Fellow (DC2)"}, "venue": {"ja": "", "en": ""}, "desc": {"ja": "", "en": ""}, "authors": {"ja": "", "en": ""}, "start": "2023-04", "end": "2025-03", "year": 2023, "peer_reviewed": false, "invited": false, "doi": "", "url": ""},
+  {"id": "seed:career:3", "member": "okada_n", "title": {"ja": "旭川工業高等専門学校 電気情報工学科 非常勤講師", "en": "Part-time Lecturer, Department of Electrical and Computer Engineering, NIT Asahikawa College"}, "venue": {"ja": "", "en": ""}, "desc": {"ja": "", "en": ""}, "authors": {"ja": "", "en": ""}, "start": "2022-10", "end": "2025-03", "year": 2022, "peer_reviewed": false, "invited": false, "doi": "", "url": ""}
+ ],
+ "education": [
+  {"id": "seed:edu:1", "member": "okada_n", "title": {"ja": "北海道大学 大学院工学院 環境循環システム専攻 博士課程", "en": "Doctoral Program, Division of Sustainable Resources Engineering, Graduate School of Engineering, Hokkaido University"}, "venue": {"ja": "", "en": ""}, "desc": {"ja": "", "en": ""}, "authors": {"ja": "", "en": ""}, "start": "2022-04", "end": "2025-03", "year": 2022, "peer_reviewed": false, "invited": false, "doi": "", "url": ""},
+  {"id": "seed:edu:2", "member": "okada_n", "title": {"ja": "チリ大学 理学数学部門 鉱業修士課程", "en": "Master's Program in Mining, Faculty of Physical and Mathematical Sciences, University of Chile"}, "venue": {"ja": "", "en": ""}, "desc": {"ja": "", "en": ""}, "authors": {"ja": "", "en": ""}, "start": "2021-04", "end": "2022-03", "year": 2021, "peer_reviewed": false, "invited": false, "doi": "", "url": ""},
+  {"id": "seed:edu:3", "member": "okada_n", "title": {"ja": "秋田大学 大学院国際資源学研究科 資源開発環境学専攻", "en": "Graduate School of International Resource Sciences, Akita University"}, "venue": {"ja": "", "en": ""}, "desc": {"ja": "", "en": ""}, "authors": {"ja": "", "en": ""}, "start": "2020-04", "end": "2021-03", "year": 2020, "peer_reviewed": false, "invited": false, "doi": "", "url": ""},
+  {"id": "seed:edu:4", "member": "okada_n", "title": {"ja": "秋田大学 国際資源学部", "en": "Faculty of International Resource Sciences, Akita University"}, "venue": {"ja": "", "en": ""}, "desc": {"ja": "", "en": ""}, "authors": {"ja": "", "en": ""}, "start": "2016-04", "end": "2020-03", "year": 2016, "peer_reviewed": false, "invited": false, "doi": "", "url": ""}
+ ],
+ "committees": [
+  {"id": "seed:com:1", "member": "okada_n", "title": {"ja": "日本バーチャルリアリティ学会 北海道チャプター 幹事", "en": "Secretary, Hokkaido Chapter, Virtual Reality Society of Japan"}, "venue": {"ja": "", "en": ""}, "desc": {"ja": "", "en": ""}, "authors": {"ja": "", "en": ""}, "start": "2025-04", "end": "", "year": 2025, "peer_reviewed": false, "invited": false, "doi": "", "url": ""}
+ ],
+ "awards": [
+  {"id": "seed:award:1", "member": "okada_n", "title": {"ja": "Krupiński Award", "en": "Krupiński Award"}, "venue": {"ja": "World Mining Congress", "en": "World Mining Congress"}, "desc": {"ja": "", "en": ""}, "authors": {"ja": "", "en": ""}, "start": "2026-04", "end": "", "year": 2026, "peer_reviewed": false, "invited": false, "doi": "", "url": ""},
+  {"id": "seed:award:2", "member": "okada_n", "title": {"ja": "特別研究員採用最終年次における研究奨励金特別手当", "en": "JSPS Special Research Incentive Allowance (final fellowship year)"}, "venue": {"ja": "日本学術振興会", "en": "Japan Society for the Promotion of Science"}, "desc": {"ja": "", "en": ""}, "authors": {"ja": "", "en": ""}, "start": "2024-09", "end": "", "year": 2024, "peer_reviewed": false, "invited": false, "doi": "", "url": ""},
+  {"id": "seed:award:3", "member": "okada_n", "title": {"ja": "エディテージ・グラント2024 次点", "en": "Editage Grant 2024, Runner-up"}, "venue": {"ja": "", "en": ""}, "desc": {"ja": "", "en": ""}, "authors": {"ja": "", "en": ""}, "start": "2024-07", "end": "", "year": 2024, "peer_reviewed": false, "invited": false, "doi": "", "url": ""},
+  {"id": "seed:award:4", "member": "okada_n", "title": {"ja": "北光会賞", "en": "Hokkokai Award"}, "venue": {"ja": "秋田大学", "en": "Akita University"}, "desc": {"ja": "", "en": ""}, "authors": {"ja": "", "en": ""}, "start": "2020-02", "end": "", "year": 2020, "peer_reviewed": false, "invited": false, "doi": "", "url": ""},
+  {"id": "seed:award:5", "member": "okada_n", "title": {"ja": "秋田大学学生表彰(学業奨励金)", "en": "Akita University Student Commendation (academic scholarship)"}, "venue": {"ja": "秋田大学", "en": "Akita University"}, "desc": {"ja": "", "en": ""}, "authors": {"ja": "", "en": ""}, "start": "2017-07", "end": "", "year": 2017, "peer_reviewed": false, "invited": false, "doi": "", "url": ""}
+ ],
+ "memberships": [
+  {"id": "seed:mem:1", "member": "okada_n", "title": {"ja": "日本バーチャルリアリティ学会", "en": "Virtual Reality Society of Japan"}, "venue": {"ja": "", "en": ""}, "desc": {"ja": "", "en": ""}, "authors": {"ja": "", "en": ""}, "start": "2025-04", "end": "", "year": 2025, "peer_reviewed": false, "invited": false, "doi": "", "url": ""},
+  {"id": "seed:mem:2", "member": "okada_n", "title": {"ja": "日本地球惑星科学連合", "en": "Japan Geoscience Union"}, "venue": {"ja": "", "en": ""}, "desc": {"ja": "", "en": ""}, "authors": {"ja": "", "en": ""}, "start": "2024-02", "end": "", "year": 2024, "peer_reviewed": false, "invited": false, "doi": "", "url": ""},
+  {"id": "seed:mem:3", "member": "okada_n", "title": {"ja": "資源・素材学会", "en": "The Mining and Materials Processing Institute of Japan (MMIJ)"}, "venue": {"ja": "", "en": ""}, "desc": {"ja": "", "en": ""}, "authors": {"ja": "", "en": ""}, "start": "2019-05", "end": "", "year": 2019, "peer_reviewed": false, "invited": false, "doi": "", "url": ""}
+ ],
+ "teaching": [
+  {"id": "seed:teach:1", "member": "okada_n", "title": {"ja": "資源情報学(北海道大学)", "en": "Resource Informatics (Hokkaido University)"}, "venue": {"ja": "", "en": ""}, "desc": {"ja": "", "en": ""}, "authors": {"ja": "", "en": ""}, "start": "2025-04", "end": "2025-05", "year": 2025, "peer_reviewed": false, "invited": false, "doi": "", "url": ""},
+  {"id": "seed:teach:2", "member": "okada_n", "title": {"ja": "知識工学(旭川工業高等専門学校)", "en": "Knowledge Engineering (NIT Asahikawa College)"}, "venue": {"ja": "", "en": ""}, "desc": {"ja": "", "en": ""}, "authors": {"ja": "", "en": ""}, "start": "2022-04", "end": "2025-03", "year": 2022, "peer_reviewed": false, "invited": false, "doi": "", "url": ""}
+ ],
+ "papers": [],
+ "misc": [],
+ "presentations": [],
+ "projects": [],
+ "social": [],
+ "media": []
+}

@@ -1,0 +1,13 @@
+{{- /* 多言語フィールド {ja:..., en:...} から現在の言語の文字列を取り出す(空なら他言語で代用) */ -}}
+{{- $v := .v -}}
+{{- $lang := .lang -}}
+{{- $out := "" -}}
+{{- if $v -}}
+  {{- if reflect.IsMap $v -}}
+    {{- $out = index $v $lang | default "" -}}
+    {{- if not $out -}}{{- $out = index $v "ja" | default (index $v "en" | default "") -}}{{- end -}}
+  {{- else -}}
+    {{- $out = printf "%v" $v -}}
+  {{- end -}}
+{{- end -}}
+{{- return $out -}}

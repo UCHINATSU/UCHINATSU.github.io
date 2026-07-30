@@ -1,0 +1,142 @@
+:root{
+  --navy:#1b3a5c;
+  --navy-light:#2c5a8c;
+  --ink:#22272e;
+  --gray:#6b7280;
+  --line:#e5e7eb;
+  --bg-soft:#f6f8fa;
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+body{
+  font-family:"Hiragino Kaku Gothic ProN","Hiragino Sans","Zen Kaku Gothic New","Noto Sans JP",Meiryo,sans-serif;
+  color:var(--ink);
+  background:#fff;
+  line-height:1.85;
+  font-size:26px;
+}
+a{color:var(--navy-light);text-decoration:none;}
+a:hover{text-decoration:underline;}
+
+/* header */
+header{border-bottom:1px solid var(--line);position:sticky;top:0;background:#fff;z-index:10;}
+.header-in{
+  max-width:1080px;margin:0 auto;padding:14px 24px;
+  display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;
+}
+.site-title{font-weight:700;font-size:28px;letter-spacing:.02em;}
+.site-title a{color:var(--navy);}
+.site-title a:hover{text-decoration:none;}
+nav{display:flex;gap:26px;align-items:center;font-size:24px;flex-wrap:wrap;}
+nav a{color:var(--ink);}
+nav a.active{color:var(--navy);font-weight:600;}
+nav a:hover{color:var(--navy-light);text-decoration:none;}
+.lang-toggle{
+  border:1px solid var(--line);border-radius:999px;display:flex;overflow:hidden;font-size:19px;flex:none;
+}
+.lang-toggle a{padding:5px 14px;color:var(--gray);}
+.lang-toggle a.active{background:var(--navy);color:#fff;}
+.lang-toggle a:hover{text-decoration:none;}
+
+/* researchmap項目タブ(2段目) */
+.tabbar{background:var(--navy);}
+.tabbar-in{
+  max-width:1080px;margin:0 auto;padding:9px 20px;
+  display:flex;flex-wrap:wrap;gap:4px 2px;
+}
+.tabbar a{color:#dbe4ee;font-size:24px;padding:8px 15px;border-radius:4px;white-space:nowrap;}
+.tabbar a:hover{background:var(--navy-light);color:#fff;text-decoration:none;}
+.tabbar a.active{background:#fff;color:var(--navy);font-weight:600;}
+
+main{max-width:1080px;margin:0 auto;padding:0 24px 80px;}
+
+/* hero */
+.hero{padding:56px 0 40px;}
+.hero::after{content:"";display:block;clear:both;}
+.photo{
+  float:left;margin:6px 34px 18px 0;
+  width:180px;height:216px;border-radius:6px;
+  background:linear-gradient(160deg,#dfe7ef,#c3d0dd);
+  overflow:hidden;
+}
+.photo img{width:100%;height:100%;object-fit:cover;display:block;}
+.hero h1{font-size:44px;color:var(--navy);line-height:1.3;margin-bottom:2px;}
+.name-sub{font-size:22px;color:var(--gray);margin-bottom:12px;}
+.position{font-size:26px;margin-bottom:14px;}
+.intro{clear:both;padding-top:6px;font-size:26px;color:#3a4048;max-width:100%;}
+.intro p + p{margin-top:10px;}
+.links{margin-top:20px;font-size:24px;display:flex;gap:18px;flex-wrap:wrap;}
+
+/* keyword chips */
+.chips{display:flex;flex-wrap:wrap;gap:8px;align-items:center;}
+.chip{
+  background:var(--bg-soft);border:1px solid var(--line);border-radius:999px;
+  padding:6px 18px;font-size:21px;color:var(--navy);
+}
+.meta-row{margin-top:14px;}
+.meta-row + .meta-row{margin-top:8px;}
+.meta-label{font-size:19px;color:var(--gray);font-weight:600;flex:none;margin-right:4px;}
+
+/* sections */
+section{margin-top:52px;}
+main > section:first-child, .page-body > section:first-child{margin-top:40px;}
+h2.sec{
+  font-size:36px;color:var(--navy);
+  padding-bottom:8px;border-bottom:2px solid var(--navy);
+  margin-bottom:20px;letter-spacing:.03em;
+}
+h3.year{
+  font-size:28px;color:var(--navy);border-bottom:1px solid var(--line);
+  padding-bottom:4px;margin:28px 0 6px;
+}
+.more{font-size:21px;float:right;font-weight:400;margin-top:6px;}
+.page-title{font-size:38px;color:var(--navy);margin:40px 0 6px;}
+
+/* dated rows (news) */
+.news-item{display:flex;gap:20px;padding:10px 0;border-bottom:1px solid var(--line);font-size:26px;}
+.news-item time{flex:none;color:var(--gray);font-size:22px;width:150px;padding-top:2px;}
+.cat{color:var(--navy);font-weight:600;}
+
+/* timeline rows */
+.tl-item{display:flex;flex-direction:column;gap:2px;padding:11px 0;border-bottom:1px solid var(--line);font-size:26px;}
+.tl-item time{flex:none;color:var(--ink);font-size:22px;width:auto;padding-top:2px;}
+.tl-item .sub{color:var(--ink);font-size:22px;}
+
+/* publication rows */
+.pub{padding:16px 0;border-bottom:1px solid var(--line);font-size:26px;line-height:1.65;}
+.pub .authors{color:#4b5563;}
+.pub .ptitle{font-weight:600;}
+.pub .venue{color:var(--gray);font-style:italic;}
+.badge{
+  display:inline-block;font-size:17px;color:var(--navy);border:1px solid var(--navy);
+  border-radius:3px;padding:0 6px;margin-left:6px;vertical-align:1px;
+}
+
+/* research prose */
+.research-text p{font-size:26px;color:#3a4048;max-width:720px;margin-bottom:12px;}
+
+/* activity gallery */
+.field-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px;}
+.f-card{border-radius:8px;overflow:hidden;background:var(--bg-soft);}
+.f-photo{
+  aspect-ratio:4/3;display:flex;align-items:center;justify-content:center;
+  background:linear-gradient(160deg,#dfe7ef,#c3d0dd);
+  color:#8296aa;font-size:18px;text-align:center;overflow:hidden;
+}
+.f-photo img{width:100%;height:100%;object-fit:cover;display:block;}
+.f-card figcaption{padding:14px 18px 16px;font-size:21px;color:#4b5563;line-height:1.6;}
+.f-card figcaption time{display:block;font-size:18px;color:var(--gray);margin-top:2px;}
+
+.empty-note{color:var(--gray);font-size:23px;padding:16px 0;}
+
+footer{border-top:1px solid var(--line);margin-top:40px;}
+.footer-in{
+  max-width:1080px;margin:0 auto;padding:26px 24px;font-size:20px;color:var(--gray);
+  display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;
+}
+
+@media(max-width:640px){
+  .hero{padding-top:36px;}
+  .photo{float:none;margin:0 0 20px;}
+  .field-grid{grid-template-columns:1fr;}
+  .tl-item{flex-direction:column;gap:2px;}
+}

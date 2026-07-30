@@ -1,0 +1,35 @@
+# ============================================================
+# サイト設定
+# ============================================================
+
+baseURL = "https://uchinatsu.github.io/"   # 独自ドメイン取得時はここを変更
+defaultContentLanguage = "ja"
+defaultContentLanguageInSubdir = false
+enableRobotsTXT = true
+disableKinds = ["taxonomy", "term"]
+
+[params]
+  # サイトタイトル(全ページのヘッダー・フッター・<title>が参照)
+  site_title_ja = "岡田 夏男"
+  site_title_en = "Natsuo Okada"
+  copyright = "Natsuo Okada"
+
+[languages]
+  [languages.ja]
+    languageCode = "ja"
+    languageName = "日本語"
+    contentDir = "content/ja"
+    weight = 1
+  [languages.en]
+    languageCode = "en"
+    languageName = "EN"
+    contentDir = "content/en"
+    weight = 2
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[outputs]
+  home = ["HTML"]
+  section = ["HTML"]
+  page = ["HTML"]

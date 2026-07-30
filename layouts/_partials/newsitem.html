@@ -1,0 +1,14 @@
+{{- /* お知らせ1件。引数: ページ */ -}}
+{{- $t := .Title -}}
+{{- $prefix := index (findRE `^[(（][^)）]{1,20}[)）]` $t) 0 | default "" -}}
+<div class="news-item">
+  <time>{{ .Date.Format "2006-01" }}</time>
+  <div>
+    {{- if $prefix -}}
+      <span class="cat">{{ $prefix }}</span>{{ strings.TrimPrefix $prefix $t }}
+    {{- else -}}
+      {{ $t }}
+    {{- end -}}
+    {{- with .Content }}{{ if gt (len (plainify .)) 1 }} {{ end }}{{ end -}}
+  </div>
+</div>

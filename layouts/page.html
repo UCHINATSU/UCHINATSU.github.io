@@ -1,0 +1,27 @@
+{{ define "main" }}
+{{- $lang := .Language.Lang -}}
+<h2 class="page-title">{{ .Title }}</h2>
+
+{{- if .Params.rmkey }}
+  {{- /* researchmap 自動生成ページ */ -}}
+  <section style="margin-top:20px;">
+    {{ partial "rmlist.html" (dict
+        "key" .Params.rmkey
+        "style" (.Params.style | default "timeline")
+        "period" (.Params.period | default "single")
+        "lang" $lang) }}
+  </section>
+{{- else if .Params.research_page }}
+  {{- /* 研究内容: researchmapのプロフィール文を自動転載 + 任意の追記 */ -}}
+  <section style="margin-top:20px;">
+    <div class="research-text">
+      {{- range split (index site.Data.profile.bio $lang) "\n" }}
+        {{- with trim . " " }}<p>{{ . }}</p>{{ end }}
+      {{- end }}
+    </div>
+    {{ .Content }}
+  </section>
+{{- else }}
+  <section style="margin-top:20px;">{{ .Content }}</section>
+{{- end }}
+{{ end }}

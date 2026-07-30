@@ -1,0 +1,56 @@
+[home]
+other = "ホーム"
+[research]
+other = "研究内容"
+[news]
+other = "お知らせ"
+[activities]
+other = "活動"
+[career]
+other = "経歴"
+[education]
+other = "学歴"
+[committees]
+other = "委員歴"
+[awards]
+other = "受賞"
+[papers]
+other = "論文"
+[misc]
+other = "MISC"
+[presentations]
+other = "講演・口頭発表等"
+[teaching]
+other = "担当経験のある科目(授業)"
+[teaching_short]
+other = "担当科目"
+[memberships]
+other = "所属学協会"
+[projects]
+other = "共同研究・競争的資金等の研究課題"
+[projects_short]
+other = "共同研究・競争的資金"
+[social]
+other = "社会貢献活動"
+[media]
+other = "メディア報道"
+[keywords_label]
+other = "研究キーワード"
+[fields_label]
+other = "研究分野"
+[contact]
+other = "連絡先"
+[all_link]
+other = "一覧 →"
+[more_link]
+other = "詳しく →"
+[present]
+other = "現在"
+[peer_reviewed]
+other = "査読有"
+[invited]
+other = "招待講演"
+[members]
+other = "メンバー"
+[join]
+other = "参加希望の方へ"

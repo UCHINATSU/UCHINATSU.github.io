@@ -1,0 +1,62 @@
+{{- /* researchmap 項目の一覧表示。
+     引数: dict "key" <researchmap.jsonのキー> "style" "timeline"|"pubs" "period" "range"|"single" "lang" $lang */ -}}
+{{- $key := .key -}}
+{{- $style := .style | default "timeline" -}}
+{{- $period := .period | default "single" -}}
+{{- $lang := .lang -}}
+{{- $items := index site.Data.researchmap $key | default slice -}}
+
+{{- if not $items }}
+  <p class="empty-note">
+    {{ if eq $lang "ja" }}まだ項目がありません。researchmapに登録されると自動的にここに表示されます。{{ else }}No items yet. Items registered on researchmap will appear here automatically.{{ end }}
+  </p>
+{{- end }}
+
+{{- if eq $style "pubs" }}
+  {{- /* 年別グルーピング */ -}}
+  {{- $years := slice -}}
+  {{- range $items }}{{ with .year }}{{ $years = $years | append . }}{{ end }}{{ end -}}
+  {{- $years = sort ($years | uniq) "value" "desc" -}}
+  {{- range $y := $years }}
+    <h3 class="year">{{ $y }}</h3>
+    {{- range $items }}{{ if eq .year $y }}
+      <div class="pub">
+        {{- $authors := partial "ml.html" (dict "v" .authors "lang" $lang) }}
+        {{- with $authors }}<span class="authors">{{ . }}</span> {{ end }}
+        <span class="ptitle">{{ partial "ml.html" (dict "v" .title "lang" $lang) }}</span>
+        {{- $venue := partial "ml.html" (dict "v" .venue "lang" $lang) }}
+        {{- with $venue }} <span class="venue">{{ . }}</span>{{ end }}
+        {{- if .peer_reviewed }}<span class="badge">{{ i18n "peer_reviewed" }}</span>{{ end }}
+        {{- if .invited }}<span class="badge">{{ i18n "invited" }}</span>{{ end }}
+        {{- with .doi }} <a href="https://doi.org/{{ . }}" target="_blank" rel="noopener">DOI</a>{{ end }}
+        {{- if and (not .doi) .url }} <a href="{{ .url }}" target="_blank" rel="noopener">Link</a>{{ end }}
+      </div>
+    {{- end }}{{ end -}}
+  {{- end }}
+  {{- /* 年不明の項目 */ -}}
+  {{- $noYear := false -}}
+  {{- range $items }}{{ if not .year }}{{ $noYear = true }}{{ end }}{{ end -}}
+  {{- if $noYear }}
+    <h3 class="year">-</h3>
+    {{- range $items }}{{ if not .year }}
+      <div class="pub"><span class="ptitle">{{ partial "ml.html" (dict "v" .title "lang" $lang) }}</span></div>
+    {{- end }}{{ end -}}
+  {{- end }}
+{{- else }}
+  {{- /* timeline */ -}}
+  {{- range $items }}
+    <div class="tl-item">
+      <time>
+        {{- partial "fmtdate.html" (dict "d" .start "lang" $lang) -}}
+        {{- if eq $period "range" }} - {{ if .end }}{{ partial "fmtdate.html" (dict "d" .end "lang" $lang) }}{{ else }}{{ i18n "present" }}{{ end }}{{ end -}}
+      </time>
+      <div>
+        {{ partial "ml.html" (dict "v" .title "lang" $lang) }}
+        {{- $venue := partial "ml.html" (dict "v" .venue "lang" $lang) }}
+        {{- with $venue }} <span class="sub">— {{ . }}</span>{{ end }}
+        {{- $desc := partial "ml.html" (dict "v" .desc "lang" $lang) }}
+        {{- with $desc }}<br><span class="sub">{{ . }}</span>{{ end }}
+      </div>
+    </div>
+  {{- end }}
+{{- end }}

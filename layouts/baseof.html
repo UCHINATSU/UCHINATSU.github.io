@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="{{ .Language.LanguageCode }}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+{{- $lang := .Language.Lang -}}
+{{- $siteTitle := cond (eq $lang "ja") site.Params.site_title_ja site.Params.site_title_en -}}
+<title>{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ $siteTitle }}</title>
+<meta name="description" content="{{ with site.Data.profile }}{{ index .bio $lang | truncate 120 }}{{ end }}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap" rel="stylesheet">
+{{- $css := resources.Get "css/main.css" | minify }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}">
+</head>
+<body>
+
+<header>
+  <div class="header-in">
+    <div class="site-title"><a href="{{ "/" | relLangURL }}">{{ $siteTitle }}</a></div>
+    <nav>
+      {{- $cur := .RelPermalink -}}
+      {{- range $item := slice
+            (dict "key" "home" "url" "/")
+            (dict "key" "research" "url" "/research/")
+            (dict "key" "news" "url" "/news/")
+            (dict "key" "activities" "url" "/activities/") }}
+        {{- $u := relLangURL $item.url }}
+        <a href="{{ $u }}"{{ if eq $cur $u }} class="active"{{ end }}>{{ i18n $item.key }}</a>
+      {{- end }}
+      <span class="lang-toggle">
+        {{- range .AllTranslations }}
+          <a href="{{ .RelPermalink }}"{{ if eq .Language.Lang $lang }} class="active"{{ end }}>{{ .Language.LanguageName }}</a>
+        {{- end }}
+      </span>
+    </nav>
+  </div>
+  <div class="tabbar">
+    <div class="tabbar-in">
+      {{- range $t := slice
+            (dict "key" "career" "label" "career")
+            (dict "key" "education" "label" "education")
+            (dict "key" "committees" "label" "committees")
+            (dict "key" "awards" "label" "awards")
+            (dict "key" "papers" "label" "papers")
+            (dict "key" "misc" "label" "misc")
+            (dict "key" "presentations" "label" "presentations")
+            (dict "key" "teaching" "label" "teaching_short")
+            (dict "key" "memberships" "label" "memberships")
+            (dict "key" "projects" "label" "projects_short")
+            (dict "key" "social" "label" "social")
+            (dict "key" "media" "label" "media") }}
+        {{- $u := relLangURL (printf "/%s/" $t.key) }}
+        <a href="{{ $u }}"{{ if eq $cur $u }} class="active"{{ end }}>{{ i18n $t.label }}</a>
+      {{- end }}
+    </div>
+  </div>
+</header>
+
+<main>
+{{ block "main" . }}{{ end }}
+</main>
+
+<footer>
+  <div class="footer-in">
+    <div>&copy; {{ now.Year }} {{ site.Params.copyright }}</div>
+    <div>{{ with site.Data.profile }}{{ index .affiliation $lang }}{{ end }}</div>
+  </div>
+</footer>
+
+</body>
+</html>

@@ -16,8 +16,8 @@
 <body>
 
 <header>
-  <div class="header-in">
-    <nav>
+  <div class="tabbar">
+    <div class="tabbar-in">
       {{- $cur := .RelPermalink -}}
       {{- range $item := slice
             (dict "key" "home" "url" "/")
@@ -27,15 +27,6 @@
         {{- $u := relLangURL $item.url }}
         <a href="{{ $u }}"{{ if eq $cur $u }} class="active"{{ end }}>{{ i18n $item.key }}</a>
       {{- end }}
-      <span class="lang-toggle">
-        {{- range .AllTranslations }}
-          <a href="{{ .RelPermalink }}"{{ if eq .Language.Lang $lang }} class="active"{{ end }}>{{ .Language.LanguageName }}</a>
-        {{- end }}
-      </span>
-    </nav>
-  </div>
-  <div class="tabbar">
-    <div class="tabbar-in">
       {{- range $t := slice
             (dict "key" "career" "label" "career")
             (dict "key" "education" "label" "education")
@@ -52,6 +43,11 @@
         {{- $u := relLangURL (printf "/%s/" $t.key) }}
         <a href="{{ $u }}"{{ if eq $cur $u }} class="active"{{ end }}>{{ i18n $t.label }}</a>
       {{- end }}
+      <span class="tab-lang">
+        {{- range .AllTranslations }}
+          <a href="{{ .RelPermalink }}"{{ if eq .Language.Lang $lang }} class="active"{{ end }}>{{ .Language.LanguageName }}</a>
+        {{- end }}
+      </span>
     </div>
   </div>
 </header>

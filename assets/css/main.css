@@ -21,7 +21,7 @@ a:hover{text-decoration:underline;}
 header{border-bottom:1px solid var(--line);position:sticky;top:0;background:#fff;z-index:10;}
 .header-in{
   max-width:1080px;margin:0 auto;padding:14px 24px;
-  display:flex;align-items:center;justify-content:flex-end;gap:16px;flex-wrap:wrap;
+  display:flex;align-items:center;justify-content:flex-start;gap:16px;flex-wrap:wrap;
 }
 .site-title{font-weight:700;font-size:28px;letter-spacing:.02em;}
 .site-title a{color:var(--navy);}
@@ -50,6 +50,16 @@ nav a:hover{color:var(--navy-light);text-decoration:none;}
 .tabbar a:first-child{border-left:1px solid rgba(255,255,255,.28);}
 .tabbar a:hover{background:var(--navy-light);color:#fff;text-decoration:none;}
 .tabbar a.active{background:#fff;color:var(--navy);font-weight:600;}
+
+
+/* 言語切替(タブバー右端) */
+.tab-lang{margin-left:auto;display:flex;}
+.tab-lang a{
+  color:#dbe4ee;font-size:16px;padding:10px 16px;
+  border-left:1px solid rgba(255,255,255,.28);
+}
+.tab-lang a.active{background:rgba(255,255,255,.18);color:#fff;font-weight:600;}
+.tab-lang a:hover{background:var(--navy-light);text-decoration:none;}
 
 main{max-width:1080px;margin:0 auto;padding:0 24px 80px;}
 
@@ -117,6 +127,13 @@ h3.year{
 
 /* research prose */
 .research-text p{font-size:26px;color:var(--ink);max-width:100%;margin-bottom:12px;}
+
+
+.research-text h2{
+  font-size:30px;color:var(--navy);margin:36px 0 10px;
+  padding-bottom:6px;border-bottom:1px solid var(--line);
+}
+.research-text hr{border:none;border-top:1px solid var(--line);margin:32px 0 20px;}
 
 /* activity gallery */
 .field-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px;}

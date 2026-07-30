@@ -388,7 +388,9 @@ def norm_item(rmtype, item, member):
         "page_start": str(item.get("starting_page") or ""),
         "page_end": str(item.get("ending_page") or ""),
         "doi": str(item.get("identifiers", {}).get("doi", [""])[0] if isinstance(item.get("identifiers", {}).get("doi"), list) else item.get("identifiers", {}).get("doi") or ""),
-        "url": str(item.get("see_also", [{}])[0].get("@id", "") if isinstance(item.get("see_also"), list) and item.get("see_also") else ""),
+        "url": str(item.get("url")
+                   or (item.get("see_also", [{}])[0].get("@id", "")
+                       if isinstance(item.get("see_also"), list) and item.get("see_also") else "")),
     }
     # 経歴系: affiliation + 部局 + 課程 + 職名 を結合した表示名を作る
     # (結合済みなので詳細行には何も出さない = 「助教 助教」のような重複を防ぐ)
@@ -489,6 +491,54 @@ def build_profile(root_json, merged):
     if not profile["affiliation"]["ja"] and merged.get("career"):
         profile["affiliation"] = merged["career"][0]["title"]
     return profile
+
+
+# ======================== ワードクラウド ========================
+
+EN_STOP = {
+    "the", "and", "for", "with", "from", "using", "based", "toward", "towards",
+    "study", "case", "new", "novel", "approach", "method", "methods", "its",
+    "via", "into", "between", "under", "over", "through", "during", "their",
+    "this", "that", "these", "those", "can", "our", "are", "was", "were",
+    "development", "application", "applications", "evaluation", "analysis",
+    "research", "project", "establishment", "improvement", "effect", "effects",
+}
+JA_STOP = {
+    "研究", "開発", "検討", "評価", "分析", "解析", "手法", "技術", "適用",
+    "における", "による", "ための", "向けた", "関する", "利用", "活用",
+    "基礎", "応用", "事例", "調査", "提案", "構築", "確立", "改善", "把握",
+}
+
+
+def build_wordcloud(merged):
+    """業績タイトルと研究キーワードから頻出語を集計して data/wordcloud.json に保存"""
+    from collections import Counter
+    counter = Counter()
+    texts = []
+    for key in ("papers", "misc", "presentations", "projects", "social", "media"):
+        for it in merged.get(key, []):
+            texts.append((it["title"]["en"], it["title"]["ja"]))
+    for en, ja in texts:
+        for w in re.findall(r"[A-Za-z][A-Za-z\-]{2,}", en or ""):
+            wl = w.lower()
+            if wl not in EN_STOP:
+                counter[wl.capitalize() if w[0].isupper() else wl] += 1
+        if ja and ja != en:
+            # カタカナ語・漢字連続語を抽出(簡易トークナイズ)
+            for w in re.findall(r"[ァ-ヴー]{3,}|[一-龠々]{2,}", ja):
+                if w not in JA_STOP:
+                    counter[w] += 1
+    # 研究キーワード・研究分野は重み付けして必ず入れる
+    for kw in merged.get("keywords", []) + merged.get("fields", []):
+        for lang in ("ja", "en"):
+            t = kw.get(lang, "")
+            if t and "/" not in t:
+                counter[t] += max(3, counter[t])
+    top = [[w, c] for w, c in counter.most_common(70) if c >= 2] or \
+          [[w, c] for w, c in counter.most_common(40)]
+    (DATA / "wordcloud.json").write_text(
+        json.dumps(top, ensure_ascii=False), encoding="utf-8")
+    print(f"[info] ワードクラウド用の語 {len(top)} 件を集計しました。")
 
 
 # ======================== お知らせ記事の生成 ========================
@@ -615,6 +665,12 @@ def main():
             continue
     else:
         print("[warn] 顔写真が取得できませんでした。既存の写真を使います。")
+
+    # ---- ワードクラウド ----
+    try:
+        build_wordcloud(merged)
+    except Exception as e:
+        print(f"[warn] ワードクラウドの集計に失敗しました({e})。前回のまま使います。")
 
     # ---- 書き出し ----
     DATA.mkdir(exist_ok=True)

@@ -13,34 +13,23 @@
 
 {{- else if eq .Section "activities" }}
   <section style="margin-top:20px;">
-    {{- /* Xのポストを自動表示(X公式の埋め込みタイムライン) */ -}}
-    {{- $x := site.Data.profile.links.x }}
-    {{- if $x }}
-    {{- $handle := index (last 1 (split (strings.TrimSuffix "/" $x) "/")) 0 }}
-    <div style="max-width:700px;">
-      <a class="twitter-timeline" data-lang="{{ cond (eq $lang "ja") "ja" "en" }}"
-         data-height="1200" data-dnt="true"
-         href="https://twitter.com/{{ $handle }}?ref_src=twsrc%5Etfw">@{{ $handle }} {{ if eq $lang "ja" }}のポスト{{ else }}on X{{ end }}</a>
-      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-    </div>
-    {{- end }}
-    {{ .Content }}
-    {{- with .RegularPages.ByDate.Reverse }}
+    {{- $acts := site.Data.activities | default slice }}
+    {{- with $acts }}
     <div class="field-grid">
-      {{- range . }}
-      <figure class="f-card">
-        <div class="f-photo">
-          {{- with .Params.photo }}<img src="{{ . | relURL }}" alt="{{ $.Title }}" loading="lazy">{{ else }}<span>Photo</span>{{ end }}
-        </div>
+      {{- range sort . "date" "desc" }}
+      <figure class="f-card{{ if not .photo }} noimg{{ end }}">
+        {{- with .photo }}
+        <div class="f-photo"><img src="{{ printf "/img/activities/%s" . | relURL }}" alt="" loading="lazy"></div>
+        {{- end }}
         <figcaption>
-          {{ .Title }}
-          <time>{{ .Date.Format "2006-01" }}{{ with .Params.location }} / {{ . }}{{ end }}</time>
+          {{ if eq $lang "ja" }}{{ .ja | default .en }}{{ else }}{{ .en | default .ja }}{{ end }}
+          <time>{{ partial "fmtdate.html" (dict "d" (printf "%v" .date) "lang" $lang) }}{{ with .location }} / {{ . }}{{ end }}</time>
         </figcaption>
       </figure>
       {{- end }}
     </div>
     {{- else }}
-      <p class="empty-note">{{ if eq $lang "ja" }}活動記録はまだありません。{{ else }}No activities yet.{{ end }}</p>
+    <p class="empty-note">{{ if eq $lang "ja" }}活動記録はまだありません。{{ else }}No activities yet.{{ end }}</p>
     {{- end }}
   </section>
 

@@ -161,3 +161,13 @@ footer{border-top:1px solid var(--line);margin-top:40px;}
   .field-grid{grid-template-columns:1fr;}
   .tl-item{flex-direction:column;gap:2px;}
 }
+
+/* Xリンクボタン */
+.x-btn{
+  display:inline-block;background:var(--navy);color:#fff;
+  padding:12px 26px;border-radius:8px;font-size:22px;text-decoration:none;
+}
+.x-btn:hover{background:var(--navy-light);text-decoration:none;}
+
+/* 写真なしの活動カード */
+.f-card.noimg figcaption{padding:22px 20px;font-size:23px;}

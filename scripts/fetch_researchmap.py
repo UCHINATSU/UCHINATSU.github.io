@@ -289,12 +289,32 @@ def norm_item(rmtype, item, member):
     if venue["ja"] == title["ja"] and venue["en"] == title["en"]:
         venue = {"ja": "", "en": ""}  # タイトルと同じ団体名は重複表示しない
     desc = ml(item.get("description") or item.get("job") or item.get("section") or item.get("department"))
-    # 研究課題: 制度名・課題番号を詳細行に
+    # 研究課題: 制度名・課題番号・予算額を詳細行に
     if rmtype == "research_projects":
         sysname = ml(item.get("system_name"))
         grant = str(item.get("grant_number") or item.get("national_grant_number") or "")
-        for lang in ("ja", "en"):
-            parts = [p for p in [sysname[lang], grant] if p]
+
+        def yen(v):
+            try:
+                return f"{int(str(v).replace(',', '')):,}"
+            except Exception:
+                return str(v)
+
+        amount = item.get("overall_grant_amount") or {}
+        amt_ja = amt_en = ""
+        if isinstance(amount, dict) and amount.get("total_cost"):
+            total = yen(amount["total_cost"])
+            inner_ja, inner_en = [], []
+            if amount.get("direct_cost"):
+                inner_ja.append(f"直接経費: {yen(amount['direct_cost'])}円")
+                inner_en.append(f"Direct: ¥{yen(amount['direct_cost'])}")
+            if amount.get("indirect_cost"):
+                inner_ja.append(f"間接経費: {yen(amount['indirect_cost'])}円")
+                inner_en.append(f"Indirect: ¥{yen(amount['indirect_cost'])}")
+            amt_ja = f"配分額: {total}円" + (f"({'、'.join(inner_ja)})" if inner_ja else "")
+            amt_en = f"Grant: ¥{total}" + (f" ({', '.join(inner_en)})" if inner_en else "")
+        for lang, amt in (("ja", amt_ja), ("en", amt_en)):
+            parts = [p for p in [sysname[lang], grant, amt] if p]
             if parts:
                 desc[lang] = " ".join(parts)
     authors = names(item.get("authors") or item.get("presenters") or item.get("winners") or item.get("investigators"))

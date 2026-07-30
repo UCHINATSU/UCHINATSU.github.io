@@ -21,7 +21,7 @@ a:hover{text-decoration:underline;}
 header{border-bottom:1px solid var(--line);position:sticky;top:0;background:#fff;z-index:10;}
 .header-in{
   max-width:1080px;margin:0 auto;padding:14px 24px;
-  display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;
+  display:flex;align-items:center;justify-content:flex-end;gap:16px;flex-wrap:wrap;
 }
 .site-title{font-weight:700;font-size:28px;letter-spacing:.02em;}
 .site-title a{color:var(--navy);}
@@ -97,13 +97,13 @@ h3.year{
 
 /* dated rows (news) */
 .news-item{display:flex;gap:20px;padding:10px 0;border-bottom:1px solid var(--line);font-size:26px;}
-.news-item time{flex:none;color:var(--gray);font-size:22px;width:150px;padding-top:2px;}
+.news-item time{flex:none;color:var(--gray);font-size:26px;width:165px;padding-top:0;}
 .cat{color:var(--navy);font-weight:600;}
 
 /* timeline rows */
 .tl-item{display:flex;flex-direction:column;gap:2px;padding:11px 0;border-bottom:1px solid var(--line);font-size:26px;}
-.tl-item time{flex:none;color:var(--ink);font-size:22px;width:auto;padding-top:2px;}
-.tl-item .sub{color:var(--ink);font-size:22px;}
+.tl-item time{flex:none;color:var(--ink);font-size:26px;width:auto;padding-top:2px;}
+.tl-item .sub{color:var(--ink);font-size:26px;}
 
 /* publication rows */
 .pub{padding:16px 0;border-bottom:1px solid var(--line);font-size:26px;line-height:1.65;}

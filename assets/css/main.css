@@ -40,10 +40,14 @@ nav a:hover{color:var(--navy-light);text-decoration:none;}
 /* researchmap項目タブ(2段目) */
 .tabbar{background:var(--navy);}
 .tabbar-in{
-  max-width:1080px;margin:0 auto;padding:9px 20px;
-  display:flex;flex-wrap:wrap;gap:4px 2px;
+  max-width:1080px;margin:0 auto;padding:0 20px;
+  display:flex;flex-wrap:wrap;
 }
-.tabbar a{color:#dbe4ee;font-size:24px;padding:8px 15px;border-radius:4px;white-space:nowrap;}
+.tabbar a{
+  color:#fff;font-size:16px;padding:10px 16px;white-space:nowrap;
+  border-right:1px solid rgba(255,255,255,.28);
+}
+.tabbar a:first-child{border-left:1px solid rgba(255,255,255,.28);}
 .tabbar a:hover{background:var(--navy-light);color:#fff;text-decoration:none;}
 .tabbar a.active{background:#fff;color:var(--navy);font-weight:600;}
 

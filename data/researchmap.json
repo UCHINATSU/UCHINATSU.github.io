@@ -29,7 +29,11 @@
    "page_start": "1",
    "page_end": "23",
    "doi": "10.1080/17480930.2026.2632872",
-   "url": "https://doi.org/10.1080/17480930.2026.2632872"
+   "url": "https://doi.org/10.1080/17480930.2026.2632872",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/published_papers/52564854",
@@ -60,7 +64,11 @@
    "page_start": "1",
    "page_end": "13",
    "doi": "10.1109/tgrs.2026.3659086",
-   "url": "https://doi.org/10.1109/tgrs.2026.3659086"
+   "url": "https://doi.org/10.1109/tgrs.2026.3659086",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/published_papers/51837007",
@@ -91,7 +99,11 @@
    "page_start": "181161",
    "page_end": "181161",
    "doi": "10.1016/j.scitotenv.2025.181161",
-   "url": "https://doi.org/10.1016/j.scitotenv.2025.181161"
+   "url": "https://doi.org/10.1016/j.scitotenv.2025.181161",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/published_papers/51359574",
@@ -122,7 +134,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "10.3390/min15101015",
-   "url": "https://doi.org/10.3390/min15101015"
+   "url": "https://doi.org/10.3390/min15101015",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/published_papers/51398351",
@@ -153,7 +169,11 @@
    "page_start": "246",
    "page_end": "258",
    "doi": "10.1016/j.gsme.2025.09.004",
-   "url": "https://doi.org/10.1016/j.gsme.2025.09.004"
+   "url": "https://doi.org/10.1016/j.gsme.2025.09.004",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/published_papers/48770761",
@@ -184,7 +204,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "10.1038/s41598-025-01138-4",
-   "url": "https://doi.org/10.1038/s41598-025-01138-4"
+   "url": "https://doi.org/10.1038/s41598-025-01138-4",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/published_papers/48770748",
@@ -215,7 +239,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "10.1007/s42797-025-00125-2",
-   "url": "https://doi.org/10.1007/s42797-025-00125-2"
+   "url": "https://doi.org/10.1007/s42797-025-00125-2",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/published_papers/48770766",
@@ -246,7 +274,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "10.1007/s42452-025-06796-7",
-   "url": "https://doi.org/10.1007/s42452-025-06796-7"
+   "url": "https://doi.org/10.1007/s42452-025-06796-7",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/published_papers/49034678",
@@ -277,7 +309,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "10.3390/min15020131",
-   "url": "https://doi.org/10.3390/min15020131"
+   "url": "https://doi.org/10.3390/min15020131",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/published_papers/48111083",
@@ -308,7 +344,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "10.1007/s10163-024-02080-9",
-   "url": "https://doi.org/10.1007/s10163-024-02080-9"
+   "url": "https://doi.org/10.1007/s10163-024-02080-9",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/published_papers/48095719",
@@ -339,7 +379,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "10.1080/17480930.2024.2410041",
-   "url": "https://doi.org/10.1080/17480930.2024.2410041"
+   "url": "https://doi.org/10.1080/17480930.2024.2410041",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/published_papers/48085788",
@@ -370,7 +414,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "10.3390/mining4040042",
-   "url": "https://doi.org/10.3390/mining4040042"
+   "url": "https://doi.org/10.3390/mining4040042",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/published_papers/46726207",
@@ -401,7 +449,11 @@
    "page_start": "1",
    "page_end": "21",
    "doi": "10.1080/17480930.2024.2360743",
-   "url": "https://doi.org/10.1080/17480930.2024.2360743"
+   "url": "https://doi.org/10.1080/17480930.2024.2360743",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/published_papers/46567193",
@@ -432,7 +484,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "10.1038/s41598-024-62166-0",
-   "url": "https://doi.org/10.1038/s41598-024-62166-0"
+   "url": "https://doi.org/10.1038/s41598-024-62166-0",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/published_papers/46299540",
@@ -463,7 +519,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "10.1007/s42452-024-05888-0",
-   "url": "https://doi.org/10.1007/s42452-024-05888-0"
+   "url": "https://doi.org/10.1007/s42452-024-05888-0",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/published_papers/41282651",
@@ -494,7 +554,11 @@
    "page_start": "368",
    "page_end": "380",
    "doi": "10.1080/17480930.2022.2051135",
-   "url": "https://doi.org/10.1080/17480930.2022.2051135"
+   "url": "https://doi.org/10.1080/17480930.2022.2051135",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/published_papers/41282628",
@@ -525,7 +589,11 @@
    "page_start": "1",
    "page_end": "9",
    "doi": "10.2473/journalofmmij.137.1",
-   "url": "https://doi.org/10.2473/journalofmmij.137.1"
+   "url": "https://doi.org/10.2473/journalofmmij.137.1",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/published_papers/41282643",
@@ -556,7 +624,11 @@
    "page_start": "809",
    "page_end": "809",
    "doi": "10.3390/min10090809",
-   "url": "https://doi.org/10.3390/min10090809"
+   "url": "https://doi.org/10.3390/min10090809",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   }
  ],
  "misc": [
@@ -589,7 +661,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/misc/54332617",
@@ -620,7 +696,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/misc/54332614",
@@ -651,7 +731,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/misc/54332612",
@@ -682,7 +766,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": "https://api.researchmap.jp/okada_n/research_projects/50839342"
+   "url": "https://api.researchmap.jp/okada_n/research_projects/50839342",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/misc/54332609",
@@ -713,7 +801,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": "https://api.researchmap.jp/okada_n/research_projects/50584209"
+   "url": "https://api.researchmap.jp/okada_n/research_projects/50584209",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/misc/54332608",
@@ -744,7 +836,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/misc/51594853",
@@ -775,7 +871,11 @@
    "page_start": "399",
    "page_end": "412",
    "doi": "10.1007/978-3-032-09929-7_28",
-   "url": "https://doi.org/10.1007/978-3-032-09929-7_28"
+   "url": "https://doi.org/10.1007/978-3-032-09929-7_28",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/misc/49089745",
@@ -806,7 +906,11 @@
    "page_start": "12",
    "page_end": "13",
    "doi": "10.31705/iserme.2024.3",
-   "url": "https://doi.org/10.31705/iserme.2024.3"
+   "url": "https://doi.org/10.31705/iserme.2024.3",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/misc/47315011",
@@ -837,7 +941,11 @@
    "page_start": "214",
    "page_end": "232",
    "doi": "10.2991/978-94-6463-318-4_17",
-   "url": "https://doi.org/10.2991/978-94-6463-318-4_17"
+   "url": "https://doi.org/10.2991/978-94-6463-318-4_17",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/misc/47315010",
@@ -868,7 +976,11 @@
    "page_start": "228",
    "page_end": "235",
    "doi": "10.1007/978-3-030-33954-8_29",
-   "url": "https://doi.org/10.1007/978-3-030-33954-8_29"
+   "url": "https://doi.org/10.1007/978-3-030-33954-8_29",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   }
  ],
  "presentations": [
@@ -901,7 +1013,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/presentations/53139027",
@@ -932,7 +1048,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/presentations/53136864",
@@ -963,7 +1083,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": "https://api.researchmap.jp/okada_n/research_projects/50584209"
+   "url": "https://api.researchmap.jp/okada_n/research_projects/50584209",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/presentations/53126271",
@@ -994,7 +1118,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": "https://api.researchmap.jp/okada_n/research_projects/50839342"
+   "url": "https://api.researchmap.jp/okada_n/research_projects/50839342",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/presentations/53136878",
@@ -1025,7 +1153,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/presentations/53136825",
@@ -1056,7 +1188,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/presentations/53424183",
@@ -1087,7 +1223,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/presentations/53617431",
@@ -1118,7 +1258,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/presentations/53174051",
@@ -1149,7 +1293,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/presentations/53142782",
@@ -1180,7 +1328,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/presentations/52142186",
@@ -1211,7 +1363,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/presentations/52083532",
@@ -1242,7 +1398,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/presentations/53041804",
@@ -1273,7 +1433,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": "https://api.researchmap.jp/okada_n/research_projects/50768703"
+   "url": "https://api.researchmap.jp/okada_n/research_projects/50768703",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/presentations/52030309",
@@ -1304,7 +1468,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/presentations/52030296",
@@ -1335,7 +1503,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/presentations/50207449",
@@ -1366,7 +1538,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": "https://api.researchmap.jp/okada_n/research_projects/50798464"
+   "url": "https://api.researchmap.jp/okada_n/research_projects/50798464",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/presentations/51398467",
@@ -1397,7 +1573,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/presentations/51398449",
@@ -1428,7 +1608,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/presentations/50940486",
@@ -1459,7 +1643,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/presentations/50940477",
@@ -1490,7 +1678,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/presentations/50940463",
@@ -1521,7 +1713,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/presentations/50940453",
@@ -1552,7 +1748,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/presentations/50940445",
@@ -1583,7 +1783,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/presentations/50940428",
@@ -1614,7 +1818,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/presentations/50940418",
@@ -1645,7 +1853,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/presentations/50940404",
@@ -1676,7 +1888,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/presentations/50937657",
@@ -1707,7 +1923,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/presentations/50937651",
@@ -1738,7 +1958,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/presentations/50937648",
@@ -1769,7 +1993,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/presentations/50941391",
@@ -1800,7 +2028,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/presentations/50941382",
@@ -1831,7 +2063,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/presentations/50940539",
@@ -1862,7 +2098,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/presentations/50940524",
@@ -1893,7 +2133,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/presentations/50262677",
@@ -1924,7 +2168,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/presentations/50210626",
@@ -1955,7 +2203,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/presentations/49899521",
@@ -1986,7 +2238,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/presentations/49089698",
@@ -2017,7 +2273,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/presentations/49165784",
@@ -2048,7 +2308,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/presentations/50205910",
@@ -2079,7 +2343,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/presentations/48582138",
@@ -2110,7 +2378,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/presentations/48272657",
@@ -2141,7 +2413,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/presentations/48419015",
@@ -2172,7 +2448,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/presentations/48580318",
@@ -2203,7 +2483,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/presentations/47315033",
@@ -2234,7 +2518,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/presentations/46666223",
@@ -2265,7 +2553,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": "https://api.researchmap.jp/okada_n/research_projects/41283556"
+   "url": "https://api.researchmap.jp/okada_n/research_projects/41283556",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/presentations/47315031",
@@ -2296,7 +2588,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/presentations/46912512",
@@ -2327,7 +2623,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/presentations/46260539",
@@ -2358,7 +2658,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/presentations/48229122",
@@ -2389,7 +2693,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/presentations/46538438",
@@ -2420,7 +2728,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/presentations/45678021",
@@ -2451,7 +2763,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": "https://api.researchmap.jp/okada_n/research_projects/43455691"
+   "url": "https://api.researchmap.jp/okada_n/research_projects/43455691",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/presentations/46538466",
@@ -2482,7 +2798,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/presentations/45677926",
@@ -2513,7 +2833,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/presentations/43339725",
@@ -2544,7 +2868,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": "https://api.researchmap.jp/okada_n/research_projects/42490879"
+   "url": "https://api.researchmap.jp/okada_n/research_projects/42490879",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/presentations/43339707",
@@ -2575,7 +2903,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/presentations/43339695",
@@ -2606,7 +2938,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/presentations/43221332",
@@ -2637,7 +2973,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/presentations/42922118",
@@ -2668,7 +3008,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/presentations/42899144",
@@ -2699,7 +3043,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/presentations/42493249",
@@ -2730,7 +3078,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/presentations/41285353",
@@ -2761,7 +3113,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/presentations/41283449",
@@ -2792,7 +3148,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/presentations/41283405",
@@ -2823,7 +3183,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/presentations/41290066",
@@ -2854,7 +3218,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/presentations/44387786",
@@ -2885,7 +3253,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   }
  ],
  "awards": [
@@ -2918,7 +3290,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/awards/50798454",
@@ -2949,7 +3325,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/awards/47400524",
@@ -2980,7 +3360,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/awards/41283600",
@@ -3011,7 +3395,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/awards/41283593",
@@ -3042,7 +3430,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   }
  ],
  "projects": [
@@ -3058,8 +3450,8 @@
     "en": "Japan Science and Technology Agency (JST)"
    },
    "desc": {
-    "ja": "国際青少年サイエンス交流事業（さくらサイエンスプログラム） 配分額: 5,790,158円",
-    "en": "Sakura Science Program Grant: ¥5,790,158"
+    "ja": "国際青少年サイエンス交流事業（さくらサイエンスプログラム） 2026 年度一般公募プログラム Bコース 配分額: 5,790,158円",
+    "en": "Sakura Science Program FY2026 Open Application Program, Course B Grant: ¥5,790,158"
    },
    "authors": {
     "ja": "岡田夏男",
@@ -3075,7 +3467,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "研究代表者",
+    "en": "Principal investigator"
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/research_projects/54501363",
@@ -3106,7 +3502,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "研究代表者",
+    "en": "Principal investigator"
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/research_projects/52285204",
@@ -3120,8 +3520,8 @@
     "en": "Japan Society for the Promotion of Science"
    },
    "desc": {
-    "ja": "科学研究費助成事業 配分額: 4,550,000円(直接経費: 3,500,000円、間接経費: 1,050,000円)",
-    "en": "Grants-in-Aid for Scientific Research Grant: ¥4,550,000 (Direct: ¥3,500,000, Indirect: ¥1,050,000)"
+    "ja": "科学研究費助成事業 若手研究 26K17497 配分額: 4,550,000円(直接経費: 3,500,000円、間接経費: 1,050,000円)",
+    "en": "Grants-in-Aid for Scientific Research Grant-in-Aid for Early-Career Scientists 26K17497 Grant: ¥4,550,000 (Direct: ¥3,500,000, Indirect: ¥1,050,000)"
    },
    "authors": {
     "ja": "岡田 夏男",
@@ -3137,7 +3537,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-26K17497"
+   "url": "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-26K17497",
+   "role": {
+    "ja": "研究代表者",
+    "en": "Principal investigator"
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/research_projects/52888533",
@@ -3168,7 +3572,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "研究代表者",
+    "en": "Principal investigator"
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/research_projects/53567774",
@@ -3199,7 +3607,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "coinvestigator",
+    "en": "coinvestigator"
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/research_projects/50584209",
@@ -3230,7 +3642,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": "https://api.researchmap.jp/okada_n/misc/54332609"
+   "url": "https://api.researchmap.jp/okada_n/misc/54332609",
+   "role": {
+    "ja": "研究代表者",
+    "en": "Principal investigator"
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/research_projects/51162102",
@@ -3244,8 +3660,8 @@
     "en": "Japan Science and Technology Agency (JST)"
    },
    "desc": {
-    "ja": "国際青少年サイエンス交流事業（さくらサイエンスプログラム） 配分額: 4,461,240円",
-    "en": "国際青少年サイエンス交流事業（さくらサイエンスプログラム） Grant: ¥4,461,240"
+    "ja": "国際青少年サイエンス交流事業（さくらサイエンスプログラム） 2025 年度一般公募プログラム Bコース 配分額: 4,461,240円",
+    "en": "国際青少年サイエンス交流事業（さくらサイエンスプログラム） 2025 年度一般公募プログラム Bコース Grant: ¥4,461,240"
    },
    "authors": {
     "ja": "岡田 夏男",
@@ -3261,7 +3677,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": "https://api.researchmap.jp/okada_n/media_coverage/53323978"
+   "url": "https://api.researchmap.jp/okada_n/media_coverage/53323978",
+   "role": {
+    "ja": "研究代表者",
+    "en": "Principal investigator"
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/research_projects/50798464",
@@ -3292,7 +3712,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": "https://api.researchmap.jp/okada_n/presentations/50207449"
+   "url": "https://api.researchmap.jp/okada_n/presentations/50207449",
+   "role": {
+    "ja": "研究代表者",
+    "en": "Principal investigator"
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/research_projects/50768722",
@@ -3323,7 +3747,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "研究代表者",
+    "en": "Principal investigator"
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/research_projects/50768703",
@@ -3354,7 +3782,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": "https://api.researchmap.jp/okada_n/presentations/53041804"
+   "url": "https://api.researchmap.jp/okada_n/presentations/53041804",
+   "role": {
+    "ja": "研究代表者",
+    "en": "Principal investigator"
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/research_projects/50839342",
@@ -3368,8 +3800,8 @@
     "en": "Japan Science and Technology Agency (JST)"
    },
    "desc": {
-    "ja": "科学研究費助成事業 配分額: 2,730,000円(直接経費: 2,100,000円、間接経費: 630,000円)",
-    "en": "Grants-in-Aid for Scientific Research Grant: ¥2,730,000 (Direct: ¥2,100,000, Indirect: ¥630,000)"
+    "ja": "科学研究費助成事業 研究活動スタート支援 25K23467 配分額: 2,730,000円(直接経費: 2,100,000円、間接経費: 630,000円)",
+    "en": "Grants-in-Aid for Scientific Research Grant-in-Aid for Research Activity Start-up 25K23467 Grant: ¥2,730,000 (Direct: ¥2,100,000, Indirect: ¥630,000)"
    },
    "authors": {
     "ja": "岡田 夏男",
@@ -3385,7 +3817,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-25K23467"
+   "url": "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-25K23467",
+   "role": {
+    "ja": "研究代表者",
+    "en": "Principal investigator"
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/research_projects/53567792",
@@ -3416,7 +3852,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "coinvestigator",
+    "en": "coinvestigator"
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/research_projects/49869031",
@@ -3447,7 +3887,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "coinvestigator",
+    "en": "coinvestigator"
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/research_projects/50798440",
@@ -3478,7 +3922,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "研究代表者",
+    "en": "Principal investigator"
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/research_projects/45921701",
@@ -3509,7 +3957,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "coinvestigator",
+    "en": "coinvestigator"
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/research_projects/42490879",
@@ -3523,8 +3975,8 @@
     "en": "The Fukada Geological Institute"
    },
    "desc": {
-    "ja": "深田野外調査助成 配分額: 150,000円",
-    "en": "深田野外調査助成 Grant: ¥150,000"
+    "ja": "深田野外調査助成 野外調査 配分額: 150,000円",
+    "en": "深田野外調査助成 野外調査 Grant: ¥150,000"
    },
    "authors": {
     "ja": "岡田夏男, 佐々木太一, 有馬孝彦",
@@ -3540,7 +3992,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": "https://api.researchmap.jp/okada_n/presentations/45678021"
+   "url": "https://api.researchmap.jp/okada_n/presentations/45678021",
+   "role": {
+    "ja": "研究代表者",
+    "en": "Principal investigator"
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/research_projects/43455691",
@@ -3554,8 +4010,8 @@
     "en": "Japan Society for the Promotion of Science"
    },
    "desc": {
-    "ja": "科学研究費助成事業 配分額: 2,000,000円(直接経費: 2,000,000円、間接経費: 0円)",
-    "en": "Grants-in-Aid for Scientific Research Grant: ¥2,000,000 (Direct: ¥2,000,000, Indirect: ¥0)"
+    "ja": "科学研究費助成事業 特別研究員奨励費 23KJ0029 配分額: 2,000,000円(直接経費: 2,000,000円、間接経費: 0円)",
+    "en": "Grants-in-Aid for Scientific Research 特別研究員奨励費 23KJ0029 Grant: ¥2,000,000 (Direct: ¥2,000,000, Indirect: ¥0)"
    },
    "authors": {
     "ja": "岡田 夏男",
@@ -3571,7 +4027,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-23KJ0029"
+   "url": "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-23KJ0029",
+   "role": {
+    "ja": "研究代表者",
+    "en": "Principal investigator"
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/research_projects/41284716",
@@ -3585,8 +4045,8 @@
     "en": "Japan Science and Technology Agency (JST)"
    },
    "desc": {
-    "ja": "次世代研究者挑戦的研究プログラム（北海道大学2021年度採択）DX 博士人材フェローシップ 挑戦的・融合的研究の場 実施支援 配分額: 3,649,100円",
-    "en": "Support for Pioneering Research Initiated by the Next Generation (Hokkaido University FY2021) DX Doctoral Fellowship Opportunities for Challenging and Interdisciplinary Research Implementation Support Grant: ¥3,649,100"
+    "ja": "次世代研究者挑戦的研究プログラム（北海道大学2021年度採択）DX 博士人材フェローシップ 挑戦的・融合的研究の場 実施支援 学生共同研究支援 配分額: 3,649,100円",
+    "en": "Support for Pioneering Research Initiated by the Next Generation (Hokkaido University FY2021) DX Doctoral Fellowship Opportunities for Challenging and Interdisciplinary Research Implementation Support 学生共同研究支援 Grant: ¥3,649,100"
    },
    "authors": {
     "ja": "岡田夏男, ソウ ダー ウン",
@@ -3602,7 +4062,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "研究代表者",
+    "en": "Principal investigator"
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/research_projects/41284706",
@@ -3616,8 +4080,8 @@
     "en": "Japan Science and Technology Agency (JST)"
    },
    "desc": {
-    "ja": "次世代研究者挑戦的研究プログラム（北海道大学2021年度採択）DX 博士人材フェローシップ 挑戦的・融合的研究の場 実施支援 配分額: 600,000円",
-    "en": "Support for Pioneering Research Initiated by the Next Generation (Hokkaido University FY2021) DX Doctoral Human Resources Fellowships Challenging and Interdisciplinary Research Opportunities Grant: ¥600,000"
+    "ja": "次世代研究者挑戦的研究プログラム（北海道大学2021年度採択）DX 博士人材フェローシップ 挑戦的・融合的研究の場 実施支援 挑戦的研究支援 配分額: 600,000円",
+    "en": "Support for Pioneering Research Initiated by the Next Generation (Hokkaido University FY2021) DX Doctoral Human Resources Fellowships Challenging and Interdisciplinary Research Opportunities 挑戦的研究支援 Grant: ¥600,000"
    },
    "authors": {
     "ja": "岡田夏男",
@@ -3633,7 +4097,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "研究代表者",
+    "en": "Principal investigator"
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/research_projects/41284692",
@@ -3647,8 +4115,8 @@
     "en": "Japan Science and Technology Agency (JST)"
    },
    "desc": {
-    "ja": "次世代研究者挑戦的研究プログラム（北海道大学2021年度採択）Society 5.0を牽引するDX博士人材育成のための研究支援プロジェクト 配分額: 400,000円",
-    "en": "Support for Pioneering Research Initiated by the Next Generation (Hokkaido University FY2021) Research support project for fostering DX PhDs who will lead Society 5.0 Grant: ¥400,000"
+    "ja": "次世代研究者挑戦的研究プログラム（北海道大学2021年度採択）Society 5.0を牽引するDX博士人材育成のための研究支援プロジェクト 基本研究費 配分額: 400,000円",
+    "en": "Support for Pioneering Research Initiated by the Next Generation (Hokkaido University FY2021) Research support project for fostering DX PhDs who will lead Society 5.0 Basic Research Funds Grant: ¥400,000"
    },
    "authors": {
     "ja": "岡田夏男",
@@ -3664,7 +4132,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "研究代表者",
+    "en": "Principal investigator"
+   }
   }
  ],
  "career": [
@@ -3680,8 +4152,8 @@
     "en": ""
    },
    "desc": {
-    "ja": "助教",
-    "en": "Assistant Professor"
+    "ja": "",
+    "en": ""
    },
    "authors": {
     "ja": "",
@@ -3697,7 +4169,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/research_experience/41905491",
@@ -3728,7 +4204,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/research_experience/41282674",
@@ -3742,8 +4222,8 @@
     "en": ""
    },
    "desc": {
-    "ja": "非常勤講師",
-    "en": "Part-time lecturer"
+    "ja": "",
+    "en": ""
    },
    "authors": {
     "ja": "",
@@ -3759,7 +4239,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   }
  ],
  "education": [
@@ -3767,16 +4251,16 @@
    "id": "https://api.researchmap.jp/okada_n/education/41283291",
    "member": "okada_n",
    "title": {
-    "ja": "北海道大学 大学院工学院",
-    "en": "Hokkaido University Graduate School of Engineering"
+    "ja": "北海道大学 大学院工学院 環境循環システム専攻 博士後期課程",
+    "en": "Hokkaido University Graduate School of Engineering Division of Sustainable Resources Engineering, Doctoral Course"
    },
    "venue": {
     "ja": "",
     "en": ""
    },
    "desc": {
-    "ja": "大学院工学院",
-    "en": "Graduate School of Engineering"
+    "ja": "",
+    "en": ""
    },
    "authors": {
     "ja": "",
@@ -3792,22 +4276,26 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/education/41283268",
    "member": "okada_n",
    "title": {
-    "ja": "University of Chile Faculty of Physical Sciences and Mathematics",
-    "en": "University of Chile Faculty of Physical Sciences and Mathematics"
+    "ja": "University of Chile Faculty of Physical Sciences and Mathematics Master in Mining",
+    "en": "University of Chile Faculty of Physical Sciences and Mathematics Master in Mining"
    },
    "venue": {
     "ja": "",
     "en": ""
    },
    "desc": {
-    "ja": "Faculty of Physical Sciences and Mathematics",
-    "en": "Faculty of Physical Sciences and Mathematics"
+    "ja": "",
+    "en": ""
    },
    "authors": {
     "ja": "",
@@ -3823,22 +4311,26 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/education/41283210",
    "member": "okada_n",
    "title": {
-    "ja": "秋田大学 大学院国際資源学研究科",
-    "en": "Akita University Graduate School of International Resource Sciences"
+    "ja": "秋田大学 大学院国際資源学研究科 資源開発環境学専攻 博士前期課程",
+    "en": "Akita University Graduate School of International Resource Sciences Department of Earth Resource Engineering and Environmental Sciences"
    },
    "venue": {
     "ja": "",
     "en": ""
    },
    "desc": {
-    "ja": "大学院国際資源学研究科",
-    "en": "Graduate School of International Resource Sciences"
+    "ja": "",
+    "en": ""
    },
    "authors": {
     "ja": "",
@@ -3854,22 +4346,26 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/education/41282689",
    "member": "okada_n",
    "title": {
-    "ja": "秋田大学 国際資源学部",
-    "en": "Akita University Faculty of International Resource Sciences"
+    "ja": "秋田大学 国際資源学部 国際資源学科資源開発環境コース",
+    "en": "Akita University Faculty of International Resource Sciences Department of Earth Resource Engineering and Environmental Science"
    },
    "venue": {
     "ja": "",
     "en": ""
    },
    "desc": {
-    "ja": "国際資源学部",
-    "en": "Faculty of International Resource Sciences"
+    "ja": "",
+    "en": ""
    },
    "authors": {
     "ja": "",
@@ -3885,7 +4381,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   }
  ],
  "committees": [
@@ -3918,7 +4418,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   }
  ],
  "memberships": [
@@ -3951,7 +4455,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/association_memberships/45601368",
@@ -3982,7 +4490,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/association_memberships/41283490",
@@ -4013,7 +4525,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   }
  ],
  "teaching": [
@@ -4046,7 +4562,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/teaching_experience/41283463",
@@ -4077,7 +4597,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   }
  ],
  "social": [
@@ -4085,8 +4609,8 @@
    "id": "https://api.researchmap.jp/okada_n/social_contribution/54470758",
    "member": "okada_n",
    "title": {
-    "ja": "R000047492",
-    "en": "R000047492"
+    "ja": "Higher Institute of Science and Technology of Mozambique (Japanese mining industry initiatives)",
+    "en": "Higher Institute of Science and Technology of Mozambique (Japanese mining industry initiatives)"
    },
    "venue": {
     "ja": "Higher Institute of Science and Technology of Mozambique",
@@ -4110,14 +4634,18 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "講師",
+    "en": "Lecturer"
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/social_contribution/54470756",
    "member": "okada_n",
    "title": {
-    "ja": "R000047492",
-    "en": "R000047492"
+    "ja": "Eduardo Mondlane University (Japan's initiatives in Advanced Digital Technologies for Mining Operations in the Mine 4.0)",
+    "en": "Eduardo Mondlane University (Japan's initiatives in Advanced Digital Technologies for Mining Operations in the Mine 4.0)"
    },
    "venue": {
     "ja": "Eduardo Mondlane University",
@@ -4141,14 +4669,18 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "講師",
+    "en": "Lecturer"
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/social_contribution/54441501",
    "member": "okada_n",
    "title": {
-    "ja": "Instituto Superior Politécnico de Tete",
-    "en": "Instituto Superior Politécnico de Tete"
+    "ja": "Instituto Superior Politécnico de Tete (Proposal of an Environmentally Sustainable Mining Development System Utilizing \"Smart Mining+\")",
+    "en": "Instituto Superior Politécnico de Tete (Proposal of an Environmentally Sustainable Mining Development System Utilizing \"Smart Mining+\")"
    },
    "venue": {
     "ja": "",
@@ -4172,14 +4704,18 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "講師",
+    "en": "Lecturer"
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/social_contribution/53794645",
    "member": "okada_n",
    "title": {
-    "ja": "季刊資源と素材",
-    "en": "MMIJ Quartelry"
+    "ja": "11th Asian Mining Conference",
+    "en": "11th Asian Mining Conference"
    },
    "venue": {
     "ja": "",
@@ -4203,14 +4739,18 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": "https://api.researchmap.jp/okada_n/research_projects/50798464"
+   "url": "https://api.researchmap.jp/okada_n/research_projects/50798464",
+   "role": {
+    "ja": "contribution",
+    "en": "contribution"
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/social_contribution/53704997",
    "member": "okada_n",
    "title": {
-    "ja": "R000047492",
-    "en": "R000047492"
+    "ja": "インド工科大学Kharagpur校（スマートマイニング）",
+    "en": "Indian Institute of Technology Kharagpur (Smart Mining)"
    },
    "venue": {
     "ja": "インド工科大学Kharagpur校",
@@ -4234,14 +4774,18 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": "https://api.researchmap.jp/okada_n/research_projects/50798464"
+   "url": "https://api.researchmap.jp/okada_n/research_projects/50798464",
+   "role": {
+    "ja": "講師",
+    "en": "Lecturer"
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/social_contribution/53794779",
    "member": "okada_n",
    "title": {
-    "ja": "季刊資源と素材",
-    "en": "MMIJ Quartelry"
+    "ja": "MMIJ全国巡りー北海道産ワインの紹介ー",
+    "en": "MMIJ Nationwide Tour – Introducing Hokkaido Wines"
    },
    "venue": {
     "ja": "",
@@ -4265,7 +4809,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "contribution",
+    "en": "contribution"
+   }
   }
  ],
  "media": [
@@ -4273,8 +4821,8 @@
    "id": "https://api.researchmap.jp/okada_n/media_coverage/53323978",
    "member": "okada_n",
    "title": {
-    "ja": "Hokkaido University Magazine cathHUp",
-    "en": "Hokkaido University Magazine cathHUp"
+    "ja": "Advancing global collaboration through science: Hokkaido University hosts Sakura Science Exchange Program 2026",
+    "en": "Advancing global collaboration through science: Hokkaido University hosts Sakura Science Exchange Program 2026"
    },
    "venue": {
     "ja": "北海道大学",
@@ -4298,18 +4846,22 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": "https://api.researchmap.jp/okada_n/research_projects/51162102"
+   "url": "https://api.researchmap.jp/okada_n/research_projects/51162102",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/media_coverage/52255241",
    "member": "okada_n",
    "title": {
-    "ja": "日本経済新聞",
-    "en": "Nikkei"
+    "ja": "南鳥島沖レアアース泥、海底資源の国産化へ一歩 試掘終え探査船帰港",
+    "en": "Rare Earth–Rich Mud off Minamitorishima Marks Step Toward Domestic Seabed Resource Development; Survey Vessel Returns After Test Drilling"
    },
    "venue": {
-    "ja": "",
-    "en": ""
+    "ja": "日本経済新聞",
+    "en": "Nikkei"
    },
    "desc": {
     "ja": "",
@@ -4329,14 +4881,18 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/media_coverage/52285316",
    "member": "okada_n",
    "title": {
-    "ja": "R000047492",
-    "en": "R000047492"
+    "ja": "「さくらサイエンスプログラム」にて、北海道大学が招へいしたエチオピア・アクスム大学の教員・学生に、持続的な鉱山開発の取り組みについての講演を行います。",
+    "en": "「さくらサイエンスプログラム」にて、北海道大学が招へいしたエチオピア・アクスム大学の教員・学生に、持続的な鉱山開発の取り組みについての講演を行います。"
    },
    "venue": {
     "ja": "一般財団法人カーボンフロンティア機構",
@@ -4360,14 +4916,18 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": "https://api.researchmap.jp/okada_n/research_projects/51162102"
+   "url": "https://api.researchmap.jp/okada_n/research_projects/51162102",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/media_coverage/52285302",
    "member": "okada_n",
    "title": {
-    "ja": "R000047492",
-    "en": "R000047492"
+    "ja": "（プレスリリース）ブロックチェーンを活⽤した「責任ある鉱物調達」技術の共同研究を開始 〜さくらサイエンスプログラムによりエチオピアから研究者・学⽣ 8 名を招へい〜",
+    "en": "（プレスリリース）ブロックチェーンを活⽤した「責任ある鉱物調達」技術の共同研究を開始 〜さくらサイエンスプログラムによりエチオピアから研究者・学⽣ 8 名を招へい〜"
    },
    "venue": {
     "ja": "北海道大学",
@@ -4391,14 +4951,18 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": "https://api.researchmap.jp/okada_n/research_projects/51162102"
+   "url": "https://api.researchmap.jp/okada_n/research_projects/51162102",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/media_coverage/50148623",
    "member": "okada_n",
    "title": {
-    "ja": "R000047492",
-    "en": "R000047492"
+    "ja": "エディテージ・グラント2024次点を受賞－岡田 夏男さんにインタビュー",
+    "en": "エディテージ・グラント2024次点を受賞－岡田 夏男さんにインタビュー"
    },
    "venue": {
     "ja": "Editage",
@@ -4422,14 +4986,18 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   },
   {
    "id": "https://api.researchmap.jp/okada_n/media_coverage/47343943",
    "member": "okada_n",
    "title": {
-    "ja": "Spectroscopy",
-    "en": "Spectroscopy"
+    "ja": "Sustainable Methods for Detecting Arsenic in Minerals",
+    "en": "Sustainable Methods for Detecting Arsenic in Minerals"
    },
    "venue": {
     "ja": "MJH Life Sciences",
@@ -4453,7 +5021,11 @@
    "page_start": "",
    "page_end": "",
    "doi": "",
-   "url": ""
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
   }
  ],
  "keywords": [

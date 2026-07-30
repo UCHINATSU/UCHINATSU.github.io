@@ -53,10 +53,10 @@ nav a:hover{color:var(--navy-light);text-decoration:none;}
 
 
 /* 言語切替(タブバー右端) */
-.tab-lang{margin-left:auto;display:flex;}
+.tab-lang{display:flex;}
 .tab-lang a{
   color:#dbe4ee;font-size:16px;padding:10px 16px;
-  border-left:1px solid rgba(255,255,255,.28);
+  border-right:1px solid rgba(255,255,255,.28);
 }
 .tab-lang a.active{background:rgba(255,255,255,.18);color:#fff;font-weight:600;}
 .tab-lang a:hover{background:var(--navy-light);text-decoration:none;}

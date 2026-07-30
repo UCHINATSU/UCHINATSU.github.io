@@ -292,6 +292,20 @@ def is_ml_text(v):
     return False
 
 
+def pick_url(item):
+    """表示用URL。researchmap自身のAPIリンク(無意味なリンク)は除外する。"""
+    u = str(item.get("url") or "")
+    if u and "researchmap.jp" not in u:
+        return u
+    sa = item.get("see_also")
+    if isinstance(sa, list):
+        for entry in sa:
+            uid = str(entry.get("@id", "")) if isinstance(entry, dict) else ""
+            if uid and "researchmap.jp" not in uid:
+                return uid
+    return ""
+
+
 def first_key(item, keys):
     for k in keys:
         if item.get(k):
@@ -319,11 +333,9 @@ def norm_item(rmtype, item, member):
     if venue["ja"] == title["ja"] and venue["en"] == title["en"]:
         venue = {"ja": "", "en": ""}  # タイトルと同じ団体名は重複表示しない
     desc = ml(item.get("description") or item.get("job") or item.get("section") or item.get("department"))
-    # 役割(研究代表者・講師など)
+    # 役割(講師など)。研究課題では表示しない(先頭の名前が代表者という慣例のため)
     role = {"ja": "", "en": ""}
-    if item.get("research_project_owner_role"):
-        role = role_label(item["research_project_owner_role"])
-    elif item.get("social_contribution_roles"):
+    if item.get("social_contribution_roles"):
         labels = [role_label(r) for r in item["social_contribution_roles"]]
         role = {"ja": "、".join(x["ja"] for x in labels), "en": ", ".join(x["en"] for x in labels)}
 
@@ -388,9 +400,7 @@ def norm_item(rmtype, item, member):
         "page_start": str(item.get("starting_page") or ""),
         "page_end": str(item.get("ending_page") or ""),
         "doi": str(item.get("identifiers", {}).get("doi", [""])[0] if isinstance(item.get("identifiers", {}).get("doi"), list) else item.get("identifiers", {}).get("doi") or ""),
-        "url": str(item.get("url")
-                   or (item.get("see_also", [{}])[0].get("@id", "")
-                       if isinstance(item.get("see_also"), list) and item.get("see_also") else "")),
+        "url": pick_url(item),
     }
     # 経歴系: affiliation + 部局 + 課程 + 職名 を結合した表示名を作る
     # (結合済みなので詳細行には何も出さない = 「助教 助教」のような重複を防ぐ)
@@ -496,6 +506,7 @@ def build_profile(root_json, merged):
 # ======================== ワードクラウド ========================
 
 EN_STOP = {
+    "a", "an", "of", "in", "on", "at", "by", "to", "as", "is", "be", "or", "vs",
     "the", "and", "for", "with", "from", "using", "based", "toward", "towards",
     "study", "case", "new", "novel", "approach", "method", "methods", "its",
     "via", "into", "between", "under", "over", "through", "during", "their",
@@ -511,31 +522,85 @@ JA_STOP = {
 
 
 def build_wordcloud(merged):
-    """業績タイトルと研究キーワードから頻出語を集計して data/wordcloud.json に保存"""
+    """業績タイトルと研究キーワードから頻出語を集計して data/wordcloud.json に保存。
+    「digital twin」のような頻出2語ペアは複合語として1語にまとめる。"""
     from collections import Counter
-    counter = Counter()
+    uni, bi, tri = Counter(), Counter(), Counter()
+    disp = {}  # 小文字キー → 表示形(固有名詞の大文字などを保持)
+
+    def token_display(w):
+        if w.isupper():
+            return w              # AI, GIS など
+        return w
+
+    def note_display(wl, w):
+        cur = disp.get(wl)
+        if cur is None or (cur[0].islower() and not w[0].islower()):
+            disp[wl] = token_display(w)
+
     texts = []
     for key in ("papers", "misc", "presentations", "projects", "social", "media"):
         for it in merged.get(key, []):
             texts.append((it["title"]["en"], it["title"]["ja"]))
+
     for en, ja in texts:
-        for w in re.findall(r"[A-Za-z][A-Za-z\-]{2,}", en or ""):
-            wl = w.lower()
-            if wl not in EN_STOP:
-                counter[wl.capitalize() if w[0].isupper() else wl] += 1
+        tokens = re.findall(r"[A-Za-z][A-Za-z\-]+|[A-Z]{2,}", en or "")
+        lows = [t.lower() for t in tokens]
+        for w, wl in zip(tokens, lows):
+            if wl in EN_STOP or len(wl) < 2:
+                continue
+            uni[wl] += 1
+            note_display(wl, w)
+        # 隣り合う2語・3語(すべてストップワードでない)を複合語候補として数える
+        ok = [wl not in EN_STOP and len(wl) >= 2 for wl in lows]
+        for i in range(len(lows) - 1):
+            if ok[i] and ok[i + 1]:
+                bi[(lows[i], lows[i + 1])] += 1
+        for i in range(len(lows) - 2):
+            if ok[i] and ok[i + 1] and ok[i + 2]:
+                tri[(lows[i], lows[i + 1], lows[i + 2])] += 1
         if ja and ja != en:
-            # カタカナ語・漢字連続語を抽出(簡易トークナイズ)
             for w in re.findall(r"[ァ-ヴー]{3,}|[一-龠々]{2,}", ja):
                 if w not in JA_STOP:
-                    counter[w] += 1
+                    uni[w] += 1
+
+    # 複合語を長い順(3語→2語)に採用し、採用分を短い側から差し引く
+    def label_of(words):
+        return " ".join(
+            (disp.get(x, x) if disp.get(x, x).isupper() else disp.get(x, x).capitalize())
+            for x in words)
+
+    counter = Counter()
+    absorbed_bi = Counter()
+    absorbed_uni = Counter()
+    for words, c in tri.items():
+        if c >= 2:
+            counter[label_of(words)] += c
+            absorbed_bi[(words[0], words[1])] += c
+            absorbed_bi[(words[1], words[2])] += c
+            for x in words:
+                absorbed_uni[x] += c
+    for words, c in bi.items():
+        rest = c - absorbed_bi.get(words, 0)
+        if rest >= 2:
+            counter[label_of(words)] += rest
+            for x in words:
+                absorbed_uni[x] += rest
+    for wl, c in uni.items():
+        rest = c - absorbed_uni.get(wl, 0)
+        if rest >= 2:
+            counter[disp.get(wl, wl)] += rest
+    counter = Counter({w: c for w, c in counter.items() if c >= 2})
+
     # 研究キーワード・研究分野は重み付けして必ず入れる
     for kw in merged.get("keywords", []) + merged.get("fields", []):
         for lang in ("ja", "en"):
             t = kw.get(lang, "")
             if t and "/" not in t:
                 counter[t] += max(3, counter[t])
-    top = [[w, c] for w, c in counter.most_common(70) if c >= 2] or \
-          [[w, c] for w, c in counter.most_common(40)]
+
+    top = [[w, c] for w, c in counter.most_common(70)] or \
+          [[w, c] for w, c in uni.most_common(40)]
     (DATA / "wordcloud.json").write_text(
         json.dumps(top, ensure_ascii=False), encoding="utf-8")
     print(f"[info] ワードクラウド用の語 {len(top)} 件を集計しました。")

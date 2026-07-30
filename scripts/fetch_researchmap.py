@@ -208,9 +208,32 @@ TYPE_TITLE = {
     "committee_memberships": ["committee_name"],
     "association_memberships": ["academic_society_name", "association"],
     "teaching_experience": ["subject_name", "subject"],
-    "social_contribution": ["title", "event"],
-    "media_coverage": ["title"],
+    "social_contribution": ["social_contribution_title", "title", "event"],
+    "media_coverage": ["media_coverage_title", "title"],
 }
+
+# 役割コード → 表示名
+ROLE_MAP = {
+    "principal_investigator": ("研究代表者", "Principal investigator"),
+    "co_investigator": ("研究分担者", "Co-investigator"),
+    "collaborator": ("連携研究者", "Collaborator"),
+    "research_collaborator": ("研究協力者", "Research collaborator"),
+    "lecturer": ("講師", "Lecturer"),
+    "demonstrator": ("実演", "Demonstrator"),
+    "presenter": ("発表者", "Presenter"),
+    "organizing_member": ("企画・運営", "Organizing member"),
+    "planner": ("企画", "Planner"),
+    "organizer": ("主催者", "Organizer"),
+    "advisor": ("助言・指導", "Advisor"),
+    "commentator": ("コメンテーター", "Commentator"),
+    "informant": ("情報提供", "Informant"),
+    "report_writing": ("報告書執筆", "Report writing"),
+}
+
+
+def role_label(code):
+    ja, en = ROLE_MAP.get(str(code), (str(code).replace("_", " "), str(code).replace("_", " ")))
+    return {"ja": ja, "en": en}
 # 種別ごとの「団体・掲載先」フィールド
 TYPE_VENUE = {
     "published_papers": ["publication_name", "publisher"],
@@ -246,11 +269,18 @@ NON_TITLE_KEYS = set(
     "authors", "presenters", "winners", "investigators", "identifiers",
     "see_also", "referee", "invited", "languages", "@id", "@type", "rm:id",
     "rm:user_id", "display", "display_order", "presentation_type",
+    "social_contribution_type", "social_contribution_roles",
+    "research_project_owner_role", "major_achievement", "address_country",
+    "category", "course",
     "publication_type", "volume", "number", "starting_page", "ending_page",
     "grant_number", "national_grant_number", "overall_grant_amount",
     "description", "url", "doi", "country", "region", "job", "section",
     "department", "role", "publisher", "promoter", "organizer",
 }
+
+
+def is_meta_key(k):
+    return k.startswith("rm:") or k.startswith("@")
 
 
 def is_ml_text(v):
@@ -272,7 +302,7 @@ def first_key(item, keys):
 def guess_title(item):
     """TITLE_KEYSで見つからない場合、item内の最初のテキスト系フィールドをタイトルとみなす。"""
     for k, v in item.items():
-        if k in NON_TITLE_KEYS or k in VENUE_KEYS:
+        if k in NON_TITLE_KEYS or k in VENUE_KEYS or is_meta_key(k):
             continue
         if is_ml_text(v):
             return v
@@ -289,10 +319,22 @@ def norm_item(rmtype, item, member):
     if venue["ja"] == title["ja"] and venue["en"] == title["en"]:
         venue = {"ja": "", "en": ""}  # タイトルと同じ団体名は重複表示しない
     desc = ml(item.get("description") or item.get("job") or item.get("section") or item.get("department"))
-    # 研究課題: 制度名・課題番号・予算額を詳細行に
+    # 役割(研究代表者・講師など)
+    role = {"ja": "", "en": ""}
+    if item.get("research_project_owner_role"):
+        role = role_label(item["research_project_owner_role"])
+    elif item.get("social_contribution_roles"):
+        labels = [role_label(r) for r in item["social_contribution_roles"]]
+        role = {"ja": "、".join(x["ja"] for x in labels), "en": ", ".join(x["en"] for x in labels)}
+
+    # 研究課題: 制度名・種目・課題番号・予算額を詳細行に
     if rmtype == "research_projects":
         sysname = ml(item.get("system_name"))
-        grant = str(item.get("grant_number") or item.get("national_grant_number") or "")
+        category = ml(item.get("category"))
+        idents = item.get("identifiers") or {}
+        gn = idents.get("grant_number")
+        grant = str((gn[0] if isinstance(gn, list) and gn else gn)
+                    or item.get("grant_number") or "")
 
         def yen(v):
             try:
@@ -314,7 +356,7 @@ def norm_item(rmtype, item, member):
             amt_ja = f"配分額: {total}円" + (f"({'、'.join(inner_ja)})" if inner_ja else "")
             amt_en = f"Grant: ¥{total}" + (f" ({', '.join(inner_en)})" if inner_en else "")
         for lang, amt in (("ja", amt_ja), ("en", amt_en)):
-            parts = [p for p in [sysname[lang], grant, amt] if p]
+            parts = [p for p in [sysname[lang], category[lang], grant, amt] if p]
             if parts:
                 desc[lang] = " ".join(parts)
     authors = names(item.get("authors") or item.get("presenters") or item.get("winners") or item.get("investigators"))
@@ -348,16 +390,19 @@ def norm_item(rmtype, item, member):
         "doi": str(item.get("identifiers", {}).get("doi", [""])[0] if isinstance(item.get("identifiers", {}).get("doi"), list) else item.get("identifiers", {}).get("doi") or ""),
         "url": str(item.get("see_also", [{}])[0].get("@id", "") if isinstance(item.get("see_also"), list) and item.get("see_also") else ""),
     }
-    # 経歴系: affiliation + section + job を結合した表示名を作る
+    # 経歴系: affiliation + 部局 + 課程 + 職名 を結合した表示名を作る
+    # (結合済みなので詳細行には何も出さない = 「助教 助教」のような重複を防ぐ)
     if rmtype in ("research_experience", "education", "committee_memberships",
                   "association_memberships", "teaching_experience"):
         for lang in ("ja", "en"):
             parts = [title[lang]]
-            for extra_key in ("section", "department", "job", "committee_name"):
+            for extra_key in ("section", "department", "course", "job", "committee_name"):
                 v = ml(item.get(extra_key))[lang]
                 if v and v not in parts:
                     parts.append(v)
             out["title"][lang] = " ".join(p for p in parts if p)
+        out["desc"] = {"ja": "", "en": ""}
+    out["role"] = role
     return out
 
 

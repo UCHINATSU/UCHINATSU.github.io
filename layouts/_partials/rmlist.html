@@ -56,9 +56,14 @@
         {{- if eq $period "range" }} - {{ if .end }}{{ partial "fmtdate.html" (dict "d" .end "lang" $lang) }}{{ else }}{{ i18n "present" }}{{ end }}{{ end -}}
       </time>
       <div>
-        {{ partial "ml.html" (dict "v" .title "lang" $lang) }}
+        {{ partial "ml.html" (dict "v" .title "lang" $lang) -}}
         {{- $venue := partial "ml.html" (dict "v" .venue "lang" $lang) }}
-        {{- with $venue }} <span class="sub">— {{ . }}</span>{{ end }}
+        {{- with $venue }}, {{ . }}{{ end }}
+        {{- $auth := partial "ml.html" (dict "v" .authors "lang" $lang) }}
+        {{- $role := partial "ml.html" (dict "v" .role "lang" $lang) }}
+        {{- if or $auth $role }}<br><span class="sub">
+          {{- if and $auth $role }}{{ $auth }} ({{ $role }}){{ else }}{{ $auth }}{{ $role }}{{ end -}}
+        </span>{{ end }}
         {{- $desc := partial "ml.html" (dict "v" .desc "lang" $lang) }}
         {{- with $desc }}<br><span class="sub">{{ . }}</span>{{ end }}
       </div>

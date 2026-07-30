@@ -24,6 +24,10 @@
    "year": 2026,
    "peer_reviewed": true,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "1",
+   "page_end": "23",
    "doi": "10.1080/17480930.2026.2632872",
    "url": "https://doi.org/10.1080/17480930.2026.2632872"
   },
@@ -51,6 +55,10 @@
    "year": 2026,
    "peer_reviewed": true,
    "invited": false,
+   "volume": "64",
+   "number": "",
+   "page_start": "1",
+   "page_end": "13",
    "doi": "10.1109/tgrs.2026.3659086",
    "url": "https://doi.org/10.1109/tgrs.2026.3659086"
   },
@@ -78,6 +86,10 @@
    "year": 2026,
    "peer_reviewed": true,
    "invited": false,
+   "volume": "1011",
+   "number": "",
+   "page_start": "181161",
+   "page_end": "181161",
    "doi": "10.1016/j.scitotenv.2025.181161",
    "url": "https://doi.org/10.1016/j.scitotenv.2025.181161"
   },
@@ -105,6 +117,10 @@
    "year": 2025,
    "peer_reviewed": true,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "10.3390/min15101015",
    "url": "https://doi.org/10.3390/min15101015"
   },
@@ -132,6 +148,10 @@
    "year": 2025,
    "peer_reviewed": true,
    "invited": false,
+   "volume": "2",
+   "number": "3",
+   "page_start": "246",
+   "page_end": "258",
    "doi": "10.1016/j.gsme.2025.09.004",
    "url": "https://doi.org/10.1016/j.gsme.2025.09.004"
   },
@@ -159,6 +179,10 @@
    "year": 2025,
    "peer_reviewed": true,
    "invited": false,
+   "volume": "15",
+   "number": "1",
+   "page_start": "",
+   "page_end": "",
    "doi": "10.1038/s41598-025-01138-4",
    "url": "https://doi.org/10.1038/s41598-025-01138-4"
   },
@@ -186,6 +210,10 @@
    "year": 2025,
    "peer_reviewed": true,
    "invited": false,
+   "volume": "7",
+   "number": "3",
+   "page_start": "",
+   "page_end": "",
    "doi": "10.1007/s42797-025-00125-2",
    "url": "https://doi.org/10.1007/s42797-025-00125-2"
   },
@@ -213,6 +241,10 @@
    "year": 2025,
    "peer_reviewed": true,
    "invited": false,
+   "volume": "7",
+   "number": "4",
+   "page_start": "",
+   "page_end": "",
    "doi": "10.1007/s42452-025-06796-7",
    "url": "https://doi.org/10.1007/s42452-025-06796-7"
   },
@@ -240,6 +272,10 @@
    "year": 2025,
    "peer_reviewed": true,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "10.3390/min15020131",
    "url": "https://doi.org/10.3390/min15020131"
   },
@@ -267,6 +303,10 @@
    "year": 2024,
    "peer_reviewed": true,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "10.1007/s10163-024-02080-9",
    "url": "https://doi.org/10.1007/s10163-024-02080-9"
   },
@@ -294,6 +334,10 @@
    "year": 2024,
    "peer_reviewed": true,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "10.1080/17480930.2024.2410041",
    "url": "https://doi.org/10.1080/17480930.2024.2410041"
   },
@@ -321,6 +365,10 @@
    "year": 2024,
    "peer_reviewed": true,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "10.3390/mining4040042",
    "url": "https://doi.org/10.3390/mining4040042"
   },
@@ -348,6 +396,10 @@
    "year": 2024,
    "peer_reviewed": true,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "1",
+   "page_end": "21",
    "doi": "10.1080/17480930.2024.2360743",
    "url": "https://doi.org/10.1080/17480930.2024.2360743"
   },
@@ -375,6 +427,10 @@
    "year": 2024,
    "peer_reviewed": true,
    "invited": false,
+   "volume": "14",
+   "number": "1",
+   "page_start": "",
+   "page_end": "",
    "doi": "10.1038/s41598-024-62166-0",
    "url": "https://doi.org/10.1038/s41598-024-62166-0"
   },
@@ -402,6 +458,10 @@
    "year": 2024,
    "peer_reviewed": true,
    "invited": false,
+   "volume": "6",
+   "number": "5",
+   "page_start": "",
+   "page_end": "",
    "doi": "10.1007/s42452-024-05888-0",
    "url": "https://doi.org/10.1007/s42452-024-05888-0"
   },
@@ -429,6 +489,10 @@
    "year": 2022,
    "peer_reviewed": true,
    "invited": false,
+   "volume": "36",
+   "number": "5",
+   "page_start": "368",
+   "page_end": "380",
    "doi": "10.1080/17480930.2022.2051135",
    "url": "https://doi.org/10.1080/17480930.2022.2051135"
   },
@@ -456,6 +520,10 @@
    "year": 2021,
    "peer_reviewed": true,
    "invited": false,
+   "volume": "137",
+   "number": "1",
+   "page_start": "1",
+   "page_end": "9",
    "doi": "10.2473/journalofmmij.137.1",
    "url": "https://doi.org/10.2473/journalofmmij.137.1"
   },
@@ -483,6 +551,10 @@
    "year": 2020,
    "peer_reviewed": true,
    "invited": false,
+   "volume": "10",
+   "number": "9",
+   "page_start": "809",
+   "page_end": "809",
    "doi": "10.3390/min10090809",
    "url": "https://doi.org/10.3390/min10090809"
   }
@@ -512,6 +584,10 @@
    "year": 2026,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "47",
+   "number": "4",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   },
@@ -539,6 +615,10 @@
    "year": 2026,
    "peer_reviewed": true,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   },
@@ -566,6 +646,10 @@
    "year": 2026,
    "peer_reviewed": true,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   },
@@ -593,6 +677,10 @@
    "year": 2026,
    "peer_reviewed": true,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": "https://api.researchmap.jp/okada_n/research_projects/50839342"
   },
@@ -620,6 +708,10 @@
    "year": 2026,
    "peer_reviewed": true,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": "https://api.researchmap.jp/okada_n/research_projects/50584209"
   },
@@ -647,6 +739,10 @@
    "year": 2026,
    "peer_reviewed": true,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   },
@@ -674,6 +770,10 @@
    "year": 2025,
    "peer_reviewed": true,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "399",
+   "page_end": "412",
    "doi": "10.1007/978-3-032-09929-7_28",
    "url": "https://doi.org/10.1007/978-3-032-09929-7_28"
   },
@@ -701,6 +801,10 @@
    "year": 2024,
    "peer_reviewed": true,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "12",
+   "page_end": "13",
    "doi": "10.31705/iserme.2024.3",
    "url": "https://doi.org/10.31705/iserme.2024.3"
   },
@@ -728,6 +832,10 @@
    "year": 2023,
    "peer_reviewed": true,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "214",
+   "page_end": "232",
    "doi": "10.2991/978-94-6463-318-4_17",
    "url": "https://doi.org/10.2991/978-94-6463-318-4_17"
   },
@@ -755,6 +863,10 @@
    "year": 2019,
    "peer_reviewed": true,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "228",
+   "page_end": "235",
    "doi": "10.1007/978-3-030-33954-8_29",
    "url": "https://doi.org/10.1007/978-3-030-33954-8_29"
   }
@@ -784,6 +896,10 @@
    "year": 2026,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   },
@@ -811,6 +927,10 @@
    "year": 2026,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   },
@@ -838,6 +958,10 @@
    "year": 2026,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": "https://api.researchmap.jp/okada_n/research_projects/50584209"
   },
@@ -865,6 +989,10 @@
    "year": 2026,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": "https://api.researchmap.jp/okada_n/research_projects/50839342"
   },
@@ -892,6 +1020,10 @@
    "year": 2026,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   },
@@ -919,6 +1051,10 @@
    "year": 2026,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   },
@@ -946,6 +1082,10 @@
    "year": 2026,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   },
@@ -973,6 +1113,10 @@
    "year": 2026,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   },
@@ -1000,6 +1144,10 @@
    "year": 2026,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   },
@@ -1027,6 +1175,10 @@
    "year": 2026,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   },
@@ -1054,6 +1206,10 @@
    "year": 2026,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   },
@@ -1081,6 +1237,10 @@
    "year": 2026,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   },
@@ -1108,6 +1268,10 @@
    "year": 2026,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": "https://api.researchmap.jp/okada_n/research_projects/50768703"
   },
@@ -1135,6 +1299,10 @@
    "year": 2026,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   },
@@ -1162,6 +1330,10 @@
    "year": 2026,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   },
@@ -1189,6 +1361,10 @@
    "year": 2025,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": "https://api.researchmap.jp/okada_n/research_projects/50798464"
   },
@@ -1216,6 +1392,10 @@
    "year": 2025,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   },
@@ -1243,6 +1423,10 @@
    "year": 2025,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   },
@@ -1270,6 +1454,10 @@
    "year": 2025,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   },
@@ -1297,6 +1485,10 @@
    "year": 2025,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   },
@@ -1324,6 +1516,10 @@
    "year": 2025,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   },
@@ -1351,6 +1547,10 @@
    "year": 2025,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   },
@@ -1378,6 +1578,10 @@
    "year": 2025,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   },
@@ -1405,6 +1609,10 @@
    "year": 2025,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   },
@@ -1432,6 +1640,10 @@
    "year": 2025,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   },
@@ -1459,6 +1671,10 @@
    "year": 2025,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   },
@@ -1486,6 +1702,10 @@
    "year": 2025,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   },
@@ -1513,6 +1733,10 @@
    "year": 2025,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   },
@@ -1540,6 +1764,10 @@
    "year": 2025,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   },
@@ -1567,6 +1795,10 @@
    "year": 2025,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   },
@@ -1594,6 +1826,10 @@
    "year": 2025,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   },
@@ -1621,6 +1857,10 @@
    "year": 2025,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   },
@@ -1648,6 +1888,10 @@
    "year": 2025,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   },
@@ -1675,6 +1919,10 @@
    "year": 2025,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   },
@@ -1702,6 +1950,10 @@
    "year": 2025,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   },
@@ -1729,6 +1981,10 @@
    "year": 2025,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   },
@@ -1756,6 +2012,10 @@
    "year": 2025,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   },
@@ -1783,6 +2043,10 @@
    "year": 2025,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   },
@@ -1810,6 +2074,10 @@
    "year": 2025,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   },
@@ -1837,6 +2105,10 @@
    "year": 2025,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   },
@@ -1864,6 +2136,10 @@
    "year": 2024,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   },
@@ -1891,6 +2167,10 @@
    "year": 2024,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   },
@@ -1918,6 +2198,10 @@
    "year": 2024,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   },
@@ -1945,6 +2229,10 @@
    "year": 2024,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   },
@@ -1972,6 +2260,10 @@
    "year": 2024,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": "https://api.researchmap.jp/okada_n/research_projects/41283556"
   },
@@ -1999,6 +2291,10 @@
    "year": 2024,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   },
@@ -2026,6 +2322,10 @@
    "year": 2024,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   },
@@ -2053,6 +2353,10 @@
    "year": 2024,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   },
@@ -2080,6 +2384,10 @@
    "year": 2024,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   },
@@ -2107,6 +2415,10 @@
    "year": 2024,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   },
@@ -2134,6 +2446,10 @@
    "year": 2024,
    "peer_reviewed": false,
    "invited": true,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": "https://api.researchmap.jp/okada_n/research_projects/43455691"
   },
@@ -2161,6 +2477,10 @@
    "year": 2024,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   },
@@ -2188,6 +2508,10 @@
    "year": 2024,
    "peer_reviewed": false,
    "invited": true,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   },
@@ -2215,6 +2539,10 @@
    "year": 2023,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": "https://api.researchmap.jp/okada_n/research_projects/42490879"
   },
@@ -2242,6 +2570,10 @@
    "year": 2023,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   },
@@ -2269,6 +2601,10 @@
    "year": 2023,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   },
@@ -2296,6 +2632,10 @@
    "year": 2023,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   },
@@ -2323,6 +2663,10 @@
    "year": 2023,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   },
@@ -2350,6 +2694,10 @@
    "year": 2023,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   },
@@ -2377,6 +2725,10 @@
    "year": 2023,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   },
@@ -2404,6 +2756,10 @@
    "year": 2022,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   },
@@ -2431,6 +2787,10 @@
    "year": 2021,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   },
@@ -2458,6 +2818,10 @@
    "year": 2019,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   },
@@ -2485,6 +2849,10 @@
    "year": 2019,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   },
@@ -2512,6 +2880,10 @@
    "year": 2019,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   }
@@ -2541,6 +2913,10 @@
    "year": 2026,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   },
@@ -2568,6 +2944,10 @@
    "year": 2024,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   },
@@ -2595,6 +2975,10 @@
    "year": 2024,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   },
@@ -2622,6 +3006,10 @@
    "year": 2020,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   },
@@ -2649,6 +3037,10 @@
    "year": 2017,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   }
@@ -2666,8 +3058,8 @@
     "en": "Japan Science and Technology Agency (JST)"
    },
    "desc": {
-    "ja": "",
-    "en": ""
+    "ja": "国際青少年サイエンス交流事業（さくらサイエンスプログラム）",
+    "en": "Sakura Science Program"
    },
    "authors": {
     "ja": "岡田夏男",
@@ -2678,6 +3070,10 @@
    "year": 2026,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   },
@@ -2705,6 +3101,10 @@
    "year": 2026,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   },
@@ -2720,8 +3120,8 @@
     "en": "Japan Society for the Promotion of Science"
    },
    "desc": {
-    "ja": "",
-    "en": ""
+    "ja": "科学研究費助成事業",
+    "en": "Grants-in-Aid for Scientific Research"
    },
    "authors": {
     "ja": "岡田 夏男",
@@ -2732,6 +3132,10 @@
    "year": 2026,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-26K17497"
   },
@@ -2747,8 +3151,8 @@
     "en": "Osake-no-Kagaku Foundation"
    },
    "desc": {
-    "ja": "",
-    "en": ""
+    "ja": "2026年度お酒の科学財団研究助成",
+    "en": "Osake-no-Kagaku Foundation Research Grants"
    },
    "authors": {
     "ja": "岡田夏男, 大野正芳",
@@ -2759,6 +3163,10 @@
    "year": 2026,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   },
@@ -2786,6 +3194,10 @@
    "year": 2026,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   },
@@ -2801,8 +3213,8 @@
     "en": "Kurita Water and Environment Foundation"
    },
    "desc": {
-    "ja": "",
-    "en": ""
+    "ja": "2025年度研究助成事業萌芽b",
+    "en": "FY2025 Research Grant Program, Exploratory Research (Category B)"
    },
    "authors": {
     "ja": "岡田夏男",
@@ -2813,6 +3225,10 @@
    "year": 2025,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": "https://api.researchmap.jp/okada_n/misc/54332609"
   },
@@ -2828,8 +3244,8 @@
     "en": "Japan Science and Technology Agency (JST)"
    },
    "desc": {
-    "ja": "",
-    "en": ""
+    "ja": "国際青少年サイエンス交流事業（さくらサイエンスプログラム）",
+    "en": "国際青少年サイエンス交流事業（さくらサイエンスプログラム）"
    },
    "authors": {
     "ja": "岡田 夏男",
@@ -2840,6 +3256,10 @@
    "year": 2025,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": "https://api.researchmap.jp/okada_n/media_coverage/53323978"
   },
@@ -2855,8 +3275,8 @@
     "en": "The Japan Mining Promotive Foundation"
    },
    "desc": {
-    "ja": "",
-    "en": ""
+    "ja": "令和7年度少壮研究者による海外科学技術調査助成",
+    "en": "FY2025 Overseas Scientific and Technological Research Grant for Young Researchers"
    },
    "authors": {
     "ja": "岡田 夏男",
@@ -2867,6 +3287,10 @@
    "year": 2025,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": "https://api.researchmap.jp/okada_n/presentations/50207449"
   },
@@ -2882,8 +3306,8 @@
     "en": "Hokkaido University Center for Green Transformation (HU-GXC)"
    },
    "desc": {
-    "ja": "",
-    "en": ""
+    "ja": "HU-GXC 公募型研究プログラム",
+    "en": "HU-GXC Open Call Research Program"
    },
    "authors": {
     "ja": "岡田夏男",
@@ -2894,6 +3318,10 @@
    "year": 2025,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   },
@@ -2909,8 +3337,8 @@
     "en": "Hokkaido Scientific and Technological Center (NOASTEC Foundation)"
    },
    "desc": {
-    "ja": "",
-    "en": ""
+    "ja": "若手研究人材育成事業 若手研究人材・ネットワーク育成補助金 （タレント補助金）",
+    "en": "Young Researcher Development Program: Young Researcher and Network Development Grant (Talent Grant)"
    },
    "authors": {
     "ja": "岡田夏男",
@@ -2921,6 +3349,10 @@
    "year": 2025,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": "https://api.researchmap.jp/okada_n/presentations/53041804"
   },
@@ -2936,8 +3368,8 @@
     "en": "Japan Science and Technology Agency (JST)"
    },
    "desc": {
-    "ja": "",
-    "en": ""
+    "ja": "科学研究費助成事業",
+    "en": "Grants-in-Aid for Scientific Research"
    },
    "authors": {
     "ja": "岡田 夏男",
@@ -2948,6 +3380,10 @@
    "year": 2025,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-25K23467"
   },
@@ -2975,6 +3411,10 @@
    "year": 2025,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   },
@@ -3002,6 +3442,10 @@
    "year": 2025,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   },
@@ -3017,8 +3461,8 @@
     "en": "カクタスコミュニケーションズ"
    },
    "desc": {
-    "ja": "",
-    "en": ""
+    "ja": "エディテージ・グラント2024 若手研究者向け助成・支援プログラム",
+    "en": "エディテージ・グラント2024 若手研究者向け助成・支援プログラム"
    },
    "authors": {
     "ja": "岡田夏男",
@@ -3029,6 +3473,10 @@
    "year": 2024,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   },
@@ -3044,8 +3492,8 @@
     "en": "The Taisei Foundation"
    },
    "desc": {
-    "ja": "",
-    "en": ""
+    "ja": "一般財団法人 大成学術財団 2024年度 研究助成",
+    "en": "一般財団法人 大成学術財団 2024年度 研究助成"
    },
    "authors": {
     "ja": "川村洋平, 岡田夏男",
@@ -3056,6 +3504,10 @@
    "year": 2024,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   },
@@ -3071,8 +3523,8 @@
     "en": "The Fukada Geological Institute"
    },
    "desc": {
-    "ja": "",
-    "en": ""
+    "ja": "深田野外調査助成",
+    "en": "深田野外調査助成"
    },
    "authors": {
     "ja": "岡田夏男, 佐々木太一, 有馬孝彦",
@@ -3083,6 +3535,10 @@
    "year": 2023,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": "https://api.researchmap.jp/okada_n/presentations/45678021"
   },
@@ -3098,8 +3554,8 @@
     "en": "Japan Society for the Promotion of Science"
    },
    "desc": {
-    "ja": "",
-    "en": ""
+    "ja": "科学研究費助成事業",
+    "en": "Grants-in-Aid for Scientific Research"
    },
    "authors": {
     "ja": "岡田 夏男",
@@ -3110,6 +3566,10 @@
    "year": 2023,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-23KJ0029"
   },
@@ -3125,8 +3585,8 @@
     "en": "Japan Science and Technology Agency (JST)"
    },
    "desc": {
-    "ja": "",
-    "en": ""
+    "ja": "次世代研究者挑戦的研究プログラム（北海道大学2021年度採択）DX 博士人材フェローシップ 挑戦的・融合的研究の場 実施支援",
+    "en": "Support for Pioneering Research Initiated by the Next Generation (Hokkaido University FY2021) DX Doctoral Fellowship Opportunities for Challenging and Interdisciplinary Research Implementation Support"
    },
    "authors": {
     "ja": "岡田夏男, ソウ ダー ウン",
@@ -3137,6 +3597,10 @@
    "year": 2023,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   },
@@ -3152,8 +3616,8 @@
     "en": "Japan Science and Technology Agency (JST)"
    },
    "desc": {
-    "ja": "",
-    "en": ""
+    "ja": "次世代研究者挑戦的研究プログラム（北海道大学2021年度採択）DX 博士人材フェローシップ 挑戦的・融合的研究の場 実施支援",
+    "en": "Support for Pioneering Research Initiated by the Next Generation (Hokkaido University FY2021) DX Doctoral Human Resources Fellowships Challenging and Interdisciplinary Research Opportunities"
    },
    "authors": {
     "ja": "岡田夏男",
@@ -3164,6 +3628,10 @@
    "year": 2022,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   },
@@ -3179,8 +3647,8 @@
     "en": "Japan Science and Technology Agency (JST)"
    },
    "desc": {
-    "ja": "",
-    "en": ""
+    "ja": "次世代研究者挑戦的研究プログラム（北海道大学2021年度採択）Society 5.0を牽引するDX博士人材育成のための研究支援プロジェクト",
+    "en": "Support for Pioneering Research Initiated by the Next Generation (Hokkaido University FY2021) Research support project for fostering DX PhDs who will lead Society 5.0"
    },
    "authors": {
     "ja": "岡田夏男",
@@ -3191,6 +3659,10 @@
    "year": 2022,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   }
@@ -3220,6 +3692,10 @@
    "year": 2025,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   },
@@ -3247,6 +3723,10 @@
    "year": 2023,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   },
@@ -3274,6 +3754,10 @@
    "year": 2022,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   }
@@ -3303,6 +3787,10 @@
    "year": 2022,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   },
@@ -3330,6 +3818,10 @@
    "year": 2021,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   },
@@ -3357,6 +3849,10 @@
    "year": 2020,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   },
@@ -3384,6 +3880,10 @@
    "year": 2016,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   }
@@ -3413,6 +3913,10 @@
    "year": 2025,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   }
@@ -3422,8 +3926,8 @@
    "id": "https://api.researchmap.jp/okada_n/association_memberships/49869027",
    "member": "okada_n",
    "title": {
-    "ja": "R000047492",
-    "en": "R000047492"
+    "ja": "日本バーチャルリアリティ学会",
+    "en": "The virtual reality society of Japan"
    },
    "venue": {
     "ja": "",
@@ -3442,6 +3946,10 @@
    "year": 2025,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   },
@@ -3449,8 +3957,8 @@
    "id": "https://api.researchmap.jp/okada_n/association_memberships/45601368",
    "member": "okada_n",
    "title": {
-    "ja": "R000047492",
-    "en": "R000047492"
+    "ja": "日本地球惑星科学連合",
+    "en": "Japan Geoscience Union"
    },
    "venue": {
     "ja": "",
@@ -3469,6 +3977,10 @@
    "year": 2024,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   },
@@ -3476,8 +3988,8 @@
    "id": "https://api.researchmap.jp/okada_n/association_memberships/41283490",
    "member": "okada_n",
    "title": {
-    "ja": "R000047492",
-    "en": "R000047492"
+    "ja": "一般社団法人 資源・素材学会",
+    "en": "The Mining and Materials Processing Institute of Japan"
    },
    "venue": {
     "ja": "",
@@ -3496,6 +4008,10 @@
    "year": 2019,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   }
@@ -3505,12 +4021,12 @@
    "id": "https://api.researchmap.jp/okada_n/teaching_experience/49622711",
    "member": "okada_n",
    "title": {
-    "ja": "R000047492",
-    "en": "R000047492"
+    "ja": "資源情報学",
+    "en": "Resource Informatics"
    },
    "venue": {
-    "ja": "",
-    "en": ""
+    "ja": "北海道大学",
+    "en": "Hokkaido University"
    },
    "desc": {
     "ja": "",
@@ -3525,6 +4041,10 @@
    "year": 2025,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   },
@@ -3532,12 +4052,12 @@
    "id": "https://api.researchmap.jp/okada_n/teaching_experience/41283463",
    "member": "okada_n",
    "title": {
-    "ja": "R000047492",
-    "en": "R000047492"
+    "ja": "知識工学",
+    "en": "Knowledge engineering"
    },
    "venue": {
-    "ja": "",
-    "en": ""
+    "ja": "旭川工業高等専門学校",
+    "en": "National Institute of Technology, Asahikawa College"
    },
    "desc": {
     "ja": "",
@@ -3552,6 +4072,10 @@
    "year": 2022,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   }
@@ -3581,6 +4105,10 @@
    "year": 2026,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   },
@@ -3608,6 +4136,10 @@
    "year": 2026,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   },
@@ -3635,6 +4167,10 @@
    "year": 2026,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   },
@@ -3662,6 +4198,10 @@
    "year": 2026,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": "https://api.researchmap.jp/okada_n/research_projects/50798464"
   },
@@ -3689,6 +4229,10 @@
    "year": 2025,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": "https://api.researchmap.jp/okada_n/research_projects/50798464"
   },
@@ -3716,6 +4260,10 @@
    "year": 2025,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   }
@@ -3729,8 +4277,8 @@
     "en": "Hokkaido University Magazine cathHUp"
    },
    "venue": {
-    "ja": "",
-    "en": ""
+    "ja": "北海道大学",
+    "en": "北海道大学"
    },
    "desc": {
     "ja": "",
@@ -3745,6 +4293,10 @@
    "year": 2026,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": "https://api.researchmap.jp/okada_n/research_projects/51162102"
   },
@@ -3772,6 +4324,10 @@
    "year": 2026,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   },
@@ -3799,6 +4355,10 @@
    "year": 2026,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": "https://api.researchmap.jp/okada_n/research_projects/51162102"
   },
@@ -3826,6 +4386,10 @@
    "year": 2026,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": "https://api.researchmap.jp/okada_n/research_projects/51162102"
   },
@@ -3853,6 +4417,10 @@
    "year": 2025,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   },
@@ -3864,8 +4432,8 @@
     "en": "Spectroscopy"
    },
    "venue": {
-    "ja": "",
-    "en": ""
+    "ja": "MJH Life Sciences",
+    "en": "MJH Life Sciences"
    },
    "desc": {
     "ja": "",
@@ -3880,6 +4448,10 @@
    "year": 2024,
    "peer_reviewed": false,
    "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
    "doi": "",
    "url": ""
   }

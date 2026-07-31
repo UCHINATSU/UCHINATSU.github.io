@@ -76,16 +76,16 @@
   }
 })();
 (function(){
-  // 訪問者カウンター(同一訪問中は何ページ見ても1カウント)
+  // 訪問者カウンター(自前のCloudflare Workerに接続。同一訪問中は1カウント)
   var el = document.getElementById("vcount");
   if (!el || !window.fetch) return;
-  var base = "https://api.counterapi.dev/v1/uchinatsu-site/visits";
+  var base = "https://visit-counter.natsuookada01.workers.dev";
   var counted = false;
   try { counted = !!sessionStorage.getItem("vc"); } catch(e) {}
-  fetch(counted ? base : base + "/up").then(function(r){ return r.json(); }).then(function(d){
+  fetch(counted ? base + "/" : base + "/up").then(function(r){ return r.json(); }).then(function(d){
     try { sessionStorage.setItem("vc", "1"); } catch(e) {}
-    if (d && d.count) {
-      el.textContent = "Visitors: " + Number(d.count).toLocaleString();
+    if (d && typeof d.count === "number") {
+      el.textContent = "Visitors: " + d.count.toLocaleString();
       el.style.display = "";
     }
   }).catch(function(){});

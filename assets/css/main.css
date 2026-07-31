@@ -18,7 +18,7 @@ a{color:var(--navy-light);text-decoration:none;}
 a:hover{text-decoration:underline;}
 
 /* header */
-header{border-bottom:1px solid var(--line);position:sticky;top:0;background:#fff;z-index:10;}
+header{border-bottom:1px solid var(--line);background:#fff;}
 .header-in{
   max-width:1080px;margin:0 auto;padding:14px 24px;
   display:flex;align-items:center;justify-content:flex-start;gap:16px;flex-wrap:wrap;

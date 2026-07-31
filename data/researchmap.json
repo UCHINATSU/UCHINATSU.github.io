@@ -4814,6 +4814,41 @@
     "ja": "contribution",
     "en": "contribution"
    }
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/social_contribution/41285358",
+   "member": "okada_n",
+   "title": {
+    "ja": "鉱山工学分野における人工知能の活用～波長から鉱物を知る～",
+    "en": "Application of Artificial Intelligence in Mining Engineering - Understanding Minerals from Wavelengths"
+   },
+   "venue": {
+    "ja": "サイエンスカフェえむしーじじょう",
+    "en": "サイエンスカフェえむしーじじょう"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "",
+    "en": ""
+   },
+   "start": "2022-07-31",
+   "end": "2022-07-31",
+   "year": 2022,
+   "peer_reviewed": false,
+   "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
+   "doi": "",
+   "url": "",
+   "role": {
+    "ja": "appearance",
+    "en": "appearance"
+   }
   }
  ],
  "media": [

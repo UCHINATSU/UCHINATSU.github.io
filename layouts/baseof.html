@@ -17,7 +17,8 @@
 
 <header>
   <div class="tabbar">
-    <div class="tabbar-in">
+    <button class="menu-btn" id="menu-btn" aria-expanded="false" aria-label="{{ if eq $lang "ja" }}メニュー{{ else }}Menu{{ end }}">☰</button>
+    <div class="tabbar-in" id="tabbar-in">
       {{- $cur := .RelPermalink -}}
       {{- range $item := slice
             (dict "key" "home" "url" "/")
@@ -63,5 +64,17 @@
   </div>
 </footer>
 
+<script>
+(function(){
+  var btn = document.getElementById("menu-btn");
+  var bar = document.getElementById("tabbar-in");
+  if (btn && bar) {
+    btn.addEventListener("click", function(){
+      var open = bar.classList.toggle("open");
+      btn.setAttribute("aria-expanded", open ? "true" : "false");
+    });
+  }
+})();
+</script>
 </body>
 </html>

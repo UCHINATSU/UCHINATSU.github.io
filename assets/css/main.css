@@ -212,7 +212,7 @@ footer{border-top:1px solid var(--line);margin-top:40px;}
   .menu-btn{
     display:block;width:100%;text-align:left;
     background:var(--navy);color:#fff;border:none;
-    font-size:13px;padding:10px 16px;font-family:inherit;
+    font-size:22px;line-height:1;padding:9px 16px;font-family:inherit;
   }
   .tabbar-in{display:none;padding:0;}
   .tabbar-in.open{display:flex;flex-direction:column;}

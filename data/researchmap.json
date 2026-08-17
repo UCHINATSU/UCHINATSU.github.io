@@ -4390,6 +4390,41 @@
  ],
  "committees": [
   {
+   "id": "https://api.researchmap.jp/okada_n/committee_memberships/53249936",
+   "member": "okada_n",
+   "title": {
+    "ja": "幹事",
+    "en": "Executive Committee Member"
+   },
+   "venue": {
+    "ja": "資源・素材学会 北海道支部",
+    "en": "Hokkaido Branch, The Mining and Materials Processing Institute of Japan"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "",
+    "en": ""
+   },
+   "start": "2026-04",
+   "end": "",
+   "year": 2026,
+   "peer_reviewed": false,
+   "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
+   "doi": "",
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
+  },
+  {
    "id": "https://api.researchmap.jp/okada_n/committee_memberships/49868973",
    "member": "okada_n",
    "title": {

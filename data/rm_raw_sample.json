@@ -349,28 +349,28 @@
   "address_country": "JPN"
  },
  "committee_memberships": {
-  "@id": "https://api.researchmap.jp/okada_n/committee_memberships/49868973",
+  "@id": "https://api.researchmap.jp/okada_n/committee_memberships/53249936",
   "@type": "committee_memberships",
   "@reverse": "https://api.researchmap.jp/okada_n/committee_memberships",
-  "rm:id": "49868973",
+  "rm:id": "53249936",
   "rm:user_id": "R000047492",
   "display": "disclosed",
   "major_achievement": false,
   "rm:creator_id": "R000047492",
   "rm:creator_type": "myself",
-  "rm:created": "2025-04-16T12:41:44Z",
+  "rm:created": "2026-04-07T02:27:14Z",
   "rm:modifier_id": "R000047492",
   "rm:modifier_type": "myself",
-  "rm:modified": "2026-01-20T04:52:52Z",
-  "from_date": "2025-04",
+  "rm:modified": "2026-08-17T01:16:44Z",
+  "from_date": "2026-04",
   "to_date": "9999",
   "committee_name": {
    "ja": "幹事",
-   "en": "Secretary"
+   "en": "Executive Committee Member"
   },
   "association": {
-   "ja": "日本バーチャルリアリティ学会 北海道チャプター",
-   "en": "Hokkaido Chapter, The Virtual Reality Society of Japan"
+   "ja": "資源・素材学会 北海道支部",
+   "en": "Hokkaido Branch, The Mining and Materials Processing Institute of Japan"
   },
   "committee_type": "society"
  },

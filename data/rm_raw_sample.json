@@ -128,64 +128,61 @@
   "rm:is_open_access": false
  },
  "presentations": {
-  "@id": "https://api.researchmap.jp/okada_n/presentations/53782897",
+  "@id": "https://api.researchmap.jp/okada_n/presentations/54510649",
   "@type": "presentations",
   "@reverse": "https://api.researchmap.jp/okada_n/presentations",
-  "rm:id": "53782897",
+  "rm:id": "54510649",
   "rm:user_id": "R000047492",
   "display": "disclosed",
   "major_achievement": false,
   "rm:creator_id": "R000047492",
   "rm:creator_type": "myself",
-  "rm:created": "2026-05-28T06:13:20Z",
+  "rm:created": "2026-07-29T22:21:06Z",
   "rm:modifier_id": "R000047492",
   "rm:modifier_type": "myself",
-  "rm:modified": "2026-07-05T22:44:04Z",
+  "rm:modified": "2026-09-16T00:45:45Z",
   "presentation_title": {
-   "en": "Predictive modelling of blast-induced vibrations using machine learning to mitigate environmental impacts in open-pit mines"
+   "en": "Advances in Smart Mining: Lithology Classification in TBM Operations Based on Hyperspectral Imaging and AI Models"
   },
   "presenters": {
    "en": [
     {
-     "name": "Reinaldo Luís Bartolomeu"
+     "name": "Brian Bino Sinaice"
     },
     {
-     "name": "Maeneja Júnior"
-    },
-    {
-     "name": "Yewuhalashet Fissha"
+     "name": "Narihiro Owada"
     },
     {
      "name": "Natsuo Okada"
     },
     {
-     "name": "Rodrigues Mário"
+     "name": "Kursat Kilic"
     },
     {
-     "name": "Belchior Coelho Miguel"
+     "name": "Hajime Ikeda"
     },
     {
-     "name": "Marcos Afonso"
+     "name": "Zibisani Bagai"
     },
     {
-     "name": "Jinja Cussaia"
+     "name": "Tsuyoshi Adachi"
     },
     {
-     "name": "Elsa Pansilvânia André Manjate"
+     "name": "Youhei Kawamura"
     }
    ]
   },
   "event": {
-   "en": "Geosciences and Sustainable Development Conference"
+   "en": "International Conference on Engineering and Built Environment for Sustainability and Resilience (ICEBE-SR’26)"
   },
-  "publication_date": "2026-06-30",
-  "from_event_date": "2026-06-30",
-  "to_event_date": "2026-07-04",
+  "publication_date": "2026-09-15",
+  "from_event_date": "2026-09-15",
+  "to_event_date": "2026-09-17",
   "invited": false,
   "languages": [
-   "por"
+   "eng"
   ],
-  "presentation_type": "poster_presentation",
+  "presentation_type": "oral_presentation",
   "rm:is_open_access": false
  },
  "awards": {

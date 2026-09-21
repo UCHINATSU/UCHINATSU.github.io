@@ -985,6 +985,146 @@
  ],
  "presentations": [
   {
+   "id": "https://api.researchmap.jp/okada_n/presentations/54510649",
+   "member": "okada_n",
+   "title": {
+    "ja": "Advances in Smart Mining: Lithology Classification in TBM Operations Based on Hyperspectral Imaging and AI Models",
+    "en": "Advances in Smart Mining: Lithology Classification in TBM Operations Based on Hyperspectral Imaging and AI Models"
+   },
+   "venue": {
+    "ja": "International Conference on Engineering and Built Environment for Sustainability and Resilience (ICEBE-SR’26)",
+    "en": "International Conference on Engineering and Built Environment for Sustainability and Resilience (ICEBE-SR’26)"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "Brian Bino Sinaice, Narihiro Owada, Natsuo Okada, Kursat Kilic, Hajime Ikeda, Zibisani Bagai, Tsuyoshi Adachi, Youhei Kawamura",
+    "en": "Brian Bino Sinaice, Narihiro Owada, Natsuo Okada, Kursat Kilic, Hajime Ikeda, Zibisani Bagai, Tsuyoshi Adachi, Youhei Kawamura"
+   },
+   "start": "2026-09-15",
+   "end": "2026-09-17",
+   "year": 2026,
+   "peer_reviewed": false,
+   "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
+   "doi": "",
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/presentations/54964330",
+   "member": "okada_n",
+   "title": {
+    "ja": "Beyond Line-of-Sight Displacement: Integrating MT-DInSAR and operational records to interpret tailing storage facilities deformation regimes",
+    "en": "Beyond Line-of-Sight Displacement: Integrating MT-DInSAR and operational records to interpret tailing storage facilities deformation regimes"
+   },
+   "venue": {
+    "ja": "資源・素材2026（福岡）",
+    "en": "MMIJ Annual Meeting 2026 (Fukuoka)"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "Vanessa Sáncheza, Natsuo Okada, Yoko Ohtomo, Rafael Quispe, Cristian Orozco, Sneyder Gallegos, Sebastián Morales, Youhei Kawamura",
+    "en": "Vanessa Sáncheza, Natsuo Okada, Yoko Ohtomo, Rafael Quispe, Cristian Orozco, Sneyder Gallegos, Sebastián Morales, Youhei Kawamura"
+   },
+   "start": "2026-09-09",
+   "end": "2026-09-10",
+   "year": 2026,
+   "peer_reviewed": false,
+   "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
+   "doi": "",
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/presentations/54964235",
+   "member": "okada_n",
+   "title": {
+    "ja": "坑内掘り石灰石鉱山を対象とした鉱山デジタルツインおよび大規模言語モデルの連携についての検討",
+    "en": "Study on the Integration of a Mine Digital Twin and a Large Language Model for an Underground Limestone Mine"
+   },
+   "venue": {
+    "ja": "資源・素材2026（福岡）",
+    "en": "MMIJ Annual Meeting 2026 (Fukuoka)"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "黒澤 溫太, Nursultan Magauiya, 竹内 大訓, 岡田 夏男, 大友 陽子, 川村 洋平",
+    "en": "Haruta Kurosawa, Nursultan Magauiya, Hironori Takeuchi, Natsuo Okada, Yoko Ohtomo, Youhei Kawamura"
+   },
+   "start": "2026-09-09",
+   "end": "2026-09-10",
+   "year": 2026,
+   "peer_reviewed": false,
+   "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
+   "doi": "",
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/presentations/54964212",
+   "member": "okada_n",
+   "title": {
+    "ja": "尾鉱ダムにおけるInSARを用いた変位モニタリング適用可能性の検討",
+    "en": "Assessment of the Applicability of InSAR-Based Displacement Monitoring for Tailings Dams"
+   },
+   "venue": {
+    "ja": "資源・素材2026（福岡）",
+    "en": "MMIJ Annual Meeting 2026 (Fukuoka)"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "小松 亮太, Sanchez Vanessa, 岡田 夏男, 大友 陽子, Suorineni Fidelis, 川村 洋平",
+    "en": "Ryota Komatsu, Sanchez Vanessa, Natsuo Okada, Yoko Ohtomo, Suorineni Fidelis, Youhei Kawamura"
+   },
+   "start": "2026-09-09",
+   "end": "2026-09-10",
+   "year": 2026,
+   "peer_reviewed": false,
+   "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
+   "doi": "",
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
+  },
+  {
    "id": "https://api.researchmap.jp/okada_n/presentations/53782897",
    "member": "okada_n",
    "title": {

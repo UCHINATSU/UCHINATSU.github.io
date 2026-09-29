@@ -985,6 +985,181 @@
  ],
  "presentations": [
   {
+   "id": "https://api.researchmap.jp/okada_n/presentations/55008314",
+   "member": "okada_n",
+   "title": {
+    "ja": "Next-generation Smart Mining Plus for Sustainable Resources Development: Research Theme 2: Digital Twin Development",
+    "en": "Next-generation Smart Mining Plus for Sustainable Resources Development: Research Theme 2: Digital Twin Development"
+   },
+   "venue": {
+    "ja": "SATREPS Knight Symposium 2026",
+    "en": "SATREPS Knight Symposium 2026"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "Natsuo Okada, Fidelis Suorineni, Youhei Kawamura",
+    "en": "Natsuo Okada, Fidelis Suorineni, Youhei Kawamura"
+   },
+   "start": "2026-09-22",
+   "end": "2026-09-22",
+   "year": 2026,
+   "peer_reviewed": false,
+   "invited": true,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
+   "doi": "",
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/presentations/55007976",
+   "member": "okada_n",
+   "title": {
+    "ja": "Automated Classification of Limestone and Waste Rock via Hyperspectral Imaging and Deep Learning: Band Reduction for In-Situ Applications",
+    "en": "Automated Classification of Limestone and Waste Rock via Hyperspectral Imaging and Deep Learning: Band Reduction for In-Situ Applications"
+   },
+   "venue": {
+    "ja": "SATREPS Knight Symposium 2026",
+    "en": "SATREPS Knight Symposium 2026"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "Kohei Yokomachi, Yohei Maekawa, Kaito Takizawa, Shion Wakae, Shinichi Tokunaga, Natsuo Okada, Yoko Ohtomo, Youhei Kawamura",
+    "en": "Kohei Yokomachi, Yohei Maekawa, Kaito Takizawa, Shion Wakae, Shinichi Tokunaga, Natsuo Okada, Yoko Ohtomo, Youhei Kawamura"
+   },
+   "start": "2026-09-22",
+   "end": "2026-09-22",
+   "year": 2026,
+   "peer_reviewed": false,
+   "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
+   "doi": "",
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/presentations/55007956",
+   "member": "okada_n",
+   "title": {
+    "ja": "Digital Twin Real Time Environmental Monitoring for Mining Application",
+    "en": "Digital Twin Real Time Environmental Monitoring for Mining Application"
+   },
+   "venue": {
+    "ja": "SATREPS Knight Symposium 2026",
+    "en": "SATREPS Knight Symposium 2026"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "Nursultan Magauiya, Natsuo Okada, Yoko Ohtomo, Youhei Kawamura",
+    "en": "Nursultan Magauiya, Natsuo Okada, Yoko Ohtomo, Youhei Kawamura"
+   },
+   "start": "2026-09-22",
+   "end": "2026-09-22",
+   "year": 2026,
+   "peer_reviewed": false,
+   "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
+   "doi": "",
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/presentations/55007922",
+   "member": "okada_n",
+   "title": {
+    "ja": "Development of a Digital Twin for Interactive Groundwater Prediction at an Abandoned Mine",
+    "en": "Development of a Digital Twin for Interactive Groundwater Prediction at an Abandoned Mine"
+   },
+   "venue": {
+    "ja": "SATREPS Knight Symposium 2026",
+    "en": "SATREPS Knight Symposium 2026"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "Reiko Hamaguchi, Shingo Tomiyama, Takahiko Arima, Takaya Hamai, Hisatoshi Furuya, Natsuo Okada, Yoko Ohtomo, Youhei Kawamura",
+    "en": "Reiko Hamaguchi, Shingo Tomiyama, Takahiko Arima, Takaya Hamai, Hisatoshi Furuya, Natsuo Okada, Yoko Ohtomo, Youhei Kawamura"
+   },
+   "start": "2026-09-22",
+   "end": "2026-09-22",
+   "year": 2026,
+   "peer_reviewed": false,
+   "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
+   "doi": "",
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/presentations/55007912",
+   "member": "okada_n",
+   "title": {
+    "ja": "Spatial Mapping of Deterioration on Pre-Lining Shotcrete Surfaces Using HSI-LiDAR Data Fusion",
+    "en": "Spatial Mapping of Deterioration on Pre-Lining Shotcrete Surfaces Using HSI-LiDAR Data Fusion"
+   },
+   "venue": {
+    "ja": "SATREPS Knight Symposium 2026",
+    "en": "SATREPS Knight Symposium 2026"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "Hironori Takeuchi, Natsuo Okada, Yuta Kagaya, Youhei Kawamura",
+    "en": "Hironori Takeuchi, Natsuo Okada, Yuta Kagaya, Youhei Kawamura"
+   },
+   "start": "2026-09-22",
+   "end": "2026-09-22",
+   "year": 2026,
+   "peer_reviewed": false,
+   "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
+   "doi": "",
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
+  },
+  {
    "id": "https://api.researchmap.jp/okada_n/presentations/54510649",
    "member": "okada_n",
    "title": {
@@ -3578,6 +3753,41 @@
   }
  ],
  "projects": [
+  {
+   "id": "https://api.researchmap.jp/okada_n/research_projects/55050716",
+   "member": "okada_n",
+   "title": {
+    "ja": "噴火湾デジタルツインの構築による持続可能な水産業・海洋環境管理基盤の創出",
+    "en": "Development of a Sustainable Fisheries and Marine Environmental Management Platform through the Construction of a Digital Twin of Funka Bay"
+   },
+   "venue": {
+    "ja": "北海道大学",
+    "en": "Hokkaido University"
+   },
+   "desc": {
+    "ja": "北海道ユニバーシティアライアンス連携研究支援事業（2026年度）",
+    "en": "Hokkaido University Alliance Collaborative Research Support Program (FY2026)"
+   },
+   "authors": {
+    "ja": "岡田夏男, 川村洋平, 渡邉真也, 岩﨑慎介, 高木力, 五味伸太郎",
+    "en": "Natsuo Okada, Youhei Kawamura, Shinya Watanabe, Shinsuke Iwasaki, Tsutomu Takagi, Shintaro Gomi"
+   },
+   "start": "2026-10",
+   "end": "2028-03",
+   "year": 2026,
+   "peer_reviewed": false,
+   "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
+   "doi": "",
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
+  },
   {
    "id": "https://api.researchmap.jp/okada_n/research_projects/53752586",
    "member": "okada_n",

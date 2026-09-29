@@ -128,44 +128,41 @@
   "rm:is_open_access": false
  },
  "presentations": {
-  "@id": "https://api.researchmap.jp/okada_n/presentations/54510649",
+  "@id": "https://api.researchmap.jp/okada_n/presentations/55008314",
   "@type": "presentations",
   "@reverse": "https://api.researchmap.jp/okada_n/presentations",
-  "rm:id": "54510649",
+  "rm:id": "55008314",
   "rm:user_id": "R000047492",
   "display": "disclosed",
   "major_achievement": false,
   "rm:creator_id": "R000047492",
   "rm:creator_type": "myself",
-  "rm:created": "2026-07-29T22:21:06Z",
+  "rm:created": "2026-09-21T07:16:51Z",
   "rm:modifier_id": "R000047492",
   "rm:modifier_type": "myself",
-  "rm:modified": "2026-09-16T00:45:45Z",
+  "rm:modified": "2026-09-24T11:44:59Z",
   "presentation_title": {
-   "en": "Advances in Smart Mining: Lithology Classification in TBM Operations Based on Hyperspectral Imaging and AI Models"
+   "ja": "Next-generation Smart Mining Plus for Sustainable Resources Development: Research Theme 2: Digital Twin Development",
+   "en": "Next-generation Smart Mining Plus for Sustainable Resources Development: Research Theme 2: Digital Twin Development"
   },
   "presenters": {
-   "en": [
-    {
-     "name": "Brian Bino Sinaice"
-    },
-    {
-     "name": "Narihiro Owada"
-    },
+   "ja": [
     {
      "name": "Natsuo Okada"
     },
     {
-     "name": "Kursat Kilic"
+     "name": "Fidelis Suorineni"
     },
     {
-     "name": "Hajime Ikeda"
+     "name": "Youhei Kawamura"
+    }
+   ],
+   "en": [
+    {
+     "name": "Natsuo Okada"
     },
     {
-     "name": "Zibisani Bagai"
-    },
-    {
-     "name": "Tsuyoshi Adachi"
+     "name": "Fidelis Suorineni"
     },
     {
      "name": "Youhei Kawamura"
@@ -173,16 +170,17 @@
    ]
   },
   "event": {
-   "en": "International Conference on Engineering and Built Environment for Sustainability and Resilience (ICEBE-SR’26)"
+   "ja": "SATREPS Knight Symposium 2026",
+   "en": "SATREPS Knight Symposium 2026"
   },
-  "publication_date": "2026-09-15",
-  "from_event_date": "2026-09-15",
-  "to_event_date": "2026-09-17",
-  "invited": false,
+  "publication_date": "2026-09-22",
+  "from_event_date": "2026-09-22",
+  "to_event_date": "2026-09-22",
+  "invited": true,
   "languages": [
    "eng"
   ],
-  "presentation_type": "oral_presentation",
+  "presentation_type": "nominated_symposium",
   "rm:is_open_access": false
  },
  "awards": {

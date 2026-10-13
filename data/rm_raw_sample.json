@@ -417,31 +417,44 @@
   "to_date": "2025-05"
  },
  "social_contribution": {
-  "@id": "https://api.researchmap.jp/okada_n/social_contribution/54470758",
+  "@id": "https://api.researchmap.jp/okada_n/social_contribution/55186011",
   "@type": "social_contribution",
   "@reverse": "https://api.researchmap.jp/okada_n/social_contribution",
-  "rm:id": "54470758",
+  "rm:id": "55186011",
   "rm:user_id": "R000047492",
   "display": "disclosed",
   "major_achievement": false,
   "rm:creator_id": "R000047492",
   "rm:creator_type": "myself",
-  "rm:created": "2026-07-24T16:56:36Z",
+  "rm:created": "2026-10-06T22:43:16Z",
   "rm:modifier_id": "R000047492",
   "rm:modifier_type": "myself",
-  "rm:modified": "2026-07-24T16:56:36Z",
+  "rm:modified": "2026-10-06T22:43:16Z",
   "social_contribution_title": {
-   "en": "Higher Institute of Science and Technology of Mozambique (Japanese mining industry initiatives)"
+   "ja": "（寄稿）Krupiński賞受賞報告",
+   "en": "(Contribution) Announcement of Receiving the Krupiński Award"
   },
   "social_contribution_roles": [
-   "lecturer"
+   "contribution"
   ],
-  "promoter": {
-   "en": "Higher Institute of Science and Technology of Mozambique"
+  "event": {
+   "ja": "季刊資源と素材",
+   "en": "MMIJ Quartelry"
   },
-  "from_event_date": "2026-07-24",
-  "to_event_date": "2026-07-24",
-  "social_contribution_type": "lecture"
+  "from_event_date": "2026-10-01",
+  "to_event_date": "2026-10-01",
+  "social_contribution_type": "pr",
+  "identifiers": {
+   "rm:research_project_id": [
+    "50584209"
+   ]
+  },
+  "see_also": [
+   {
+    "@id": "https://api.researchmap.jp/okada_n/research_projects/50584209",
+    "label": "rm:research_project_id"
+   }
+  ]
  },
  "media_coverage": {
   "@id": "https://api.researchmap.jp/okada_n/media_coverage/53323978",

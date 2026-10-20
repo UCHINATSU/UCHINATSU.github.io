@@ -128,30 +128,45 @@
   "rm:is_open_access": false
  },
  "presentations": {
-  "@id": "https://api.researchmap.jp/okada_n/presentations/55008314",
+  "@id": "https://api.researchmap.jp/okada_n/presentations/55245860",
   "@type": "presentations",
   "@reverse": "https://api.researchmap.jp/okada_n/presentations",
-  "rm:id": "55008314",
+  "rm:id": "55245860",
   "rm:user_id": "R000047492",
   "display": "disclosed",
   "major_achievement": false,
   "rm:creator_id": "R000047492",
   "rm:creator_type": "myself",
-  "rm:created": "2026-09-21T07:16:51Z",
+  "rm:created": "2026-10-13T23:50:55Z",
   "rm:modifier_id": "R000047492",
   "rm:modifier_type": "myself",
-  "rm:modified": "2026-09-24T11:44:59Z",
+  "rm:modified": "2026-10-15T22:46:31Z",
   "presentation_title": {
-   "ja": "Next-generation Smart Mining Plus for Sustainable Resources Development: Research Theme 2: Digital Twin Development",
-   "en": "Next-generation Smart Mining Plus for Sustainable Resources Development: Research Theme 2: Digital Twin Development"
+   "ja": "MWD-Based Visualization of Rock Mass Discontinuities Ahead of the Tunnel Face for Overbreak Reduction",
+   "en": "MWD-Based Visualization of Rock Mass Discontinuities Ahead of the Tunnel Face for Overbreak Reduction"
   },
   "presenters": {
    "ja": [
     {
+     "name": "Kotaro Nakane"
+    },
+    {
+     "name": "Yulin Xu"
+    },
+    {
+     "name": "Zhai Simin"
+    },
+    {
+     "name": "Sadatoshi Ohmori"
+    },
+    {
+     "name": "Hyongdoo Jang"
+    },
+    {
      "name": "Natsuo Okada"
     },
     {
-     "name": "Fidelis Suorineni"
+     "name": "Yoko Ohtomo"
     },
     {
      "name": "Youhei Kawamura"
@@ -159,10 +174,25 @@
    ],
    "en": [
     {
+     "name": "Kotaro Nakane"
+    },
+    {
+     "name": "Yulin Xu"
+    },
+    {
+     "name": "Zhai Simin"
+    },
+    {
+     "name": "Sadatoshi Ohmori"
+    },
+    {
+     "name": "Hyongdoo Jang"
+    },
+    {
      "name": "Natsuo Okada"
     },
     {
-     "name": "Fidelis Suorineni"
+     "name": "Yoko Ohtomo"
     },
     {
      "name": "Youhei Kawamura"
@@ -170,17 +200,17 @@
    ]
   },
   "event": {
-   "ja": "SATREPS Knight Symposium 2026",
-   "en": "SATREPS Knight Symposium 2026"
+   "ja": "The 12th International Conference on Explosives and Blasting",
+   "en": "The 12th International Conference on Explosives and Blasting"
   },
-  "publication_date": "2026-09-22",
-  "from_event_date": "2026-09-22",
-  "to_event_date": "2026-09-22",
-  "invited": true,
+  "publication_date": "2026-10-14",
+  "from_event_date": "2026-10-14",
+  "to_event_date": "2026-10-16",
+  "invited": false,
   "languages": [
    "eng"
   ],
-  "presentation_type": "nominated_symposium",
+  "presentation_type": "oral_presentation",
   "rm:is_open_access": false
  },
  "awards": {
@@ -469,20 +499,24 @@
   "rm:created": "2026-04-11T23:59:15Z",
   "rm:modifier_id": "R000047492",
   "rm:modifier_type": "myself",
-  "rm:modified": "2026-04-12T01:12:33Z",
+  "rm:modified": "2026-10-14T01:35:19Z",
   "media_coverage_title": {
-   "ja": "Advancing global collaboration through science: Hokkaido University hosts Sakura Science Exchange Program 2026"
+   "ja": "（記事）Advancing global collaboration through science: Hokkaido University hosts Sakura Science Exchange Program 2026",
+   "en": "(Article) Advancing global collaboration through science: Hokkaido University hosts Sakura Science Exchange Program 2026"
   },
   "writer_myself": "other_than_myself",
   "publisher": {
-   "ja": "北海道大学"
+   "ja": "北海道大学",
+   "en": "Hokkaido University"
   },
   "event": {
-   "ja": "Hokkaido University Magazine cathHUp"
+   "ja": "Hokkaido University Magazine cathHUp",
+   "en": "Hokkaido University Magazine cathHUp"
   },
   "publication_date": "2026-04-01",
   "location": {
-   "ja": "https://www.global.hokudai.ac.jp/catchup/25417/"
+   "ja": "https://www.global.hokudai.ac.jp/catchup/25417/",
+   "en": "https://www.global.hokudai.ac.jp/catchup/25417/"
   },
   "media_coverage_type": "internet",
   "identifiers": {

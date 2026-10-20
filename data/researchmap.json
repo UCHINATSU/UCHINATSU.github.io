@@ -985,6 +985,146 @@
  ],
  "presentations": [
   {
+   "id": "https://api.researchmap.jp/okada_n/presentations/55186028",
+   "member": "okada_n",
+   "title": {
+    "ja": "噴火湾デジタルツインが拓く水産現場の新たな可能性 ― 赤潮予測・漁具動態解析・ホタテ幼生輸送推定への展開 ―",
+    "en": "New Possibilities for Fisheries Operations Enabled by the Funka Bay Digital Twin: Applications to Red Tide Prediction, Fishing Gear Dynamics Analysis, and Estimation of Scallop Larval Transport"
+   },
+   "venue": {
+    "ja": "第12回北大・部局横断シンポジウム",
+    "en": "The 12th Hokkaido University Interdepartmental Symposium"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "津野陽太郎, 黒澤温太, 八重樫健吾, 五味伸太郎, 岡田夏男, 黒田寛, 川村洋平, 福田覚, 渡邉真也, 永井展裕, 高木力, 浦和寛",
+    "en": "Yotaro Tsuno, Haruta Kurosawa, Kengo Yaegashi, Shintaro Gomi, Natsuo Okada, Hiroshi Kuroda, Youhei Kawamura, Satoru Fukuda, Shinya Watanabe, Nobuhiro Nagai, Tsutomu Takagi, Kazuhiro Ura"
+   },
+   "start": "2026-10-15",
+   "end": "2026-10-15",
+   "year": 2026,
+   "peer_reviewed": false,
+   "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
+   "doi": "",
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/presentations/54964164",
+   "member": "okada_n",
+   "title": {
+    "ja": "メダカの顔認知を支える色情報の分光学的解明",
+    "en": "Spectroscopic Elucidation of Color Information Supporting Face Recognition in Medaka"
+   },
+   "venue": {
+    "ja": "第12回北大・部局横断シンポジウム",
+    "en": "The 12th Hokkaido University Interdepartmental Symposium"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "横井佐織, 岡田夏男",
+    "en": "Saori Yokoi, Natsuo Okada"
+   },
+   "start": "2026-10-15",
+   "end": "2026-10-15",
+   "year": 2026,
+   "peer_reviewed": false,
+   "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
+   "doi": "",
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/presentations/55245860",
+   "member": "okada_n",
+   "title": {
+    "ja": "MWD-Based Visualization of Rock Mass Discontinuities Ahead of the Tunnel Face for Overbreak Reduction",
+    "en": "MWD-Based Visualization of Rock Mass Discontinuities Ahead of the Tunnel Face for Overbreak Reduction"
+   },
+   "venue": {
+    "ja": "The 12th International Conference on Explosives and Blasting",
+    "en": "The 12th International Conference on Explosives and Blasting"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "Kotaro Nakane, Yulin Xu, Zhai Simin, Sadatoshi Ohmori, Hyongdoo Jang, Natsuo Okada, Yoko Ohtomo, Youhei Kawamura",
+    "en": "Kotaro Nakane, Yulin Xu, Zhai Simin, Sadatoshi Ohmori, Hyongdoo Jang, Natsuo Okada, Yoko Ohtomo, Youhei Kawamura"
+   },
+   "start": "2026-10-14",
+   "end": "2026-10-16",
+   "year": 2026,
+   "peer_reviewed": false,
+   "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
+   "doi": "",
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/presentations/55190010",
+   "member": "okada_n",
+   "title": {
+    "ja": "GeoTunnelGAN: Geologically Constrained Data Generation for Overbreak Prediction and Blast Optimization in Mining",
+    "en": "GeoTunnelGAN: Geologically Constrained Data Generation for Overbreak Prediction and Blast Optimization in Mining"
+   },
+   "venue": {
+    "ja": "The 12th International Conference on Explosives and Blasting",
+    "en": "The 12th International Conference on Explosives and Blasting"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "Yulin Xu, Yuna Nakazawa, Hyongdoo Tom Jang, Natsuo Okada, Yoko Ohtomo, Youhei Kawamura",
+    "en": "Yulin Xu, Yuna Nakazawa, Hyongdoo Tom Jang, Natsuo Okada, Yoko Ohtomo, Youhei Kawamura"
+   },
+   "start": "2026-10-14",
+   "end": "2026-10-16",
+   "year": 2026,
+   "peer_reviewed": false,
+   "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
+   "doi": "",
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
+  },
+  {
    "id": "https://api.researchmap.jp/okada_n/presentations/55008314",
    "member": "okada_n",
    "title": {
@@ -3400,6 +3540,41 @@
    }
   },
   {
+   "id": "https://api.researchmap.jp/okada_n/presentations/55245879",
+   "member": "okada_n",
+   "title": {
+    "ja": "鉱害・鉱山事故防止に向けたAIを用いた鉱物判定技術の開発",
+    "en": "Development of AI-based Mineral Determination Technology for Prevention of Mining Accidents and Mineral Pollution"
+   },
+   "venue": {
+    "ja": "研究成果でSDGsに貢献する発表会inチカホ",
+    "en": "\"Research Presentations to Contribute to the SDGs\" in Chikaho"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "岡田夏男",
+    "en": "Natsuo Okada"
+   },
+   "start": "2022-12-17",
+   "end": "2022-12-18",
+   "year": 2022,
+   "peer_reviewed": false,
+   "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
+   "doi": "",
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
+  },
+  {
    "id": "https://api.researchmap.jp/okada_n/presentations/41285353",
    "member": "okada_n",
    "title": {
@@ -3754,6 +3929,41 @@
  ],
  "projects": [
   {
+   "id": "https://api.researchmap.jp/okada_n/research_projects/55258846",
+   "member": "okada_n",
+   "title": {
+    "ja": "Come 2 KGP Come 2 India (C2KC2I) Research Program",
+    "en": "Come 2 KGP Come 2 India (C2KC2I) Research Program"
+   },
+   "venue": {
+    "ja": "Indian Institute of Technology Kharagpur",
+    "en": "Indian Institute of Technology Kharagpur"
+   },
+   "desc": {
+    "ja": "Platinum Jubilee Grant Scheme (7O2 Scheme 5)",
+    "en": "Platinum Jubilee Grant Scheme (7O2 Scheme 5)"
+   },
+   "authors": {
+    "ja": "Debashish Chakravarty, Natsuo Okada",
+    "en": "Debashish Chakravarty, Natsuo Okada"
+   },
+   "start": "2026-11",
+   "end": "2026-12",
+   "year": 2026,
+   "peer_reviewed": false,
+   "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
+   "doi": "",
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
+  },
+  {
    "id": "https://api.researchmap.jp/okada_n/research_projects/55050716",
    "member": "okada_n",
    "title": {
@@ -3774,6 +3984,41 @@
    },
    "start": "2026-10",
    "end": "2028-03",
+   "year": 2026,
+   "peer_reviewed": false,
+   "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
+   "doi": "",
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/research_projects/55274731",
+   "member": "okada_n",
+   "title": {
+    "ja": "低コスト・自律型鉱山開発技術を可能とするスモールスマートマイニングの実現",
+    "en": "Realization of Small Smart Mining Enabling Low-Cost Autonomous Mine Development Technologies"
+   },
+   "venue": {
+    "ja": "国立研究開発法人科学技術振興機構（JST）",
+    "en": "Japan Science and Technology Agency (JST)"
+   },
+   "desc": {
+    "ja": "インド若手科学頭脳循環プログラム（LOTUS（1年型））",
+    "en": "India-Japan Circulation of Talented Youths in Science Programme (LOTUS Basic)"
+   },
+   "authors": {
+    "ja": "岡田夏男, Debashish Chakravarty",
+    "en": "Natsuo Okada, Debashish Chakravarty"
+   },
+   "start": "2026-10",
+   "end": "2027-09",
    "year": 2026,
    "peer_reviewed": false,
    "invited": false,
@@ -5236,15 +5481,50 @@
    }
   },
   {
+   "id": "https://api.researchmap.jp/okada_n/social_contribution/47231965",
+   "member": "okada_n",
+   "title": {
+    "ja": "（寄稿）えんじにあRING学生コラム",
+    "en": "(Contribution) EngineerRING Student Column"
+   },
+   "venue": {
+    "ja": "北海道大学",
+    "en": "Hokkaido University"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "",
+    "en": ""
+   },
+   "start": "2024-08-01",
+   "end": "",
+   "year": 2024,
+   "peer_reviewed": false,
+   "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
+   "doi": "",
+   "url": "",
+   "role": {
+    "ja": "contribution",
+    "en": "contribution"
+   }
+  },
+  {
    "id": "https://api.researchmap.jp/okada_n/social_contribution/41285358",
    "member": "okada_n",
    "title": {
-    "ja": "鉱山工学分野における人工知能の活用～波長から鉱物を知る～",
-    "en": "Application of Artificial Intelligence in Mining Engineering - Understanding Minerals from Wavelengths"
+    "ja": "（講演）鉱山工学分野における人工知能の活用～波長から鉱物を知る～",
+    "en": "(Lecture) Application of Artificial Intelligence in Mining Engineering - Understanding Minerals from Wavelengths"
    },
    "venue": {
     "ja": "サイエンスカフェえむしーじじょう",
-    "en": "サイエンスカフェえむしーじじょう"
+    "en": "Science Cafe MC2"
    },
    "desc": {
     "ja": "",
@@ -5266,8 +5546,8 @@
    "doi": "",
    "url": "",
    "role": {
-    "ja": "appearance",
-    "en": "appearance"
+    "ja": "講師",
+    "en": "Lecturer"
    }
   },
   {
@@ -5311,12 +5591,12 @@
    "id": "https://api.researchmap.jp/okada_n/media_coverage/53323978",
    "member": "okada_n",
    "title": {
-    "ja": "Advancing global collaboration through science: Hokkaido University hosts Sakura Science Exchange Program 2026",
-    "en": "Advancing global collaboration through science: Hokkaido University hosts Sakura Science Exchange Program 2026"
+    "ja": "（記事）Advancing global collaboration through science: Hokkaido University hosts Sakura Science Exchange Program 2026",
+    "en": "(Article) Advancing global collaboration through science: Hokkaido University hosts Sakura Science Exchange Program 2026"
    },
    "venue": {
     "ja": "北海道大学",
-    "en": "北海道大学"
+    "en": "Hokkaido University"
    },
    "desc": {
     "ja": "",
@@ -5346,8 +5626,8 @@
    "id": "https://api.researchmap.jp/okada_n/media_coverage/52255241",
    "member": "okada_n",
    "title": {
-    "ja": "南鳥島沖レアアース泥、海底資源の国産化へ一歩 試掘終え探査船帰港",
-    "en": "Rare Earth–Rich Mud off Minamitorishima Marks Step Toward Domestic Seabed Resource Development; Survey Vessel Returns After Test Drilling"
+    "ja": "（記事）南鳥島沖レアアース泥、海底資源の国産化へ一歩 試掘終え探査船帰港",
+    "en": "(Article) Rare Earth–Rich Mud off Minamitorishima Marks Step Toward Domestic Seabed Resource Development; Survey Vessel Returns After Test Drilling"
    },
    "venue": {
     "ja": "日本経済新聞",
@@ -5378,50 +5658,15 @@
    }
   },
   {
-   "id": "https://api.researchmap.jp/okada_n/media_coverage/52285316",
-   "member": "okada_n",
-   "title": {
-    "ja": "「さくらサイエンスプログラム」にて、北海道大学が招へいしたエチオピア・アクスム大学の教員・学生に、持続的な鉱山開発の取り組みについての講演を行います。",
-    "en": "「さくらサイエンスプログラム」にて、北海道大学が招へいしたエチオピア・アクスム大学の教員・学生に、持続的な鉱山開発の取り組みについての講演を行います。"
-   },
-   "venue": {
-    "ja": "一般財団法人カーボンフロンティア機構",
-    "en": "一般財団法人カーボンフロンティア機構"
-   },
-   "desc": {
-    "ja": "",
-    "en": ""
-   },
-   "authors": {
-    "ja": "",
-    "en": ""
-   },
-   "start": "2026-02-12",
-   "end": "",
-   "year": 2026,
-   "peer_reviewed": false,
-   "invited": false,
-   "volume": "",
-   "number": "",
-   "page_start": "",
-   "page_end": "",
-   "doi": "",
-   "url": "",
-   "role": {
-    "ja": "",
-    "en": ""
-   }
-  },
-  {
    "id": "https://api.researchmap.jp/okada_n/media_coverage/52285302",
    "member": "okada_n",
    "title": {
     "ja": "（プレスリリース）ブロックチェーンを活⽤した「責任ある鉱物調達」技術の共同研究を開始 〜さくらサイエンスプログラムによりエチオピアから研究者・学⽣ 8 名を招へい〜",
-    "en": "（プレスリリース）ブロックチェーンを活⽤した「責任ある鉱物調達」技術の共同研究を開始 〜さくらサイエンスプログラムによりエチオピアから研究者・学⽣ 8 名を招へい〜"
+    "en": "(Press Release) Launch of Joint Research on Blockchain-Based Technology for Responsible Mineral Sourcing — Eight Researchers and Students from Ethiopia Invited through the Sakura Science Program"
    },
    "venue": {
     "ja": "北海道大学",
-    "en": "北海道大学"
+    "en": "Hokkaido University"
    },
    "desc": {
     "ja": "",
@@ -5448,11 +5693,46 @@
    }
   },
   {
+   "id": "https://api.researchmap.jp/okada_n/media_coverage/50159321",
+   "member": "okada_n",
+   "title": {
+    "ja": "（記事）北海道大学共同研究型インターンシップ成果イベント～学生×企業でワインを身近に！【レポ】【北大の研究とワインと学生と #7】",
+    "en": "(Article) Hokkaido University Collaborative Research Internship Showcase: Bringing Wine Closer to Everyday Life Through Student–Industry Collaboration! [Event Report] [Hokkaido University Research, Wine, and Students #7]"
+   },
+   "venue": {
+    "ja": "北海道大学",
+    "en": "Hokkaido University"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "",
+    "en": ""
+   },
+   "start": "2025-05-14",
+   "end": "",
+   "year": 2025,
+   "peer_reviewed": false,
+   "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
+   "doi": "",
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
+  },
+  {
    "id": "https://api.researchmap.jp/okada_n/media_coverage/50148623",
    "member": "okada_n",
    "title": {
-    "ja": "エディテージ・グラント2024次点を受賞－岡田 夏男さんにインタビュー",
-    "en": "エディテージ・グラント2024次点を受賞－岡田 夏男さんにインタビュー"
+    "ja": "（記事）エディテージ・グラント2024次点を受賞－岡田 夏男さんにインタビュー",
+    "en": "(Article) Interview with Natsuo Okada, Runner-Up for the Editage Grant 2024"
    },
    "venue": {
     "ja": "Editage",
@@ -5486,8 +5766,8 @@
    "id": "https://api.researchmap.jp/okada_n/media_coverage/47343943",
    "member": "okada_n",
    "title": {
-    "ja": "Sustainable Methods for Detecting Arsenic in Minerals",
-    "en": "Sustainable Methods for Detecting Arsenic in Minerals"
+    "ja": "（記事）Sustainable Methods for Detecting Arsenic in Minerals",
+    "en": "(Article) Sustainable Methods for Detecting Arsenic in Minerals"
    },
    "venue": {
     "ja": "MJH Life Sciences",

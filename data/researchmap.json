@@ -633,6 +633,111 @@
  ],
  "misc": [
   {
+   "id": "https://api.researchmap.jp/okada_n/misc/55395627",
+   "member": "okada_n",
+   "title": {
+    "ja": "A Web-Based System for Automated Rock Segmentation Using Hyperspectral Imaging",
+    "en": "A Web-Based System for Automated Rock Segmentation Using Hyperspectral Imaging"
+   },
+   "venue": {
+    "ja": "Proceedings of 11th International Symposium on Lead and Zinc Processing",
+    "en": "Proceedings of 11th International Symposium on Lead and Zinc Processing"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "Natsuo Okada, Kaito Takizawa, Seishin Nakagawa, Utsuki Shinji, Yoko Ohtomo, Youhei Kawamura",
+    "en": "Natsuo Okada, Kaito Takizawa, Seishin Nakagawa, Utsuki Shinji, Yoko Ohtomo, Youhei Kawamura"
+   },
+   "start": "2026-11-01",
+   "end": "",
+   "year": 2026,
+   "peer_reviewed": true,
+   "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
+   "doi": "",
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/misc/55344417",
+   "member": "okada_n",
+   "title": {
+    "ja": "GeoTunnelGAN: Geologically Constrained Data Generation for Overbreak Prediction and Blast Optimization in Mining",
+    "en": "GeoTunnelGAN: Geologically Constrained Data Generation for Overbreak Prediction and Blast Optimization in Mining"
+   },
+   "venue": {
+    "ja": "Proceedings of The 12th International Conference on Explosives and Blasting",
+    "en": "Proceedings of The 12th International Conference on Explosives and Blasting"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "Yulin Xu, Yuna Nakazawa, Hyongdoo Tom Jang, Natsuo Okada, Yoko Ohtomo, Youhei Kawamura",
+    "en": "Yulin Xu, Yuna Nakazawa, Hyongdoo Tom Jang, Natsuo Okada, Yoko Ohtomo, Youhei Kawamura"
+   },
+   "start": "2026-10-14",
+   "end": "",
+   "year": 2026,
+   "peer_reviewed": true,
+   "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
+   "doi": "",
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
+  },
+  {
+   "id": "https://api.researchmap.jp/okada_n/misc/55344406",
+   "member": "okada_n",
+   "title": {
+    "ja": "MWD-Based Visualization of Rock Mass Discontinuities Ahead of the Tunnel Face for Overbreak Reduction",
+    "en": "MWD-Based Visualization of Rock Mass Discontinuities Ahead of the Tunnel Face for Overbreak Reduction"
+   },
+   "venue": {
+    "ja": "Proceedings of The 12th International Conference on Explosives and Blasting",
+    "en": "Proceedings of The 12th International Conference on Explosives and Blasting"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "Kotaro Nakane, Yulin Xu, Zhai Simin, Sadatoshi Ohmori, Hyongdoo Jang, Natsuo Okada, Yoko Ohtomo, Youhei Kawamura",
+    "en": "Kotaro Nakane, Yulin Xu, Zhai Simin, Sadatoshi Ohmori, Hyongdoo Jang, Natsuo Okada, Yoko Ohtomo, Youhei Kawamura"
+   },
+   "start": "2026-10-14",
+   "end": "",
+   "year": 2026,
+   "peer_reviewed": true,
+   "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
+   "doi": "",
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
+  },
+  {
    "id": "https://api.researchmap.jp/okada_n/misc/53788715",
    "member": "okada_n",
    "title": {
@@ -675,8 +780,8 @@
     "en": "Smart Glass-Based Next-Generation Mining Visualization System Assisted by RTK GNSS for Real-Time Ore Grade Control in Open-Pit Mining"
    },
    "venue": {
-    "ja": "World Mining Congress",
-    "en": "World Mining Congress"
+    "ja": "Proceedings of World Mining Congress",
+    "en": "Proceedings of World Mining Congress"
    },
    "desc": {
     "ja": "",
@@ -710,8 +815,8 @@
     "en": "Predictive machine learning model for strategic heap leach pad planning in open pit mines"
    },
    "venue": {
-    "ja": "World Mining Congress",
-    "en": "World Mining Congress"
+    "ja": "Proceedings of World Mining Congress",
+    "en": "Proceedings of World Mining Congress"
    },
    "desc": {
     "ja": "",
@@ -745,8 +850,8 @@
     "en": "An AI-Driven System Integrating Hyperspectral Data for Lithological Classification and RQD Assessment"
    },
    "venue": {
-    "ja": "World Mining Congress",
-    "en": "World Mining Congress"
+    "ja": "Proceedings of World Mining Congress",
+    "en": "Proceedings of World Mining Congress"
    },
    "desc": {
     "ja": "",
@@ -780,8 +885,8 @@
     "en": "Integrated Assessment of Quarry-Derived Dust Dispersion Based on Atmospheric and Oceanic Transport"
    },
    "venue": {
-    "ja": "World Mining Congress",
-    "en": "World Mining Congress"
+    "ja": "Proceedings of World Mining Congress",
+    "en": "Proceedings of World Mining Congress"
    },
    "desc": {
     "ja": "",
@@ -815,8 +920,8 @@
     "en": "Multi-Source Machine Learning of Tailings Dam Deformation Dynamics: Sentinel-1 MT-DInSAR, Meteorological Forcing, and LightGBM Short-Horizon Forecasts"
    },
    "venue": {
-    "ja": "World Mining Congress",
-    "en": "World Mining Congress"
+    "ja": "Proceedings of World Mining Congress",
+    "en": "Proceedings of World Mining Congress"
    },
    "desc": {
     "ja": "",
@@ -984,6 +1089,41 @@
   }
  ],
  "presentations": [
+  {
+   "id": "https://api.researchmap.jp/okada_n/presentations/55395578",
+   "member": "okada_n",
+   "title": {
+    "ja": "A Web-Based System for Automated Rock Segmentation Using Hyperspectral Imaging",
+    "en": "A Web-Based System for Automated Rock Segmentation Using Hyperspectral Imaging"
+   },
+   "venue": {
+    "ja": "11th International Symposium on Lead and Zinc Processing",
+    "en": "11th International Symposium on Lead and Zinc Processing"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "Natsuo Okada, Kaito Takizawa, Seishin Nakagawa, Utsuki Shinji, Yoko Ohtomo, Youhei Kawamura",
+    "en": "Natsuo Okada, Kaito Takizawa, Seishin Nakagawa, Utsuki Shinji, Yoko Ohtomo, Youhei Kawamura"
+   },
+   "start": "2026-11-02",
+   "end": "2026-11-06",
+   "year": 2026,
+   "peer_reviewed": false,
+   "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
+   "doi": "",
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
+  },
   {
    "id": "https://api.researchmap.jp/okada_n/presentations/55186028",
    "member": "okada_n",

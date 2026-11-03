@@ -78,92 +78,35 @@
   ]
  },
  "misc": {
-  "@id": "https://api.researchmap.jp/okada_n/misc/53788715",
+  "@id": "https://api.researchmap.jp/okada_n/misc/55395627",
   "@type": "misc",
   "@reverse": "https://api.researchmap.jp/okada_n/misc",
-  "rm:id": "53788715",
+  "rm:id": "55395627",
   "rm:user_id": "R000047492",
   "display": "disclosed",
   "major_achievement": false,
   "rm:creator_id": "R000047492",
   "rm:creator_type": "myself",
-  "rm:created": "2026-05-29T00:10:50Z",
+  "rm:created": "2026-11-02T06:38:24Z",
   "rm:modifier_id": "R000047492",
   "rm:modifier_type": "myself",
-  "rm:modified": "2026-07-10T03:23:50Z",
+  "rm:modified": "2026-11-02T23:50:35Z",
   "paper_title": {
-   "ja": "DXとAIが導く地下資源開発の革新 ―「Smart Mining＋」による持続可能な資源確保の最前線―",
-   "en": "Innovation in Subsurface Resource Development Driven by DX and AI — The Cutting Edge of Sustainable Resource Securing with “Smart Mining+”"
+   "en": "A Web-Based System for Automated Rock Segmentation Using Hyperspectral Imaging"
   },
   "authors": {
-   "ja": [
-    {
-     "name": "川村洋平"
-    },
-    {
-     "name": "岡田夏男"
-    }
-   ],
    "en": [
     {
-     "name": "Youhei Kawamura"
-    },
-    {
      "name": "Natsuo Okada"
-    }
-   ]
-  },
-  "publication_date": "2026-07-10",
-  "publication_name": {
-   "ja": "エネルギー・資源",
-   "en": "Energy, Resources"
-  },
-  "volume": "47",
-  "number": "4",
-  "languages": [
-   "jpn"
-  ],
-  "referee": false,
-  "misc_type": "introduction_scientific_journal",
-  "rm:is_open_access": false
- },
- "presentations": {
-  "@id": "https://api.researchmap.jp/okada_n/presentations/55245860",
-  "@type": "presentations",
-  "@reverse": "https://api.researchmap.jp/okada_n/presentations",
-  "rm:id": "55245860",
-  "rm:user_id": "R000047492",
-  "display": "disclosed",
-  "major_achievement": false,
-  "rm:creator_id": "R000047492",
-  "rm:creator_type": "myself",
-  "rm:created": "2026-10-13T23:50:55Z",
-  "rm:modifier_id": "R000047492",
-  "rm:modifier_type": "myself",
-  "rm:modified": "2026-10-15T22:46:31Z",
-  "presentation_title": {
-   "ja": "MWD-Based Visualization of Rock Mass Discontinuities Ahead of the Tunnel Face for Overbreak Reduction",
-   "en": "MWD-Based Visualization of Rock Mass Discontinuities Ahead of the Tunnel Face for Overbreak Reduction"
-  },
-  "presenters": {
-   "ja": [
-    {
-     "name": "Kotaro Nakane"
     },
     {
-     "name": "Yulin Xu"
+     "name": "Kaito Takizawa"
     },
     {
-     "name": "Zhai Simin"
+     "name": "Seishin Nakagawa"
     },
     {
-     "name": "Sadatoshi Ohmori"
-    },
-    {
-     "name": "Hyongdoo Jang"
-    },
-    {
-     "name": "Natsuo Okada"
+     "name": "Utsuki Shinji"
     },
     {
      "name": "Yoko Ohtomo"
@@ -171,25 +114,63 @@
     {
      "name": "Youhei Kawamura"
     }
-   ],
+   ]
+  },
+  "published_paper_owner_roles": [
+   "lead"
+  ],
+  "publication_date": "2026-11-01",
+  "publication_name": {
+   "en": "Proceedings of 11th International Symposium on Lead and Zinc Processing"
+  },
+  "languages": [
+   "eng"
+  ],
+  "referee": true,
+  "misc_type": "introduction_international_proceedings",
+  "rm:is_open_access": false,
+  "identifiers": {
+   "rm:research_project_id": [
+    "50839342"
+   ]
+  },
+  "see_also": [
+   {
+    "@id": "https://api.researchmap.jp/okada_n/research_projects/50839342",
+    "label": "rm:research_project_id"
+   }
+  ]
+ },
+ "presentations": {
+  "@id": "https://api.researchmap.jp/okada_n/presentations/55395578",
+  "@type": "presentations",
+  "@reverse": "https://api.researchmap.jp/okada_n/presentations",
+  "rm:id": "55395578",
+  "rm:user_id": "R000047492",
+  "display": "disclosed",
+  "major_achievement": false,
+  "rm:creator_id": "R000047492",
+  "rm:creator_type": "myself",
+  "rm:created": "2026-11-02T06:34:36Z",
+  "rm:modifier_id": "R000047492",
+  "rm:modifier_type": "myself",
+  "rm:modified": "2026-11-02T06:34:36Z",
+  "presentation_title": {
+   "en": "A Web-Based System for Automated Rock Segmentation Using Hyperspectral Imaging"
+  },
+  "presenters": {
    "en": [
     {
-     "name": "Kotaro Nakane"
-    },
-    {
-     "name": "Yulin Xu"
-    },
-    {
-     "name": "Zhai Simin"
-    },
-    {
-     "name": "Sadatoshi Ohmori"
-    },
-    {
-     "name": "Hyongdoo Jang"
-    },
-    {
      "name": "Natsuo Okada"
+    },
+    {
+     "name": "Kaito Takizawa"
+    },
+    {
+     "name": "Seishin Nakagawa"
+    },
+    {
+     "name": "Utsuki Shinji"
     },
     {
      "name": "Yoko Ohtomo"
@@ -200,18 +181,27 @@
    ]
   },
   "event": {
-   "ja": "The 12th International Conference on Explosives and Blasting",
-   "en": "The 12th International Conference on Explosives and Blasting"
+   "en": "11th International Symposium on Lead and Zinc Processing"
   },
-  "publication_date": "2026-10-14",
-  "from_event_date": "2026-10-14",
-  "to_event_date": "2026-10-16",
-  "invited": false,
+  "publication_date": "2026-11-02",
+  "from_event_date": "2026-11-01",
+  "to_event_date": "2026-11-06",
   "languages": [
    "eng"
   ],
   "presentation_type": "oral_presentation",
-  "rm:is_open_access": false
+  "rm:is_open_access": false,
+  "identifiers": {
+   "rm:research_project_id": [
+    "50839342"
+   ]
+  },
+  "see_also": [
+   {
+    "@id": "https://api.researchmap.jp/okada_n/research_projects/50839342",
+    "label": "rm:research_project_id"
+   }
+  ]
  },
  "awards": {
   "@id": "https://api.researchmap.jp/okada_n/awards/53307774",

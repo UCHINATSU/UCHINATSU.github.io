@@ -7,16 +7,16 @@
  "kana": "",
  "degree": "",
  "affiliation": {
-  "ja": "北海道大学 大学院工学研究院 環境循環システム部門",
-  "en": "Hokkaido University Graduate School of Engineering, Division of Sustainable Resources Engineering"
+  "ja": "北海道大学 大学院工学研究院 環境循環システム部門 資源マネージメント研究室",
+  "en": "Hokkaido University Graduate School of Engineering, Division of Sustainable Resources Engineering, Resource Management Laboratory"
  },
  "job_title": {
   "ja": "助教",
   "en": "Assistant Professor"
  },
  "bio": {
-  "ja": "資源情報学を専門に、石炭・レアメタルなどの鉱物・エネルギー資源を研究しています。ハイパースペクトルイメージングやミューオンによる資源の探査・可視化、生成AIを活用した情報解析、デジタルツインによる地下空間の再現、ブロックチェーンによる資源のトレーサビリティなど、多様な先端技術を融合し資源の発見から開発・利用までを情報科学の視点から探究しています。アフリカ、南アメリカ、インドなどのグローバルサウスにおける資源開発から、月や小惑星などの宇宙資源の探査・利用（Space Mining）まで、地球から宇宙へと研究を展開しています。",
-  "en": "My research specializes in Resource Informatics, focusing on mineral and energy resources such as coal and rare metals. I integrate a wide range of advanced technologies, including hyperspectral imaging and muon-based techniques for resource exploration and visualization, generative AI for information analysis, digital twins for reconstructing underground environments, and blockchain for resource traceability. Through these interdisciplinary approaches, I investigate the entire lifecycle of resources, from discovery and development to utilization, from an information science perspective. My research extends from resource development in the Global South, including Africa, South America, and India, to the exploration and utilization of extraterrestrial resources (Space Mining) on the Moon, asteroids, and beyond, expanding the frontiers of resource research from Earth into space."
+  "ja": "インド、中南米、アフリカなどのグローバルサウスにおける石炭・レアメタルなどの鉱物・エネルギー資源の研究を起点に、地球の地下から海洋・深海、さらには宇宙に至るExtreme Mining（極限環境資源開発）に取り組んでいます。極限環境での資源の探査・開発を実現するため、ハイパースペクトルイメージングやミューオンによる探査・可視化、生成AIを活用した情報解析、デジタルツインによる地理空間の再現、ブロックチェーンによる資源のトレーサビリティなど、情報科学と鉱山技術を融合した研究を進めています。",
+  "en": "Building on research into mineral and energy resources, including coal and rare metals, in Global South regions such as India, Latin America, and Africa, my work focuses on Extreme Mining (resource exploration and development in extreme environments), spanning the Earth's subsurface, marine and deep-sea environments, and outer space. To advance resource exploration and development in these challenging environments, I integrate information science with mining engineering through a range of technologies, including hyperspectral imaging and muon-based exploration and visualization, generative AI for data analysis, digital twins for modeling subsurface environments, and blockchain for resource traceability."
  },
  "links": {
   "researchmap": "https://researchmap.jp/okada_n",

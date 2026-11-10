@@ -314,7 +314,7 @@
   "rm:created": "2025-04-16T12:39:31Z",
   "rm:modifier_id": "R000047492",
   "rm:modifier_type": "myself",
-  "rm:modified": "2025-04-16T12:40:01Z",
+  "rm:modified": "2026-11-06T06:29:02Z",
   "from_date": "2025-04",
   "to_date": "9999",
   "rm:institution_code": "0100574015",
@@ -323,8 +323,8 @@
    "en": "Hokkaido University"
   },
   "section": {
-   "ja": "大学院工学研究院 環境循環システム部門",
-   "en": "Faculty of Engineering Division of Solid Waste, Resources and Geoenvironmental Engineering"
+   "ja": "大学院工学研究院 環境循環システム部門 資源マネージメント研究室",
+   "en": "Graduate School of Engineering, Division of Sustainable Resources Engineering, Resource Management Laboratory"
   },
   "job": {
    "ja": "助教",

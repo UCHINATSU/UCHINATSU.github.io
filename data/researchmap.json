@@ -3927,41 +3927,6 @@
    }
   },
   {
-   "id": "https://api.researchmap.jp/okada_n/awards/50798454",
-   "member": "okada_n",
-   "title": {
-    "ja": "学術振興会特別研究員採用最終年次における研究奨励金特別手当",
-    "en": "Special Research Incentive Allowance for JSPS Fellows"
-   },
-   "venue": {
-    "ja": "日本学術振興会",
-    "en": "Japan Society for the Promotion of Science"
-   },
-   "desc": {
-    "ja": "",
-    "en": ""
-   },
-   "authors": {
-    "ja": "岡田夏男",
-    "en": "Natsuo Okada"
-   },
-   "start": "2024-09",
-   "end": "",
-   "year": 2024,
-   "peer_reviewed": false,
-   "invited": false,
-   "volume": "",
-   "number": "",
-   "page_start": "",
-   "page_end": "",
-   "doi": "",
-   "url": "",
-   "role": {
-    "ja": "",
-    "en": ""
-   }
-  },
-  {
    "id": "https://api.researchmap.jp/okada_n/awards/47400524",
    "member": "okada_n",
    "title": {
@@ -4879,8 +4844,8 @@
    "id": "https://api.researchmap.jp/okada_n/research_experience/49868961",
    "member": "okada_n",
    "title": {
-    "ja": "北海道大学 大学院工学研究院 環境循環システム部門 助教",
-    "en": "Hokkaido University Faculty of Engineering Division of Solid Waste, Resources and Geoenvironmental Engineering Assistant Professor"
+    "ja": "北海道大学 大学院工学研究院 環境循環システム部門 資源マネージメント研究室 助教",
+    "en": "Hokkaido University Graduate School of Engineering, Division of Sustainable Resources Engineering, Resource Management Laboratory Assistant Professor"
    },
    "venue": {
     "ja": "",
@@ -5948,8 +5913,12 @@
    "en": "machine learning"
   },
   {
-   "ja": "地理情報システム",
-   "en": "geological information system"
+   "ja": "デジタルツイン",
+   "en": "Digital Twin"
+  },
+  {
+   "ja": "エクストリームマイニング",
+   "en": "Extreme Mining"
   },
   {
    "ja": "ハイパースペクトルイメージング",

@@ -142,66 +142,102 @@
   ]
  },
  "presentations": {
-  "@id": "https://api.researchmap.jp/okada_n/presentations/55395578",
+  "@id": "https://api.researchmap.jp/okada_n/presentations/55089690",
   "@type": "presentations",
   "@reverse": "https://api.researchmap.jp/okada_n/presentations",
-  "rm:id": "55395578",
+  "rm:id": "55089690",
   "rm:user_id": "R000047492",
   "display": "disclosed",
   "major_achievement": false,
   "rm:creator_id": "R000047492",
   "rm:creator_type": "myself",
-  "rm:created": "2026-11-02T06:34:36Z",
+  "rm:created": "2026-09-30T01:30:34Z",
   "rm:modifier_id": "R000047492",
   "rm:modifier_type": "myself",
-  "rm:modified": "2026-11-02T06:34:36Z",
+  "rm:modified": "2026-11-19T00:15:52Z",
   "presentation_title": {
-   "en": "A Web-Based System for Automated Rock Segmentation Using Hyperspectral Imaging"
+   "ja": "定期航空便に搭載するマルチスペクトルカメラを用いた赤潮細胞密度推定モデルの構築",
+   "en": "Development of a Red Tide Cell Density Estimation Model Using a Multispectral Camera Mounted on Scheduled Commercial Flights"
   },
   "presenters": {
+   "ja": [
+    {
+     "name": "武井大樹"
+    },
+    {
+     "name": "高木力"
+    },
+    {
+     "name": "菅原昌大"
+    },
+    {
+     "name": "澤登笙"
+    },
+    {
+     "name": "松野孝平"
+    },
+    {
+     "name": "川村洋平"
+    },
+    {
+     "name": "岡田夏男"
+    },
+    {
+     "name": "小嶋雅之"
+    },
+    {
+     "name": "糸田拓馬"
+    },
+    {
+     "name": "笠井亮秀"
+    }
+   ],
    "en": [
+    {
+     "name": "Daiki Takei"
+    },
+    {
+     "name": "Tsutomu Takagi"
+    },
+    {
+     "name": "Shota Sugawara"
+    },
+    {
+     "name": "Sho Sawanobori"
+    },
+    {
+     "name": "Kohei Matsuno"
+    },
+    {
+     "name": "Youhei Kawamura"
+    },
     {
      "name": "Natsuo Okada"
     },
     {
-     "name": "Kaito Takizawa"
+     "name": "Masayuki Kojima"
     },
     {
-     "name": "Seishin Nakagawa"
+     "name": "Takuma Itoda"
     },
     {
-     "name": "Utsuki Shinji"
-    },
-    {
-     "name": "Yoko Ohtomo"
-    },
-    {
-     "name": "Youhei Kawamura"
+     "name": "Akihide Kasai"
     }
    ]
   },
   "event": {
-   "en": "11th International Symposium on Lead and Zinc Processing"
+   "ja": "2026年度水産海洋学会研究発表大会",
+   "en": "2026 Annual Scientific Meeting of the Japanese Society of Fisheries Oceanography"
   },
-  "publication_date": "2026-11-02",
-  "from_event_date": "2026-11-01",
-  "to_event_date": "2026-11-06",
+  "publication_date": "2026-11-14",
+  "from_event_date": "2026-11-14",
+  "to_event_date": "2026-11-14",
+  "invited": false,
   "languages": [
-   "eng"
+   "jpn"
   ],
   "presentation_type": "oral_presentation",
-  "rm:is_open_access": false,
-  "identifiers": {
-   "rm:research_project_id": [
-    "50839342"
-   ]
-  },
-  "see_also": [
-   {
-    "@id": "https://api.researchmap.jp/okada_n/research_projects/50839342",
-    "label": "rm:research_project_id"
-   }
-  ]
+  "rm:is_open_access": false
  },
  "awards": {
   "@id": "https://api.researchmap.jp/okada_n/awards/53307774",
@@ -302,20 +338,20 @@
   ]
  },
  "research_experience": {
-  "@id": "https://api.researchmap.jp/okada_n/research_experience/49868961",
+  "@id": "https://api.researchmap.jp/okada_n/research_experience/55428019",
   "@type": "research_experience",
   "@reverse": "https://api.researchmap.jp/okada_n/research_experience",
-  "rm:id": "49868961",
+  "rm:id": "55428019",
   "rm:user_id": "R000047492",
   "display": "disclosed",
   "major_achievement": false,
   "rm:creator_id": "R000047492",
   "rm:creator_type": "myself",
-  "rm:created": "2025-04-16T12:39:31Z",
+  "rm:created": "2026-11-06T06:32:23Z",
   "rm:modifier_id": "R000047492",
   "rm:modifier_type": "myself",
-  "rm:modified": "2026-11-06T06:29:02Z",
-  "from_date": "2025-04",
+  "rm:modified": "2026-11-22T09:19:27Z",
+  "from_date": "2026-11",
   "to_date": "9999",
   "rm:institution_code": "0100574015",
   "affiliation": {
@@ -323,8 +359,8 @@
    "en": "Hokkaido University"
   },
   "section": {
-   "ja": "大学院工学研究院 環境循環システム部門 資源マネージメント研究室",
-   "en": "Graduate School of Engineering, Division of Sustainable Resources Engineering, Resource Management Laboratory"
+   "ja": "大学院工学研究院 環境循環システム部門 グローバル開発情報学研究室",
+   "en": "Graduate School of Engineering, Division of Sustainable Resources Engineering, Global Development Informatics Laboratory"
   },
   "job": {
    "ja": "助教",

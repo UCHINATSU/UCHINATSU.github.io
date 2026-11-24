@@ -1090,6 +1090,41 @@
  ],
  "presentations": [
   {
+   "id": "https://api.researchmap.jp/okada_n/presentations/55089690",
+   "member": "okada_n",
+   "title": {
+    "ja": "定期航空便に搭載するマルチスペクトルカメラを用いた赤潮細胞密度推定モデルの構築",
+    "en": "Development of a Red Tide Cell Density Estimation Model Using a Multispectral Camera Mounted on Scheduled Commercial Flights"
+   },
+   "venue": {
+    "ja": "2026年度水産海洋学会研究発表大会",
+    "en": "2026 Annual Scientific Meeting of the Japanese Society of Fisheries Oceanography"
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "武井大樹, 高木力, 菅原昌大, 澤登笙, 松野孝平, 川村洋平, 岡田夏男, 小嶋雅之, 糸田拓馬, 笠井亮秀",
+    "en": "Daiki Takei, Tsutomu Takagi, Shota Sugawara, Sho Sawanobori, Kohei Matsuno, Youhei Kawamura, Natsuo Okada, Masayuki Kojima, Takuma Itoda, Akihide Kasai"
+   },
+   "start": "2026-11-14",
+   "end": "2026-11-14",
+   "year": 2026,
+   "peer_reviewed": false,
+   "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
+   "doi": "",
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
+  },
+  {
    "id": "https://api.researchmap.jp/okada_n/presentations/55395578",
    "member": "okada_n",
    "title": {
@@ -4840,6 +4875,41 @@
   }
  ],
  "career": [
+  {
+   "id": "https://api.researchmap.jp/okada_n/research_experience/55428019",
+   "member": "okada_n",
+   "title": {
+    "ja": "北海道大学 大学院工学研究院 環境循環システム部門 グローバル開発情報学研究室 助教",
+    "en": "Hokkaido University Graduate School of Engineering, Division of Sustainable Resources Engineering, Global Development Informatics Laboratory Assistant Professor"
+   },
+   "venue": {
+    "ja": "",
+    "en": ""
+   },
+   "desc": {
+    "ja": "",
+    "en": ""
+   },
+   "authors": {
+    "ja": "",
+    "en": ""
+   },
+   "start": "2026-11",
+   "end": "",
+   "year": 2026,
+   "peer_reviewed": false,
+   "invited": false,
+   "volume": "",
+   "number": "",
+   "page_start": "",
+   "page_end": "",
+   "doi": "",
+   "url": "",
+   "role": {
+    "ja": "",
+    "en": ""
+   }
+  },
   {
    "id": "https://api.researchmap.jp/okada_n/research_experience/49868961",
    "member": "okada_n",
